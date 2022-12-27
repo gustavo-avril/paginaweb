@@ -1,0 +1,272 @@
+[
+	{
+		"name": "Martín Ortiz",
+		"position": "CEO de Avril Assistance",
+		"department": "direccion",
+		"pic": "martinO"
+	},
+	{
+		"name": "Yesica Díaz",
+		"position": "Planificación & Producto",
+		"department": "planificacion",
+		"pic": "yesicaD"
+	},
+	{
+		"name": "Lautaro Marchetti",
+		"position": "Diseño",
+		"department": "planificacion",
+		"pic": "lautaroM"
+	},
+	{
+		"name": "Florencia Gorosito",
+		"position": "Redes",
+		"department": "planificacion",
+		"pic": "florGorosito"
+	},
+	{
+		"name": "Nicole D'agosto",
+		"position": "Head of Marketing & Communications",
+		"department": "planificacion",
+		"pic": "nicoleD"
+	},
+	{
+		"name": "Nair López",
+		"position": "Head of Promotion & Training",
+		"department": "planificacion",
+		"pic": "nairL"
+	},
+	{
+		"name": "Gustavo Tallaferro",
+		"position": "Head of IT - Programación y Desarrollo Web",
+		"department": "planificacion",
+		"pic": "gustavoT"
+	},
+	{
+		"name": "Ariel Pierini",
+		"position": "Head of Assistance",
+		"department": "asistencias",
+		"pic": "arielP"
+	},
+	{
+		"name": "Gabriel Mendoza",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias",
+		"pic": "gabrielM"
+	},
+	{
+		"name": "Jump Teran",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias",
+		"pic": "jumpT"
+	},
+	{
+		"name": "Jair Castillo",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias",
+		"pic": "jairC"
+	},
+	{
+		"name": "Karina Saija",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias",
+		"pic": "karinaS"
+	},
+	{
+		"name": "Tommy Teran",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias",
+		"pic": "tommyT"
+	},
+	{
+		"name": "Maria Cordovez",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias",
+		"pic": "mariaC"
+	},
+	{
+		"name": "Florencia Tobal",
+		"position": "Prestadores",
+		"department": "asistencias",
+		"pic": "florenciaT"
+	},
+	{
+		"name": "Maria Martellini",
+		"position": "Reintegros",
+		"department": "asistencias",
+		"pic": "mariaM"
+	},
+	{
+		"name": "Melisa Villalón",
+		"position": "Directora de Operaciones & Administración",
+		"department": "administracion",
+		"pic": "melisaV"
+	},
+	{
+		"name": "Delfina Villalba",
+		"position": "Head of Administration",
+		"department": "administracion",
+		"pic": "delfinaV"
+	},
+	{
+		"name": "Julieta Scarrone",
+		"position": "Administración",
+		"department": "administracion",
+		"pic": "julietaS"
+	},
+	{
+		"name": "Sebastián Matas",
+		"position": "Administración",
+		"department": "administracion",
+		"pic": "sebastianM"
+	},
+	{
+		"name": "Agustina Pecora",
+		"position": "Administración",
+		"department": "administracion",
+		"pic": "agustinaP"
+	},
+	{
+		"name": "Camila Scrigna",
+		"position": "Administración",
+		"department": "administracion",
+		"pic": "camilaS"
+	},
+	{
+		"name": "Aylén Petry",
+		"position": "Operaciones & Administración",
+		"department": "administracion",
+		"pic": "aylenP"
+	},
+	{
+		"name": "Camila Altamirano",
+		"position": "Operaciones & Administración",
+		"department": "administracion",
+		"pic": "camilaAlt"
+	},
+	{
+		"name": "Lucila Díaz",
+		"position": "Operaciones & Emisiones",
+		"department": "administracion",
+		"pic": "lucilaD"
+	},
+	{
+		"name": "Fernando Scrigna",
+		"position": "Head of Commercial and Business - Cuyo",
+		"department": "comerciales",
+		"pic": "fernandoSc"
+	},
+	{
+		"name": "Sol Fernández",
+		"position": "Head of Commercial and Business - Buenos Aires",
+		"department": "comerciales",
+		"pic": "solF"
+	},
+	{
+		"name": "Paola Aguirre",
+		"position": "Head of Commercial and Business - Litoral",
+		"department": "comerciales",
+		"pic": "paolaA"
+	},
+	{
+		"name": "Elisa Mazzucco",
+		"position": "Head of Commercial and Business - Noroeste",
+		"department": "comerciales",
+		"pic": "elisaM"
+	},
+	{
+		"name": "Alejandro Olivella",
+		"position": "Head of Commercial and Business - Santa Fe",
+		"department": "comerciales",
+		"pic": "alejandroO"
+	},
+	{
+		"name": "Denisse Arjona",
+		"position": "Account Executive - CABA & AMBA",
+		"department": "comerciales",
+		"pic": "denisseA"
+	},
+	{
+		"name": "Karina Haines",
+		"position": "Account Executive - CABA & AMBA",
+		"department": "comerciales",
+		"pic": "karinaH"
+	},
+	{
+		"name": "Natanael Fernandez",
+		"position": "Account Executive - CABA",
+		"department": "comerciales",
+		"pic": "natanaelF"
+	},
+	{
+		"name": "Alejandra Vilaseca",
+		"position": "Account Executive - Buenos Aires",
+		"department": "comerciales",
+		"pic": "alejandraV"
+	},
+	{
+		"name": "Delfina Comisso",
+		"position": "Account Executive - Mendoza",
+		"department": "comerciales",
+		"pic": "delfinaC"
+	},
+	{
+		"name": "Facundo Sallito",
+		"position": "Account Executive - Cuyo",
+		"department": "comerciales",
+		"pic": "facundoS"
+	},
+	{
+		"name": "José Merino",
+		"position": "Account Executive - Rosario",
+		"department": "comerciales",
+		"pic": "joseM"
+	},
+	{
+		"name": "Yanina Ahumada",
+		"position": "Account Executive - Córdoba",
+		"department": "comerciales",
+		"pic": "yaninaA"
+	},
+	{
+		"name": "Christian Rodriguez",
+		"position": "Account Executive - Córdoba",
+		"department": "comerciales",
+		"pic": "christianT"
+	},
+	{
+		"name": "Liliana Monteros",
+		"position": "Account Executive - Córdoba",
+		"department": "comerciales",
+		"pic": "lilianaM"
+	},
+	{
+		"name": "Leonela Gravagna",
+		"position": "Account Executive - La Plata",
+		"department": "comerciales",
+		"pic": "leonelaG"
+	},
+	{
+		"name": "Melina Lerana",
+		"position": "Head of RRHH",
+		"department": "rrhh",
+		"pic": "melinaL"
+	},
+	{
+		"name": "Rocío Galdara",
+		"position": "Asistente RRHH & Reclutamiento",
+		"department": "rrhh",
+		"pic": "rocioG"
+	},
+	{
+		"name": "Ivan Curt",
+		"position": "Logística",
+		"department": "rrhh",
+		"pic": "ivanC"
+	},
+	{
+		"name": "Gisela Gavilán",
+		"position": "Adm Maestranza",
+		"department": "intendencia",
+		"pic": "giselaG"
+	}
+]
