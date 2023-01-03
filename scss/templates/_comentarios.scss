@@ -15,9 +15,9 @@
 		font-weight: 700;
 	}
 	.card{
-		max-width: 23%;
 		border-radius: 10px; 
 		border: 1px solid #fff;
+		height: 33vh;
 		.card-body{
 			padding: 10px 5px;
 		}
@@ -30,6 +30,9 @@
 		}
 		.card-text{
 			font-size: 14.5px;
+			padding: 0 5px;
+			height: 45%;
+			margin-top: 1rem;
 		}
 		img{
 			margin: 0 5px;
@@ -40,11 +43,8 @@
 			text-align: justify;
 			//letter-spacing: 2px;
 		}
-		.card-footer{
-			padding: 0.75rem 1.25rem;
-			margin: 0 auto;
-    	background-color: none;
-    	border-top: none;
+		.card-stars{
+			text-align: center;
 		}
 	}
 }
