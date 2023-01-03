@@ -17,7 +17,7 @@
 	.card{
 		border-radius: 10px; 
 		border: 1px solid #fff;
-		height: 33vh;
+		height: 100%;
 		box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
 		.card-body{
 			padding: 10px 5px;
@@ -41,7 +41,7 @@
 		p {
 			font-size: 15px;
 			font-weight: 300;
-			text-align: justify;
+			text-align: center;
 			//letter-spacing: 2px;
 		}
 		.card-stars{
