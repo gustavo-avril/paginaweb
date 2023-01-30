@@ -3,38 +3,20 @@ getData();
 async function getData() {
 	const resp = await fetch("js/organigrama.json");
 	const data = await resp.json();
-	//Direccion
-	const filterDireccion = data.filter((data) => data.department == "direccion");
-	document.getElementById("dire").innerHTML = `
-  ${filterDireccion
-		.map(function(dire) {
-			return `
-      <div class="persona d-flex">
-          <div class="inner">
-            <img class="inner-image" src="./images/organigrama/${dire.pic}.png" alt="">
-          </div>
-          <div class="contenido">
-            <p class="nombre ">${dire.name}</p>
-            <p class="cargo">${dire.position}</p>
-          </div>
-        </div>
-      `;
-		})
-		.join("")}
-  `;
-	//Planificacion y Producto
-	const filterPlanificacion = data.filter((data) => data.department == "planificacion");
-	document.getElementById("planificacion").innerHTML = `
-    ${filterPlanificacion
-		.map(function(plani) {
+	
+	//Markeitng
+	const filterMarketing = data.filter((data) => data.department == "marketing");
+	document.getElementById("marketing").innerHTML = `
+    ${filterMarketing
+		.map(function(market) {
 			return `
         <div class="persona d-flex">
           <div class="inner">
-            <img class="inner-image" src="./images/organigrama/${plani.pic}.png" alt="">
+            <img class="inner-image" src="./images/organigrama/${market.pic}.webp" alt="${market.name}">
           </div>
           <div class="contenido">
-            <p class="nombre ">${plani.name}</p>
-            <p class="cargo">${plani.position}</p>
+            <p class="nombre ">${market.name}</p>
+            <p class="cargo">${market.position}</p>
           </div>
         </div>
       `;
@@ -49,7 +31,7 @@ async function getData() {
 			return `
         <div class="persona d-flex">
           <div class="inner">
-            <img class="inner-image" src="./images/organigrama/${asis.pic}.png" alt="">
+            <img class="inner-image" src="./images/organigrama/${asis.pic}.webp" alt="${asis.name}">
           </div>
           <div class="contenido">
             <p class="nombre ">${asis.name}</p>
@@ -68,7 +50,7 @@ async function getData() {
 			return `
       <div class="persona d-flex">
         <div class="inner">
-          <img class="inner-image" src="./images/organigrama/${admin.pic}.png" alt="">
+          <img class="inner-image" src="./images/organigrama/${admin.pic}.webp" alt="">
         </div>
         <div class="contenido">
           <p class="nombre ">${admin.name}</p>
@@ -87,7 +69,7 @@ async function getData() {
 			return `
       <div class="persona d-flex">
         <div class="inner">
-          <img class="inner-image" src="./images/organigrama/${rrhh.pic}.png" alt="">
+          <img class="inner-image" src="./images/organigrama/${rrhh.pic}.webp" alt="${rrhh.name}">
         </div>
         <div class="contenido">
           <p class="nombre ">${rrhh.name}</p>
@@ -98,19 +80,38 @@ async function getData() {
 		})
 		.join("")}
   `;
-	//Intendencia
-	const filterIntendencia = data.filter((data) => data.department == "intendencia");
-	document.getElementById("intendencia").innerHTML = `
-    ${filterIntendencia
-		.map(function(intendencia) {
+  //RRHH 2
+	const filterRRHH2 = data.filter((data) => data.department == "rrhh2");
+	document.getElementById("rrhh2").innerHTML = `
+    ${filterRRHH2
+		.map(function(rrhh2) {
 			return `
       <div class="persona d-flex">
         <div class="inner">
-          <img class="inner-image" src="./images/organigrama/${intendencia.pic}.png" alt="">
+          <img class="inner-image" src="./images/organigrama/${rrhh2.pic}.webp" alt="${rrhh2.name}">
         </div>
         <div class="contenido">
-          <p class="nombre ">${intendencia.name}</p>
-          <p class="cargo">${intendencia.position}</p>
+          <p class="nombre ">${rrhh2.name}</p>
+          <p class="cargo">${rrhh2.position}</p>
+        </div>
+      </div>
+    `;
+		})
+		.join("")}
+  `;
+	//Soporte & IT
+	const filterSoporte = data.filter((data) => data.department == "soporte");
+	document.getElementById("soporte").innerHTML = `
+    ${filterSoporte
+		.map(function(soporte) {
+			return `
+      <div class="persona d-flex">
+        <div class="inner">
+          <img class="inner-image" src="./images/organigrama/${soporte.pic}.webp" alt="${soporte.name}">
+        </div>
+        <div class="contenido">
+          <p class="nombre ">${soporte.name}</p>
+          <p class="cargo">${soporte.position}</p>
         </div>
       </div>
     `;
@@ -125,7 +126,7 @@ async function getData() {
 			return `
       <div class="persona d-flex">
         <div class="inner">
-          <img class="inner-image" src="./images/organigrama/${comercio.pic}.png" alt="">
+          <img class="inner-image" src="./images/organigrama/${comercio.pic}.webp" alt="${comercio.name}">
         </div>
         <div class="contenido">
           <p class="nombre ">${comercio.name}</p>

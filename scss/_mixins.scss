@@ -47,14 +47,10 @@
 }
 @mixin titles() {
 	display: block;
-	width: 35%;
-	text-align: right;
+	width: 100%;
+	text-align: center;
 	margin: 0 0 0 auto;
-	-moz-transform: skew(-15deg, 0deg);
-	-webkit-transform: skew(-15deg, 0deg);
-	-o-transform: skew(-15deg, 0deg);
-	-ms-transform: skew(-15deg, 0deg);
-	transform: skew(-15deg);
+	border-radius: 10px 10px 0px 0px;
 }
 
 @mixin borderTitle() {

@@ -8,43 +8,43 @@
 	{
 		"name": "Yesica Díaz",
 		"position": "Planificación & Producto",
-		"department": "planificacion",
+		"department": "comerciales",
 		"pic": "yesicaD"
-	},
-	{
-		"name": "Lautaro Marchetti",
-		"position": "Diseño",
-		"department": "planificacion",
-		"pic": "lautaroM"
-	},
-	{
-		"name": "Florencia Gorosito",
-		"position": "Redes",
-		"department": "planificacion",
-		"pic": "florGorosito"
 	},
 	{
 		"name": "Nicole D'agosto",
 		"position": "Head of Marketing & Communications",
-		"department": "planificacion",
+		"department": "marketing-head",
 		"pic": "nicoleD"
 	},
 	{
-		"name": "Nair López",
-		"position": "Head of Promotion & Training",
-		"department": "planificacion",
-		"pic": "nairL"
+		"name": "Lautaro Marchetti",
+		"position": "Diseño",
+		"department": "marketing",
+		"pic": "lautaroM"
+	},
+	{
+		"name": "Enmanuel Hernandez",
+		"position": "Diseño",
+		"department": "marketing",
+		"pic": "enmanuelH"
+	},
+	{
+		"name": "Florencia Gorosito",
+		"position": "Redes",
+		"department": "marketing",
+		"pic": "florGorosito"
 	},
 	{
 		"name": "Gustavo Tallaferro",
 		"position": "Head of IT - Programación y Desarrollo Web",
-		"department": "planificacion",
+		"department": "soporte-head",
 		"pic": "gustavoT"
 	},
 	{
 		"name": "Ariel Pierini",
 		"position": "Head of Assistance",
-		"department": "asistencias",
+		"department": "asistencias-head",
 		"pic": "arielP"
 	},
 	{
@@ -98,13 +98,13 @@
 	{
 		"name": "Melisa Villalón",
 		"position": "Directora de Operaciones & Administración",
-		"department": "administracion",
+		"department": "administracion-head",
 		"pic": "melisaV"
 	},
 	{
 		"name": "Delfina Villalba",
 		"position": "Head of Administration",
-		"department": "administracion",
+		"department": "administracion-head",
 		"pic": "delfinaV"
 	},
 	{
@@ -234,12 +234,6 @@
 		"pic": "christianT"
 	},
 	{
-		"name": "Liliana Monteros",
-		"position": "Account Executive - Córdoba",
-		"department": "comerciales",
-		"pic": "lilianaM"
-	},
-	{
 		"name": "Leonela Gravagna",
 		"position": "Account Executive - La Plata",
 		"department": "comerciales",
@@ -248,7 +242,7 @@
 	{
 		"name": "Melina Lerana",
 		"position": "Head of RRHH",
-		"department": "rrhh",
+		"department": "rrhh-head",
 		"pic": "melinaL"
 	},
 	{
@@ -258,15 +252,21 @@
 		"pic": "rocioG"
 	},
 	{
+		"name": "Nair López",
+		"position": "Head of Promotion & Training",
+		"department": "rrhh",
+		"pic": "nairL"
+	},
+	{
 		"name": "Ivan Curt",
 		"position": "Logística",
-		"department": "rrhh",
+		"department": "rrhh2",
 		"pic": "ivanC"
 	},
 	{
 		"name": "Gisela Gavilán",
-		"position": "Adm Maestranza",
-		"department": "intendencia",
+		"position": "Maestranza",
+		"department": "rrhh2",
 		"pic": "giselaG"
 	}
 ]

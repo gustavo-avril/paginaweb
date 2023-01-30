@@ -20,63 +20,93 @@
 	}
 }
 .tituloasis {
-	&::after {
+	/*&::after {
 		@include borderTitle;
 		border-bottom: 4px solid $asistencias;
-	}
+	}*/
 	.asistencias {
 		background: $asistencia;
 		@include titles;
 	}
 }
-.tituloplan {
-	&::after {
-		@include borderTitle;
-		border-bottom: 4px solid $carrot;
-	}
-	.planificacion {
-		background: $planificacion;
+.titulomarket {
+	.marketing {
+		background: $marketing;
 		@include titles;
 	}
 }
 .titulorrhh {
-	&::after {
-		@include borderTitle;
-		border-bottom: 4px solid $recursos;
-	}
 	.rrhh {
 		background: $rrhh;
 		@include titles;
 	}
 }
 .titulocomer {
-	&::after {
+	/*&::after {
 		@include borderTitle;
 		border-bottom: 4px solid $comercio;
-	}
+	}*/
 	.comerciales {
 		background: $comerciales;
 		@include titles;
 	}
 }
 .tituloadmin {
-	&::after {
-		@include borderTitle;
-		border-bottom: 4px solid $admin;
-	}
+		/*&::after {
+			@include borderTitle;
+			border-bottom: 4px solid $admin;
+		}*/
 	.administracion {
 		background: $administracion;
 		@include titles;
 	}
 }
-.titulointen {
-	&::after {
+.titulosoporte {
+	/*&::after {
 		@include borderTitle;
 		border-bottom: 4px solid $mant;
-	}
-	.intendencia {
-		background: $mantenimiento;
+	}*/
+	.soporte {
+		background: $soporte;
 		@include titles;
+	}
+}
+
+.head {
+	padding: 0.5em .5em;
+	width: 25%;
+	margin: 0 auto;
+	img {
+		padding-right: 10px;
+		align-self: center;
+		width: 100%;
+		height: auto;
+	}
+
+	.inner {
+		position: relative;
+		width: 95%;
+	}
+
+	.contenido {
+		width: 154%;
+		padding-left: 10px;
+		align-self: center;
+		border-left: 2px solid black; 
+
+		.nombre {
+			color: black;
+			font-size: .8em;
+		}
+
+		.cargo {
+			font-size: .8em;
+		}
+		p {
+			margin-bottom: .4em;
+			line-height: 1em;
+			margin-top: 10px;
+		}
 	}
 }
 
@@ -115,6 +145,7 @@
 			font-size: .8em;
 		}
 		p {
+			margin-top: 0px;
 			margin-bottom: .4em;
 			line-height: 1em;
 		}
