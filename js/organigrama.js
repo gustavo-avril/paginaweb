@@ -156,5 +156,24 @@ async function getData() {
 		})
 		.join("")}
   `;
+  //Comerciales MDP
+	const filterMdp = data.filter((data) => data.department == "mdp");
+	document.getElementById("mdp").innerHTML = `
+    ${filterMdp
+		.map(function(mdp) {
+			return `
+      <div class="persona d-flex">
+        <div class="inner">
+          <img class="inner-image" src="./images/organigrama/${mpd.pic}.webp" alt="${mdp.name}">
+        </div>
+        <div class="contenido">
+          <p class="nombre ">${mdp.name}</p>
+          <p class="cargo">${mdp.position}</p>
+        </div>
+      </div>
+      `;
+		})
+		.join("")}
+  `;
 }
 
