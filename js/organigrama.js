@@ -42,6 +42,44 @@ async function getData() {
 		})
 		.join("")}
   `;
+  //Prestadores
+	const filterPrestadores = data.filter((data) => data.department == "prestadores");
+	document.getElementById("presta").innerHTML = `
+    ${filterPrestadores
+		.map(function(presta) {
+			return `
+        <div class="persona d-flex">
+          <div class="inner">
+            <img class="inner-image" src="./images/organigrama/${presta.pic}.webp" alt="${presta.name}">
+          </div>
+          <div class="contenido">
+            <p class="nombre ">${presta.name}</p>
+            <p class="cargo">${presta.position}</p>
+          </div>
+        </div>
+      `;
+		})
+		.join("")}
+  `;
+  //Reintegros
+	const filterReintegros = data.filter((data) => data.department == "reintegros");
+	document.getElementById("reint").innerHTML = `
+    ${filterReintegros
+		.map(function(reint) {
+			return `
+        <div class="persona d-flex">
+          <div class="inner">
+            <img class="inner-image" src="./images/organigrama/${reint.pic}.webp" alt="${reint.name}">
+          </div>
+          <div class="contenido">
+            <p class="nombre ">${reint.name}</p>
+            <p class="cargo">${reint.position}</p>
+          </div>
+        </div>
+      `;
+		})
+		.join("")}
+  `;
 	//Administracion
 	const filterAdministracion = data.filter((data) => data.department == "administracion");
 	document.getElementById("administracion").innerHTML = `

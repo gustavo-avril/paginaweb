@@ -86,13 +86,13 @@
 	{
 		"name": "Florencia Tobal",
 		"position": "Prestadores",
-		"department": "asistencias",
+		"department": "prestadores",
 		"pic": "florenciaT"
 	},
 	{
 		"name": "Maria Martellini",
 		"position": "Reintegros",
-		"department": "asistencias",
+		"department": "reintegros",
 		"pic": "mariaM"
 	},
 	{
