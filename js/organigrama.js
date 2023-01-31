@@ -137,19 +137,19 @@ async function getData() {
 		})
 		.join("")}
   `;
-	//Comerciales
-	const filterComerciales = data.filter((data) => data.department == "comerciales");
-	document.getElementById("comercio").innerHTML = `
-    ${filterComerciales
-		.map(function(comercio) {
+	//Comerciales CABA
+	const filterCaba = data.filter((data) => data.department == "caba");
+	document.getElementById("caba").innerHTML = `
+    ${filterCaba
+		.map(function(caba) {
 			return `
       <div class="persona d-flex">
         <div class="inner">
-          <img class="inner-image" src="./images/organigrama/${comercio.pic}.webp" alt="${comercio.name}">
+          <img class="inner-image" src="./images/organigrama/${caba.pic}.webp" alt="${caba.name}">
         </div>
         <div class="contenido">
-          <p class="nombre ">${comercio.name}</p>
-          <p class="cargo">${comercio.position}</p>
+          <p class="nombre ">${caba.name}</p>
+          <p class="cargo">${caba.position}</p>
         </div>
       </div>
       `;
