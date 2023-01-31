@@ -104,10 +104,18 @@
 		border-bottom: 2px solid $comercio;
 	}
 	.left{
+		position: relative;
+		&::before{
+			@include reflejo;
+		}
 		background: $comerciales;
 		@include subtitles;
 	}
 	.right{
+		position: relative;
+		&::before{
+			@include reflejo;
+		}
 		background: $comerciales;
 		@include subtitles;
 		margin: 0;

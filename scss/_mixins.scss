@@ -78,9 +78,8 @@
 	content:'';
 	background: -webkit-linear-gradient(245deg, rgba(255,255,255,0.65) 10%, rgba(255,255,255,0.1) 100%);
 	border-radius: 10px 0 0 0;
-	clip-path: polygon(100% 0, 0 0, 0 100%);
+	clip-path: polygon(0 0, 0% 100%, 100% 0);
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	backdrop-filter: blur(5px);
 	-webkit-backdrop-filter: blur(5px);
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	position: absolute;
