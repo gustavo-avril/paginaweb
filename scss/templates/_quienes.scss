@@ -20,16 +20,38 @@
 	}
 }
 .tituloasis {
-	/*&::after {
-		@include borderTitle;
-		border-bottom: 4px solid $asistencias;
-	}*/
+	position: relative;
+	&::after{
+		content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -15px;
+    width: 0;
+    height: 0;
+    border-top: solid 15px $asistencias;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+	}
 	.asistencias {
 		background: $asistencia;
 		@include titles;
 	}
 }
 .titulomarket {
+	position: relative;
+	&::after{
+		content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -15px;
+    width: 0;
+    height: 0;
+    border-top: solid 15px $market;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+	}
 	.marketing {
 		background: $marketing;
 		@include titles;
@@ -55,6 +77,19 @@
 	}
 }
 .titulocomer {
+	position: relative;
+	&::after{
+		content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -15px;
+    width: 0;
+    height: 0;
+    border-top: solid 15px $comercio;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+	}
 	.comerciales {
 		background: $comerciales;
 		@include titles;
@@ -77,20 +112,38 @@
 	}
 }
 .tituloadmin {
-		/*&::after {
-			@include borderTitle;
-			border-bottom: 4px solid $admin;
-		}*/
+	position: relative;
+	&::after{
+		content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -15px;
+    width: 0;
+    height: 0;
+    border-top: solid 15px $admin;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+	}
 	.administracion {
 		background: $administracion;
 		@include titles;
 	}
 }
 .titulosoporte {
-	/*&::after {
-		@include borderTitle;
-		border-bottom: 4px solid $mant;
-	}*/
+	position: relative;
+	&::after{
+		content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -15px;
+    width: 0;
+    height: 0;
+    border-top: solid 15px $web;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+	}
 	.soporte {
 		background: $soporte;
 		@include titles;
@@ -98,11 +151,9 @@
 }
 
 .head {
-	padding: 0.5em .5em;
-	width: 27%;
+	width: 15%;
 	margin: 5px auto;
 	img {
-		padding-right: 10px;
 		align-self: center;
 		width: 100%;
 		height: auto;
@@ -110,18 +161,17 @@
 
 	.inner {
 		position: relative;
-		width: 95%;
+		width: 100%;
 	}
 
 	.contenido {
-		width: 154%;
-		padding-left: 10px;
-		align-self: center;
-		border-left: 2px solid black; 
+		width: 100%;
+		text-align: center; 
 
 		.nombre {
 			color: black;
-			font-size: .8em;
+			font-size: 15px;
+			font-weight: 500;
 		}
 
 		.cargo {
