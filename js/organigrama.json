@@ -19,25 +19,25 @@
 	},
 	{
 		"name": "Lautaro Marchetti",
-		"position": "Diseño",
+		"position": "Graphic & Multimedia Design",
 		"department": "marketing",
 		"pic": "lautaroM"
 	},
 	{
 		"name": "Enmanuel Hernandez",
-		"position": "Diseño",
+		"position": "Graphic Design",
 		"department": "marketing",
 		"pic": "enmanuelH"
 	},
 	{
 		"name": "Florencia Gorosito",
-		"position": "Redes",
+		"position": "Social Media & Community Manager",
 		"department": "marketing",
 		"pic": "florGorosito"
 	},
 	{
 		"name": "Gustavo Tallaferro",
-		"position": "Head of IT - Programación y Desarrollo Web",
+		"position": "Head of IT - Programming and Web Development",
 		"department": "soporte-head",
 		"pic": "gustavoT"
 	},
@@ -49,103 +49,103 @@
 	},
 	{
 		"name": "Gabriel Mendoza",
-		"position": "Coordinación de Asistencias",
+		"position": "Assistance Coordination",
 		"department": "asistencias",
 		"pic": "gabrielM"
 	},
 	{
 		"name": "Jump Teran",
-		"position": "Coordinación de Asistencias",
+		"position": "Assistance Coordination",
 		"department": "asistencias",
 		"pic": "jumpT"
 	},
 	{
 		"name": "Jair Castillo",
-		"position": "Coordinación de Asistencias",
+		"position": "Assistance Coordination",
 		"department": "asistencias",
 		"pic": "jairC"
 	},
 	{
 		"name": "Karina Saija",
-		"position": "Coordinación de Asistencias",
+		"position": "Assistance Coordination",
 		"department": "asistencias",
 		"pic": "karinaS"
 	},
 	{
 		"name": "Tommy Teran",
-		"position": "Coordinación de Asistencias",
+		"position": "Assistance Coordination",
 		"department": "asistencias",
 		"pic": "tommyT"
 	},
 	{
 		"name": "Maria Cordovez",
-		"position": "Coordinación de Asistencias",
+		"position": "Assistance Coordination",
 		"department": "asistencias",
 		"pic": "mariaC"
 	},
 	{
 		"name": "Florencia Tobal",
-		"position": "Prestadores",
+		"position": "Providers",
 		"department": "prestadores",
 		"pic": "florenciaT"
 	},
 	{
 		"name": "Maria Martellini",
-		"position": "Reintegros",
+		"position": "Refunds",
 		"department": "reintegros",
 		"pic": "mariaM"
 	},
 	{
 		"name": "Melisa Villalón",
-		"position": "Directora de Operaciones & Administración",
+		"position": "Director of Operations & Administration",
 		"department": "administracion-head",
 		"pic": "melisaV"
 	},
 	{
 		"name": "Delfina Villalba",
-		"position": "Head of Administration",
+		"position": "Head of Administration & Operations",
 		"department": "administracion-head",
 		"pic": "delfinaV" 
 	},
 	{
 		"name": "Julieta Scarrone",
-		"position": "Administración",
+		"position": "Administration",
 		"department": "administracion",
 		"pic": "julietaS"
 	},
 	{
 		"name": "Sebastián Matas",
-		"position": "Administración",
+		"position": "Administration",
 		"department": "administracion",
 		"pic": "sebastianM"
 	},
 	{
 		"name": "Agustina Pecora",
-		"position": "Administración",
+		"position": "Administration",
 		"department": "administracion",
 		"pic": "agustinaP"
 	},
 	{
 		"name": "Camila Scrigna",
-		"position": "Administración",
+		"position": "Administration",
 		"department": "administracion",
 		"pic": "camilaS"
 	},
 	{
 		"name": "Aylén Petry",
-		"position": "Operaciones & Administración",
+		"position": "Operations & Administration",
 		"department": "emisiones",
 		"pic": "aylenP"
 	},
 	{
 		"name": "Camila Altamirano",
-		"position": "Operaciones & Administración",
+		"position": "Operations & Administration",
 		"department": "emisiones",
 		"pic": "camilaAlt"
 	},
 	{
 		"name": "Lucila Díaz",
-		"position": "Operaciones & Emisiones",
+		"position": "Operations & Administration",
 		"department": "emisiones",
 		"pic": "lucilaD"
 	},
@@ -217,7 +217,7 @@
 	},
 	{
 		"name": "Alejandro Olivella",
-		"position": "Head of Commercial and Business - Santa Fe",
+		"position": "Account Executive - Santa Fe",
 		"department": "sta",
 		"pic": "alejandroO"
 	},
@@ -259,7 +259,7 @@
 	},
 	{
 		"name": "Rocío Galdara",
-		"position": "Asistente RRHH & Reclutamiento",
+		"position": "RRHH & Recruitment",
 		"department": "rrhh",
 		"pic": "rocioG"
 	},
@@ -271,13 +271,13 @@
 	},
 	{
 		"name": "Ivan Curt",
-		"position": "Logística",
+		"position": "Logistics",
 		"department": "rrhh2",
 		"pic": "ivanC"
 	},
 	{
 		"name": "Gisela Gavilán",
-		"position": "Maestranza",
+		"position": "Mastership Administrator",
 		"department": "rrhh2",
 		"pic": "giselaG"
 	}
