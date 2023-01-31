@@ -222,15 +222,21 @@
 		"pic": "joseM"
 	},
 	{
+		"name": "Daniel Cuello",
+		"position": "Head - Córdoba",
+		"department": "comerciales",
+		"pic": "danielC"
+	},
+	{
 		"name": "Yanina Ahumada",
 		"position": "Account Executive - Córdoba",
-		"department": "comerciales",
+		"department": "cda",
 		"pic": "yaninaA"
 	},
 	{
 		"name": "Christian Rodriguez",
 		"position": "Account Executive - Córdoba",
-		"department": "comerciales",
+		"department": "cda",
 		"pic": "christianT"
 	},
 	{

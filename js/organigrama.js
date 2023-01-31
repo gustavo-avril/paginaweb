@@ -164,11 +164,30 @@ async function getData() {
 			return `
       <div class="persona d-flex">
         <div class="inner">
-          <img class="inner-image" src="./images/organigrama/${mpd.pic}.webp" alt="${mdp.name}">
+          <img class="inner-image" src="./images/organigrama/${mdp.pic}.webp" alt="${mdp.name}">
         </div>
         <div class="contenido">
           <p class="nombre ">${mdp.name}</p>
           <p class="cargo">${mdp.position}</p>
+        </div>
+      </div>
+      `;
+		})
+		.join("")}
+  `;
+  //Comerciales CDA
+	const filterCda = data.filter((data) => data.department == "cda");
+	document.getElementById("cda").innerHTML = `
+    ${filterCda
+		.map(function(cda) {
+			return `
+      <div class="persona d-flex">
+        <div class="inner">
+          <img class="inner-image" src="./images/organigrama/${cda.pic}.webp" alt="${cda.name}">
+        </div>
+        <div class="contenido">
+          <p class="nombre ">${cda.name}</p>
+          <p class="cargo">${cda.position}</p>
         </div>
       </div>
       `;
