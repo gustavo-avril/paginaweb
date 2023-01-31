@@ -194,5 +194,62 @@ async function getData() {
 		})
 		.join("")}
   `;
+  //Comerciales Santa Fe
+	const filterSta = data.filter((data) => data.department == "sta");
+	document.getElementById("sta").innerHTML = `
+    ${filterSta
+		.map(function(sta) {
+			return `
+      <div class="persona d-flex">
+        <div class="inner">
+          <img class="inner-image" src="./images/organigrama/${sta.pic}.webp" alt="${sta.name}">
+        </div>
+        <div class="contenido">
+          <p class="nombre ">${sta.name}</p>
+          <p class="cargo">${sta.position}</p>
+        </div>
+      </div>
+      `;
+		})
+		.join("")}
+  `;
+  //Comerciales Litoral
+	const filterLit = data.filter((data) => data.department == "lit");
+	document.getElementById("lit").innerHTML = `
+    ${filterLit
+		.map(function(lit) {
+			return `
+      <div class="persona d-flex">
+        <div class="inner">
+          <img class="inner-image" src="./images/organigrama/${lit.pic}.webp" alt="${lit.name}">
+        </div>
+        <div class="contenido">
+          <p class="nombre ">${lit.name}</p>
+          <p class="cargo">${lit.position}</p>
+        </div>
+      </div>
+      `;
+		})
+		.join("")}
+  `;
+  //Comerciales Noroeste
+	const filterNor = data.filter((data) => data.department == "nor");
+	document.getElementById("nor").innerHTML = `
+    ${filterNor
+		.map(function(nor) {
+			return `
+      <div class="persona d-flex">
+        <div class="inner">
+          <img class="inner-image" src="./images/organigrama/${nor.pic}.webp" alt="${nor.name}">
+        </div>
+        <div class="contenido">
+          <p class="nombre ">${nor.name}</p>
+          <p class="cargo">${nor.position}</p>
+        </div>
+      </div>
+      `;
+		})
+		.join("")}
+  `;
 }
 

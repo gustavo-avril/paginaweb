@@ -151,8 +151,8 @@
 	},
 	{
 		"name": "Fernando Scrigna",
-		"position": "Head of Commercial and Business - Cuyo",
-		"department": "comerciales",
+		"position": "Head of Commercial and Business - Cuyo & Santa Fe",
+		"department": "comerciales-head",
 		"pic": "fernandoSc"
 	},
 	{
@@ -164,20 +164,20 @@
 	{
 		"name": "Paola Aguirre",
 		"position": "Head of Commercial and Business - Litoral",
-		"department": "comerciales",
+		"department": "comerciales-head",
 		"pic": "paolaA"
+	},
+	{
+		"name": "Belen Vera",
+		"position": "Account Executive - Litoral",
+		"department": "lit",
+		"pic": "belenV"
 	},
 	{
 		"name": "Elisa Mazzucco",
 		"position": "Head of Commercial and Business - Noroeste",
-		"department": "comerciales",
+		"department": "comerciales-head",
 		"pic": "elisaM"
-	},
-	{
-		"name": "Alejandro Olivella",
-		"position": "Head of Commercial and Business - Santa Fe",
-		"department": "comerciales",
-		"pic": "alejandroO"
 	},
 	{
 		"name": "Denisse Arjona",
@@ -204,21 +204,27 @@
 		"pic": "alejandraV"
 	},
 	{
+		"name": "Facundo Sallito",
+		"position": "Account Executive - Cuyo",
+		"department": "sta",
+		"pic": "facundoS"
+	},
+	{
 		"name": "Delfina Comisso",
 		"position": "Account Executive - Mendoza",
-		"department": "comerciales",
+		"department": "sta",
 		"pic": "delfinaC"
 	},
 	{
-		"name": "Facundo Sallito",
-		"position": "Account Executive - Cuyo",
-		"department": "comerciales",
-		"pic": "facundoS"
+		"name": "Alejandro Olivella",
+		"position": "Head of Commercial and Business - Santa Fe",
+		"department": "sta",
+		"pic": "alejandroO"
 	},
 	{
 		"name": "José Merino",
 		"position": "Account Executive - Rosario",
-		"department": "comerciales",
+		"department": "sta",
 		"pic": "joseM"
 	},
 	{

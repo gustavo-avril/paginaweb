@@ -42,13 +42,26 @@
 	}
 }
 .titulocomer {
-	/*&::after {
-		@include borderTitle;
-		border-bottom: 4px solid $comercio;
-	}*/
 	.comerciales {
 		background: $comerciales;
 		@include titles;
+	}
+}
+.subtitlecomer{
+	margin-top: 15px;
+	&::after {
+		@include borderSubtitle;
+		border-bottom: 2px solid $comercio;
+	}
+	.left{
+		background: $comerciales;
+		@include subtitles;
+		text-align: center;
+	}
+	.right{
+		background: $comerciales;
+		@include subtitles;
+		margin: 0;
 	}
 }
 .tituloadmin {
