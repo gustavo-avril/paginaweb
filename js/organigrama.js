@@ -61,6 +61,25 @@ async function getData() {
 		})
 		.join("")}
   `;
+  //Emisiones
+	const filterEmisiones = data.filter((data) => data.department == "emisiones");
+	document.getElementById("emisiones").innerHTML = `
+    ${filterEmisiones
+		.map(function(emision) {
+			return `
+      <div class="persona d-flex">
+        <div class="inner">
+          <img class="inner-image" src="./images/organigrama/${emision.pic}.webp" alt="">
+        </div>
+        <div class="contenido">
+          <p class="nombre ">${emision.name}</p>
+          <p class="cargo">${emision.position}</p>
+        </div>
+      </div>
+      `;
+		})
+		.join("")}
+  `;
 	//RRHH
 	const filterRRHH = data.filter((data) => data.department == "rrhh");
 	document.getElementById("rrhh").innerHTML = `
