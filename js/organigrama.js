@@ -4,13 +4,13 @@ async function getData() {
 	const resp = await fetch("js/organigrama.json");
 	const data = await resp.json();
 	
-	//Markeitng
+	//Marketing
 	const filterMarketing = data.filter((data) => data.department == "marketing");
 	document.getElementById("marketing").innerHTML = `
     ${filterMarketing
 		.map(function(market) {
 			return `
-        <div class="persona d-flex">
+        <div class="persona d-block">
           <div class="inner">
             <img class="inner-image" src="./images/organigrama/${market.pic}.webp" alt="${market.name}">
           </div>
@@ -29,7 +29,7 @@ async function getData() {
     ${filterAsistencia
 		.map(function(asis) {
 			return `
-        <div class="persona d-flex">
+        <div class="persona">
           <div class="inner">
             <img class="inner-image" src="./images/organigrama/${asis.pic}.webp" alt="${asis.name}">
           </div>
@@ -48,7 +48,7 @@ async function getData() {
     ${filterPrestadores
 		.map(function(presta) {
 			return `
-        <div class="persona d-flex">
+        <div class="persona d-block">
           <div class="inner">
             <img class="inner-image" src="./images/organigrama/${presta.pic}.webp" alt="${presta.name}">
           </div>
@@ -67,7 +67,7 @@ async function getData() {
     ${filterReintegros
 		.map(function(reint) {
 			return `
-        <div class="persona d-flex">
+        <div class="persona d-block">
           <div class="inner">
             <img class="inner-image" src="./images/organigrama/${reint.pic}.webp" alt="${reint.name}">
           </div>
@@ -86,7 +86,7 @@ async function getData() {
     ${filterAdministracion
 		.map(function(admin) {
 			return `
-      <div class="persona d-flex">
+      <div class="persona">
         <div class="inner">
           <img class="inner-image" src="./images/organigrama/${admin.pic}.webp" alt="">
         </div>
@@ -105,7 +105,7 @@ async function getData() {
     ${filterEmisiones
 		.map(function(emision) {
 			return `
-      <div class="persona d-flex">
+      <div class="persona">
         <div class="inner">
           <img class="inner-image" src="./images/organigrama/${emision.pic}.webp" alt="">
         </div>
@@ -124,7 +124,7 @@ async function getData() {
     ${filterRRHH
 		.map(function(rrhh) {
 			return `
-      <div class="persona d-flex">
+      <div class="persona d-block">
         <div class="inner">
           <img class="inner-image" src="./images/organigrama/${rrhh.pic}.webp" alt="${rrhh.name}">
         </div>
@@ -143,7 +143,7 @@ async function getData() {
     ${filterRRHH2
 		.map(function(rrhh2) {
 			return `
-      <div class="persona d-flex">
+      <div class="persona d-block">
         <div class="inner">
           <img class="inner-image" src="./images/organigrama/${rrhh2.pic}.webp" alt="${rrhh2.name}">
         </div>
@@ -156,13 +156,32 @@ async function getData() {
 		})
 		.join("")}
   `;
+  //RRHH 3
+	const filterRRHH3 = data.filter((data) => data.department == "rrhh3");
+	document.getElementById("rrhh3").innerHTML = `
+    ${filterRRHH3
+		.map(function(rrhh3) {
+			return `
+      <div class="persona d-block">
+        <div class="inner">
+          <img class="inner-image" src="./images/organigrama/${rrhh3.pic}.webp" alt="${rrhh3.name}">
+        </div>
+        <div class="contenido">
+          <p class="nombre ">${rrhh3.name}</p>
+          <p class="cargo">${rrhh3.position}</p>
+        </div>
+      </div>
+    `;
+		})
+		.join("")}
+  `;
 	//Soporte & IT
 	const filterSoporte = data.filter((data) => data.department == "soporte");
 	document.getElementById("soporte").innerHTML = `
     ${filterSoporte
 		.map(function(soporte) {
 			return `
-      <div class="persona d-flex">
+      <div class="persona d-block">
         <div class="inner">
           <img class="inner-image" src="./images/organigrama/${soporte.pic}.webp" alt="${soporte.name}">
         </div>
@@ -181,7 +200,7 @@ async function getData() {
     ${filterCaba
 		.map(function(caba) {
 			return `
-      <div class="persona d-flex">
+      <div class="persona d-block">
         <div class="inner">
           <img class="inner-image" src="./images/organigrama/${caba.pic}.webp" alt="${caba.name}">
         </div>
@@ -200,7 +219,7 @@ async function getData() {
     ${filterMdp
 		.map(function(mdp) {
 			return `
-      <div class="persona d-flex">
+      <div class="persona d-block">
         <div class="inner">
           <img class="inner-image" src="./images/organigrama/${mdp.pic}.webp" alt="${mdp.name}">
         </div>
@@ -219,7 +238,7 @@ async function getData() {
     ${filterCda
 		.map(function(cda) {
 			return `
-      <div class="persona d-flex">
+      <div class="persona d-block">
         <div class="inner">
           <img class="inner-image" src="./images/organigrama/${cda.pic}.webp" alt="${cda.name}">
         </div>
@@ -238,7 +257,7 @@ async function getData() {
     ${filterSta
 		.map(function(sta) {
 			return `
-      <div class="persona d-flex">
+      <div class="persona d-block">
         <div class="inner">
           <img class="inner-image" src="./images/organigrama/${sta.pic}.webp" alt="${sta.name}">
         </div>
@@ -257,7 +276,7 @@ async function getData() {
     ${filterLit
 		.map(function(lit) {
 			return `
-      <div class="persona d-flex">
+      <div class="persona d-block">
         <div class="inner">
           <img class="inner-image" src="./images/organigrama/${lit.pic}.webp" alt="${lit.name}">
         </div>
@@ -276,7 +295,7 @@ async function getData() {
     ${filterNor
 		.map(function(nor) {
 			return `
-      <div class="persona d-flex">
+      <div class="persona d-block">
         <div class="inner">
           <img class="inner-image" src="./images/organigrama/${nor.pic}.webp" alt="${nor.name}">
         </div>
