@@ -48,6 +48,11 @@
 	.footer-socials li a {
 		margin-left: 0px;
 	}
+	.footer{
+		#abc{
+			display: none;
+		}
+	}
 
 	.text-lg {
 		font-size: 3rem;
@@ -124,6 +129,11 @@
 	.footer-socials li a {
 		margin-left: 0px;
 	}
+	.footer{
+		#abc{
+			display: none;
+		}
+	}
 	.blog-item-meta span {
 		display: block;
 		margin: 6px 0px;
@@ -162,6 +172,11 @@
 	.footer-socials li a {
 		margin-left: 0px;
 	}
+	.footer{
+		#abc{
+			display: none;
+		}
+	}
 	.slider .block h1 {
 		font-size: 56px;
 		line-height: 70px;
@@ -184,5 +199,10 @@
 @include desktop {
 	.margin {
 		margin: 150px 0;
+	}
+	.footer{
+		#abc{
+			display: block;
+		}
 	}
 }
