@@ -84,6 +84,18 @@
 		"pic": "mariaC"
 	},
 	{
+		"name": "Paula Caram",
+		"position": "Assistance Coordination",
+		"department": "asistencias",
+		"pic": "paulaC"
+	},
+	{
+		"name": "Florencia Kershan",
+		"position": "Assistance Coordination",
+		"department": "asistencias",
+		"pic": "florenciaK"
+	},
+	{
 		"name": "Florencia Tobal",
 		"position": "Providers",
 		"department": "prestadores",
