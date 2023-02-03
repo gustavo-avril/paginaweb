@@ -74,25 +74,25 @@
 	{
 		"name": "Tommy Teran",
 		"position": "Assistance Coordination",
-		"department": "asistencias",
+		"department": "asistencias2",
 		"pic": "tommyT"
 	},
 	{
 		"name": "Maria Cordovez",
 		"position": "Assistance Coordination",
-		"department": "asistencias",
+		"department": "asistencias2",
 		"pic": "mariaC"
 	},
 	{
 		"name": "Paula Caram",
 		"position": "Assistance Coordination",
-		"department": "asistencias",
+		"department": "asistencias2",
 		"pic": "paulaC"
 	},
 	{
 		"name": "Florencia Kershan",
 		"position": "Assistance Coordination",
-		"department": "asistencias",
+		"department": "asistencias2",
 		"pic": "florenciaK"
 	},
 	{
@@ -216,16 +216,16 @@
 		"pic": "alejandraV"
 	},
 	{
-		"name": "Facundo Sallito",
-		"position": "Account Executive - Cuyo",
-		"department": "sta",
-		"pic": "facundoS"
-	},
-	{
 		"name": "Delfina Comisso",
 		"position": "Account Executive - Mendoza",
-		"department": "sta",
+		"department": "cuyo",
 		"pic": "delfinaC"
+	},
+	{
+		"name": "Facundo Sallito",
+		"position": "Account Executive - Cuyo",
+		"department": "cuyo",
+		"pic": "facundoS"
 	},
 	{
 		"name": "Alejandro Olivella",

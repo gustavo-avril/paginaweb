@@ -42,6 +42,25 @@ async function getData() {
 		})
 		.join("")}
   `;
+  //Asistencias2
+	const filterAsistencia2 = data.filter((data) => data.department == "asistencias2");
+	document.getElementById("asis2").innerHTML = `
+    ${filterAsistencia2
+		.map(function(asis2) {
+			return `
+        <div class="persona">
+          <div class="inner">
+            <img class="inner-image" src="./images/organigrama/${asis2.pic}.webp" alt="${asis2.name}">
+          </div>
+          <div class="contenido">
+            <p class="nombre ">${asis2.name}</p>
+            <p class="cargo">${asis2.position}</p>
+          </div>
+        </div>
+      `;
+		})
+		.join("")}
+  `;
   //Prestadores
 	const filterPrestadores = data.filter((data) => data.department == "prestadores");
 	document.getElementById("presta").innerHTML = `
@@ -302,6 +321,25 @@ async function getData() {
         <div class="contenido">
           <p class="nombre ">${nor.name}</p>
           <p class="cargo">${nor.position}</p>
+        </div>
+      </div>
+      `;
+		})
+		.join("")}
+  `;
+  //Comerciales Cuyo
+	const filterCuyo = data.filter((data) => data.department == "cuyo");
+	document.getElementById("cuyo").innerHTML = `
+    ${filterCuyo
+		.map(function(cuyo) {
+			return `
+      <div class="persona d-block">
+        <div class="inner">
+          <img class="inner-image" src="./images/organigrama/${cuyo.pic}.webp" alt="${cuyo.name}">
+        </div>
+        <div class="contenido">
+          <p class="nombre ">${cuyo.name}</p>
+          <p class="cargo">${cuyo.position}</p>
         </div>
       </div>
       `;
