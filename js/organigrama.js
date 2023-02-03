@@ -23,6 +23,25 @@ async function getData() {
 		})
 		.join("")}
   `;
+  //Diseño
+	const filterDesign = data.filter((data) => data.department == "design");
+	document.getElementById("design").innerHTML = `
+    ${filterDesign
+		.map(function(design) {
+			return `
+        <div class="persona d-block">
+          <div class="inner">
+            <img class="inner-image" src="./images/organigrama/${design.pic}.webp" alt="${design.name}">
+          </div>
+          <div class="contenido">
+            <p class="nombre ">${design.name}</p>
+            <p class="cargo">${design.position}</p>
+          </div>
+        </div>
+      `;
+		})
+		.join("")}
+  `;
 	//Asistencias
 	const filterAsistencia = data.filter((data) => data.department == "asistencias");
 	document.getElementById("asis").innerHTML = `
