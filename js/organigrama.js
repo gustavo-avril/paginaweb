@@ -27,10 +27,24 @@ async function getData() {
           </div>
           <div class="backside">
             <div class="card">
-              <div class="card-body text-center mt-4">
-                <h4 class="card-title">Email</h4>
-                <p class="card-text">nicole.dagosto@avril-assistance.com</p>
+              <div class="card-body text-center4">
+                <h4 class="cargo">Email</h4>
+                <p class="nombre">nicole.dagosto@avril-assistance.com</p>
               </div>
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+                  <i class="ti-facebook text-cyan fa-2x"></i></a>
+                </li> 
+                <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+                  <i class="ti-facebook text-cyan fa-2x"></i></a>
+                </li>
+                <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+                  <i class="ti-facebook text-cyan fa-2x"></i></a>
+                </li>
+                <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+                  <i class="ti-facebook text-cyan fa-2x"></i></a>
+                </li>                  
+              </ul>
             </div>
           </div>
         </div>

@@ -370,7 +370,28 @@
 	transform: rotateY(0deg);
 	//-ms-transform: rotateY(0deg);
 	z-index: 2;
-	margin-bottom: 30px;
+	//margin-bottom: 30px;
+	.contenido {
+		/*width: 154%;
+		padding-left: 10px;*/
+		text-align: center;
+		/*border-left: 2px solid black;*/
+
+		.nombre {
+			color: black;
+			font-size: .8em;
+			font-weight: 500;
+		}
+
+		.cargo {
+			font-size: .8em;
+		}
+		p {
+			margin-top: 0px;
+			margin-bottom: .4em;
+			line-height: 1em;
+		}
+	}
 }
 
 .backside {
@@ -408,7 +429,7 @@
 
 .frontside .card,
 .backside .card {
-	min-height: 312px;
+	min-height: auto;
 }
 
 .backside .card a {
