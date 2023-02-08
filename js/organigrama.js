@@ -10,15 +10,31 @@ async function getData() {
     ${filterMarketing
 		.map(function(market) {
 			return `
-        <div class="persona d-block">
-          <div class="inner">
-            <img class="inner-image" src="./images/organigrama/${market.pic}.webp" alt="${market.name}">
+      <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+        <div class="mainflip">
+          <div class="frontside">
+            <div class="card">
+              <div class="card-body text-center">
+                <p class="inner">
+                  <img class="inner-image" src="./images/organigrama/${market.pic}.webp" alt="${market.name}">
+                </p>
+                <div class="contenido">
+                    <p class="nombre ">${market.name}</p>
+                    <p class="cargo">${market.position}</p>
+                  </div>
+              </div>
+            </div>
           </div>
-          <div class="contenido">
-            <p class="nombre ">${market.name}</p>
-            <p class="cargo">${market.position}</p>
+          <div class="backside">
+            <div class="card">
+              <div class="card-body text-center mt-4">
+                <h4 class="card-title">Email</h4>
+                <p class="card-text">nicole.dagosto@avril-assistance.com</p>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
       `;
 		})
 		.join("")}
