@@ -26,6 +26,10 @@
     border-left: solid 15px transparent;
     border-right: solid 15px transparent;
 	}
+	&:hover{
+		-webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	  animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	}
 	.asistencias {
 		background: $asistencia;
 		@include titles;
@@ -75,8 +79,8 @@
     border-right: solid 15px transparent;
 	}
 	&:hover{
-		-webkit-animation: flip-scale-up-hor 0.5s linear reverse forwards;
-	  animation: flip-scale-up-hor 0.5s linear reverse forwards;
+		-webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	  animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	}
 	.rrhh {
 		background: $rrhh;
@@ -99,6 +103,10 @@
     border-top: solid 15px $comercio;
     border-left: solid 15px transparent;
     border-right: solid 15px transparent;
+	}
+	&:hover{
+		-webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	  animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	}
 	.comerciales {
 		background: $comerciales;
@@ -146,6 +154,10 @@
     border-left: solid 15px transparent;
     border-right: solid 15px transparent;
 	}
+	&:hover{
+		-webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	  animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	}
 	.administracion {
 		background: $administracion;
 		@include titles;
@@ -167,6 +179,10 @@
     border-top: solid 15px $web;
     border-left: solid 15px transparent;
     border-right: solid 15px transparent;
+	}
+	&:hover{
+		-webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	  animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	}
 	.soporte {
 		background: $soporte;
@@ -352,7 +368,6 @@
     transform: scale(1) rotateX(-180deg);
   }
 }
-
 
 
 /* ----------------------------------------------
