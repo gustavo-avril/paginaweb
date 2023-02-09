@@ -10,45 +10,15 @@ async function getData() {
     ${filterMarketing
 		.map(function(market) {
 			return `
-      <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-        <div class="mainflip">
-          <div class="frontside">
-            <div class="card">
-              <div class="card-body text-center">
-                <p class="inner">
-                  <img class="inner-image" src="./images/organigrama/${market.pic}.webp" alt="${market.name}">
-                </p>
-                <div class="contenido">
-                    <p class="nombre ">${market.name}</p>
-                    <p class="cargo">${market.position}</p>
-                  </div>
-              </div>
+        <div class="persona d-block">
+            <div class="inner">
+              <img class="inner-image" src="./images/organigrama/${market.pic}.webp" alt="${market.name}">
+            </div>
+            <div class="contenido">
+              <p class="nombre ">${market.name}</p>
+              <p class="cargo">${market.position}</p>
             </div>
           </div>
-          <div class="backside">
-            <div class="card">
-              <div class="card-body text-center4">
-                <h4 class="cargo">Email</h4>
-                <p class="nombre">nicole.dagosto@avril-assistance.com</p>
-              </div>
-              <ul class="list-inline">
-                <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
-                  <i class="ti-facebook text-cyan fa-2x"></i></a>
-                </li> 
-                <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
-                  <i class="ti-facebook text-cyan fa-2x"></i></a>
-                </li>
-                <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
-                  <i class="ti-facebook text-cyan fa-2x"></i></a>
-                </li>
-                <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
-                  <i class="ti-facebook text-cyan fa-2x"></i></a>
-                </li>                  
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
       `;
 		})
 		.join("")}
@@ -268,15 +238,49 @@ async function getData() {
     ${filterCaba
 		.map(function(caba) {
 			return `
-      <div class="persona d-block">
-        <div class="inner">
-          <img class="inner-image" src="./images/organigrama/${caba.pic}.webp" alt="${caba.name}">
+      
+
+
+
+
+
+      <div class="d-flex flex-wrap" id="marketing-head">
+        <div class="head d-block">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p class="inner">
+                      <img class="inner-image" src="./images/organigrama/${caba.pic}.webp" alt="${caba.name}">
+                    </p>
+                    <div class="contenido">
+                        <p class="nombre">${caba.name}</p>
+                        <p class="cargo">${caba.position}</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="cargo">Email</h4>
+                    <p class="nombre">${caba.email}</p>
+                    <ul class="list-inline text-center">
+                      <li class="list-inline-item"><a href="https://www.facebook.com/${caba.facebook}/" target="_blank">
+                        <i class="ti-facebook text-cyan"></i></a>
+                      </li> 
+                      <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+                        <i class="ti-instagram text-cyan"></i></a>
+                      </li>               
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="contenido">
-          <p class="nombre ">${caba.name}</p>
-          <p class="cargo">${caba.position}</p>
-        </div>
-      </div>
+			</div>
       `;
 		})
 		.join("")}

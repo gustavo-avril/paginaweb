@@ -9,13 +9,15 @@
 		"name": "Yesica Díaz",
 		"position": "Planificación & Producto",
 		"department": "comerciales",
-		"pic": "yesicaD"
+		"pic": "yesicaD",
+		"email":"yesica.diaz@avril-assistance.com"
 	},
 	{
 		"name": "Nicole D'agosto",
 		"position": "Head of Marketing & Communications",
 		"department": "marketing-head",
-		"pic": "nicoleD"
+		"pic": "nicoleD",
+		"email":"nicole.dagosto@avril-assistance.com"
 	},
 	{
 		"name": "Lautaro Marchetti",
@@ -45,7 +47,8 @@
 		"name": "Ariel Pierini",
 		"position": "Head of Assistance",
 		"department": "asistencias-head",
-		"pic": "arielP"
+		"pic": "arielP",
+		"email":"operaciones@avril-assistance.com"
 	},
 	{
 		"name": "Gabriel Mendoza",
@@ -99,13 +102,15 @@
 		"name": "Florencia Tobal",
 		"position": "Providers",
 		"department": "prestadores",
-		"pic": "florenciaT"
+		"pic": "florenciaT",
+		"email":"prestadores@avril-assistance.com"
 	},
 	{
 		"name": "Maria Martellini",
 		"position": "Refunds",
 		"department": "reintegros",
-		"pic": "mariaM"
+		"pic": "mariaM",
+		"email":"reintegros@avril-assistance.com"
 	},
 	{
 		"name": "Melisa Villalón",
@@ -117,7 +122,8 @@
 		"name": "Delfina Villalba",
 		"position": "Head of Administration & Operations",
 		"department": "administracion-head",
-		"pic": "delfinaV" 
+		"pic": "delfinaV",
+		"email":"administracion@avril-assistance.com"
 	},
 	{
 		"name": "Julieta Scarrone",
@@ -165,103 +171,124 @@
 		"name": "Fernando Scrigna",
 		"position": "Head of Commercial and Business - Cuyo & Santa Fe",
 		"department": "comerciales-head",
-		"pic": "fernandoSc"
+		"pic": "fernandoSc",
+		"email":"fernando.scrigna@avril-assistance.com"
 	},
 	{
 		"name": "Sol Fernández",
 		"position": "Head of Commercial and Business - Buenos Aires",
 		"department": "comerciales-head",
-		"pic": "solF"
+		"pic": "solF",
+		"email":"sol.fernandez@avril-assistance.com"
 	},
 	{
 		"name": "Paola Aguirre",
 		"position": "Head of Commercial and Business - Litoral",
 		"department": "comerciales-head",
-		"pic": "paolaA"
+		"pic": "paolaA",
+		"email":"paola.aguirre@avril-assistance.com"
 	},
 	{
 		"name": "Belen Vera",
 		"position": "Account Executive - Litoral",
 		"department": "lit",
-		"pic": "belenV"
+		"pic": "belenV",
+		"email":"belen.vera@avril-assistance.com"
 	},
 	{
 		"name": "Elisa Mazzucco",
 		"position": "Head of Commercial and Business - Noroeste",
 		"department": "comerciales-head",
-		"pic": "elisaM"
+		"pic": "elisaM",
+		"email":"elisa.mazzuco@avril-assistance.com"
 	},
 	{
 		"name": "Denisse Arjona",
 		"position": "Account Executive - CABA & AMBA",
 		"department": "caba",
-		"pic": "denisseA"
+		"pic": "denisseA",
+		"email":"denisse.arjona@avril-assistance.com",
+		"facebook": "denisse.arjona"
 	},
 	{
 		"name": "Karina Haines",
 		"position": "Account Executive - CABA & AMBA",
 		"department": "caba",
-		"pic": "karinaH"
+		"pic": "karinaH",
+		"email":"karina.haines@avril-assistance.com",
+		"facebook": "denisse.arjona"
 	},
 	{
 		"name": "Natanael Fernandez",
 		"position": "Account Executive - CABA",
 		"department": "caba",
-		"pic": "natanaelF"
+		"pic": "natanaelF",
+		"email":"natanael.fernandez@avril-assistance.com",
+		"facebook": "denisse.arjona"
 	},
 	{
 		"name": "Alejandra Vilaseca",
 		"position": "Account Executive - Buenos Aires",
 		"department": "mdp",
-		"pic": "alejandraV"
+		"pic": "alejandraV",
+		"email":"alejandra.vilaseca@avril-assistance.com"
 	},
 	{
 		"name": "Delfina Comisso",
 		"position": "Account Executive - Mendoza",
 		"department": "cuyo",
-		"pic": "delfinaC"
+		"pic": "delfinaC",
+		"email":"delfina.comisso@avril-assistance.com"
 	},
 	{
 		"name": "Facundo Sallito",
 		"position": "Account Executive - Cuyo",
 		"department": "cuyo",
-		"pic": "facundoS"
+		"pic": "facundoS",
+		"email":"facundo.sallito@avril-assistance.com"
 	},
 	{
 		"name": "José Merino",
 		"position": "Account Executive - Rosario",
 		"department": "sta",
-		"pic": "joseM"
+		"pic": "joseM",
+		"email":"jose.merino@avril-assistance.com"
 	},
 	{
 		"name": "Daniel Cuello",
 		"position": "Head - Córdoba",
 		"department": "comerciales",
-		"pic": "danielC"
+		"pic": "danielC",
+		"email":"daniel.cuello@avril-assistance.com"
 	},
 	{
 		"name": "Yanina Ahumada",
 		"position": "Account Executive - Córdoba",
 		"department": "cda",
-		"pic": "yaninaA"
+		"pic": "yaninaA",
+		"email":"yanina.ahumada@avril-assistance.com"
 	},
 	{
 		"name": "Christian Rodriguez",
 		"position": "Account Executive - Córdoba",
 		"department": "cda",
-		"pic": "christianT"
+		"pic": "christianT",
+		"email":"christian.rodriguez@avril-assistance.com"
 	},
 	{
 		"name": "Leonela Gravagna",
 		"position": "Account Executive - La Plata",
 		"department": "caba",
-		"pic": "leonelaG"
+		"pic": "leonelaG",
+		"email":"leonela.gravagna@avril-assistance.com",
+		"facebook": "denisse.arjona"
 	},
 	{
 		"name": "Melina Lerana",
 		"position": "Head of RRHH",
 		"department": "rrhh-head",
-		"pic": "melinaL"
+		"pic": "melinaL",
+		"email":"rr-hh@avril-assistance.com"
 	},
 	{
 		"name": "Rocío Galdara",
