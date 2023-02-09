@@ -238,14 +238,8 @@ async function getData() {
     ${filterCaba
 		.map(function(caba) {
 			return `
-      
-
-
-
-
-
       <div class="d-flex flex-wrap" id="marketing-head">
-        <div class="head d-block">
+        <div class="personas d-block">
           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
             <div class="mainflip">
               <div class="frontside">
@@ -255,9 +249,9 @@ async function getData() {
                       <img class="inner-image" src="./images/organigrama/${caba.pic}.webp" alt="${caba.name}">
                     </p>
                     <div class="contenido">
-                        <p class="nombre">${caba.name}</p>
-                        <p class="cargo">${caba.position}</p>
-                      </div>
+                      <p class="nombre">${caba.name}</p>
+                      <p class="cargo">${caba.position}</p>
+                    </div>
                   </div>
                 </div>
               </div>
