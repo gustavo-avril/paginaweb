@@ -238,7 +238,7 @@ async function getData() {
     ${filterCaba
 		.map(function(caba) {
 			return `
-      <div class="d-flex flex-wrap" id="marketing-head">
+      <div class="d-flex flex-wrap comerciales" id="caba">
         <div class="personas d-block">
           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
             <div class="mainflip">

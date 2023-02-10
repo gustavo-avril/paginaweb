@@ -60,6 +60,17 @@
 		@include titles;
 	}
 }
+.market{
+	h4,p,a{
+	color:$market;
+	}
+}
+.comerciales{
+	h4,p,a{
+	color:$comercio;
+	}
+}
+
 .titulorrhh {
 	position: relative;
 	&::before{
@@ -384,14 +395,14 @@
 	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
 	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
 	.nombre {
-		color: black;
+		//color: black;
 		font-size: .8em;
 		font-weight: 300;
 		text-align: center;
 	}
 	.cargo {
 		text-align: center;
-		color: $primary-color;
+		//color: $primary-color;
 		font-size: 15px;
 		font-weight: 500;
 	}
