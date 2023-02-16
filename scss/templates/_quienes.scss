@@ -393,14 +393,42 @@
 	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
 	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
 	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	.custom-shape-divider-top-1676578506 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+	}
+
+.custom-shape-divider-top-1676578506 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1676578506 .shape-fill {
+    fill: #F5A623;
+}
 	.card{
 		background: rgba(143, 143, 143, 0.125);
-		background-image: url(../images/naranja-top.png);
-		background-repeat: no-repeat;
+		/*background-image: url(../images/naranja-top.png);
+		background-repeat: no-repeat;*/
 	}
 	.titulo{
 		text-transform: uppercase;
 		font-weight: 500;
+		color: #f8b133;
+	}
+	.titulo-big{
+		padding: 20px;
+		background: #f8b133;
+		color: white;
+		font-size: 1.2rem;
 	}
 	.nombre {
 		color: #f8b133;
@@ -423,7 +451,7 @@
 	.card-body{
 		display: flex;
 		flex-direction: column;
-		justify-content: end;
+		justify-content: center;
 	}
 }
 
