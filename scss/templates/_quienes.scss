@@ -393,7 +393,7 @@
 	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
 	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
 	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-	.custom-shape-divider-top-1676579617 {
+	.wave {
     position: absolute;
     top: 0;
     left: 0;
@@ -402,18 +402,17 @@
     line-height: 0;
 		border-radius: 5px;
     transform: rotate(180deg);
-}
-
-	.custom-shape-divider-top-1676579617 svg {
+		svg {
 			position: relative;
 			display: block;
 			width: calc(175% + 1.3px);
 			height: 100px;
+		}
+		.shape-fill {
+			fill: #F5A623;
+		}
 	}
 
-	.custom-shape-divider-top-1676579617 .shape-fill {
-		fill: #F5A623;
-	}
 	.card{
 		background: rgba(143, 143, 143, 0.125);
 		/*background-image: url(../images/naranja-top.png);
