@@ -410,6 +410,7 @@
 	top: 0;
 	left: 0;
 	height: 100%;
+	width: 100%;
 	-webkit-transform: rotateY(-180deg);
 	-moz-transform: rotateY(-180deg);
 	-o-transform: rotateY(-180deg);
@@ -453,7 +454,7 @@
 		font-weight: bold;
 		font-size: .8em;
 		font-weight: 300;
-		text-align: left;
+		text-align: center;
 	}
 	i {
 		color: white;
@@ -467,12 +468,16 @@
 	}
 	.card-body{
 		display: flex;
+		flex: 1 1 auto;
+		padding: 1.25rem;
 		flex-direction: column;
 		justify-content: space-between;
 		margin-top: 4rem;
 	}
 	.rrhh{
-		color: #87d8d2;
+		p{
+			color: #87d8d2;
+		}
 		i {
 			background: #87d8d2;
 		}
