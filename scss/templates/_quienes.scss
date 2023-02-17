@@ -1,5 +1,30 @@
+.bg-quienes{
+	background-image: url(../images/bg/quienes-intro.webp);
+	background-size: cover;
+}
+.intro-text{
+	font-size: 16px;
+	text-align: center;
+}
+.locations{
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-around;
+	margin: 1rem 0;
+	.maps{
+		background: #012063;
+		padding: 5px;
+		border: none;
+		border-radius: 5px;
+	}
+	.pins{
+		text-transform: capitalize;
+		font-weight: 400;
+		color: white;
+		padding: 5px 10px;
+	}
+}
 // Organigrama
-
 .titulo-org {
 	padding: 10px;
 	text-transform: uppercase;
@@ -412,7 +437,6 @@
 			fill: #F5A623;
 		}
 	}
-
 	.card{
 		background: rgba(143, 143, 143, 0.125);
 		/*background-image: url(../images/naranja-top.png);
