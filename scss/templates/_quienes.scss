@@ -474,7 +474,8 @@
 	.card-body{
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: space-between;
+		margin-top: 4rem;
 	}
 }
 
