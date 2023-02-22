@@ -238,7 +238,7 @@ async function getData() {
     ${filterCaba
 		.map(function(caba) {
 			return `
-      <div class="d-flex flex-wrap comerciales" id="caba">
+      <div class="d-flex flex-wrap comerciales">
         <div class="personas d-block">
           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
             <div class="mainflip">
@@ -258,14 +258,23 @@ async function getData() {
               <div class="backside">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="cargo">Email</h4>
-                    <p class="nombre">${caba.email}</p>
+                    <div class="mb-2">
+                      <p class="titulo text-center">${caba.position}</p>
+                    </div>
+                    <div>
+                      <p class="text-center"><i class="ti-email"></i></p>
+                      <p class="nombre">${caba.email}</p>
+                    </div>
+                    <p class="nombre"></p>
                     <ul class="list-inline text-center">
-                      <li class="list-inline-item"><a href="https://www.facebook.com/${caba.facebook}/" target="_blank">
+                      <li class="list-inline-item"><a href="https://www.facebook.com/${caba.face}/" target="_blank">
                         <i class="ti-facebook text-cyan"></i></a>
                       </li> 
-                      <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+                      <li class="list-inline-item"><a href="https://www.instagram.com/${caba.insta}/" target="_blank">
                         <i class="ti-instagram text-cyan"></i></a>
+                      </li>
+                      <li class="list-inline-item"><a href="https://www.linkedin.com/${caba.linked}/" target="_blank">
+                        <i class="ti-linkedin text-cyan"></i></a>
                       </li>               
                     </ul>
                   </div>
@@ -285,15 +294,52 @@ async function getData() {
     ${filterMdp
 		.map(function(mdp) {
 			return `
-      <div class="persona d-block">
-        <div class="inner">
-          <img class="inner-image" src="./images/organigrama/${mdp.pic}.webp" alt="${mdp.name}">
+      <div class="d-flex flex-wrap comerciales">
+        <div class="personas d-block">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p class="inner">
+                      <img class="inner-image" src="./images/organigrama/${mdp.pic}.webp" alt="${mdp.name}">
+                    </p>
+                    <div class="contenido">
+                      <p class="nombre">${mdp.name}</p>
+                      <p class="cargo">${mdp.position}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="mb-2">
+                      <p class="titulo text-center">${mdp.position}</p>
+                    </div>
+                    <div>
+                      <p class="text-center"><i class="ti-email"></i></p>
+                      <p class="nombre">${mdp.email}</p>
+                    </div>
+                    <p class="nombre"></p>
+                    <ul class="list-inline text-center">
+                      <li class="list-inline-item"><a href="https://www.facebook.com/${mdp.face}/" target="_blank">
+                        <i class="ti-facebook text-cyan"></i></a>
+                      </li> 
+                      <li class="list-inline-item"><a href="https://www.instagram.com/${mdp.insta}/" target="_blank">
+                        <i class="ti-instagram text-cyan"></i></a>
+                      </li>
+                      <li class="list-inline-item"><a href="https://www.linkedin.com/${caba.linked}/" target="_blank">
+                        <i class="ti-linkedin text-cyan"></i></a>
+                      </li>            
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="contenido">
-          <p class="nombre ">${mdp.name}</p>
-          <p class="cargo">${mdp.position}</p>
-        </div>
-      </div>
+			</div>
       `;
 		})
 		.join("")}
@@ -304,15 +350,52 @@ async function getData() {
     ${filterCda
 		.map(function(cda) {
 			return `
-      <div class="persona d-block">
-        <div class="inner">
-          <img class="inner-image" src="./images/organigrama/${cda.pic}.webp" alt="${cda.name}">
+      <div class="d-flex flex-wrap comerciales">
+        <div class="personas d-block">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p class="inner">
+                      <img class="inner-image" src="./images/organigrama/${cda.pic}.webp" alt="${cda.name}">
+                    </p>
+                    <div class="contenido">
+                      <p class="nombre">${cda.name}</p>
+                      <p class="cargo">${cda.position}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="mb-2">
+                      <p class="titulo text-center">${cda.position}</p>
+                    </div>
+                    <div>
+                      <p class="text-center"><i class="ti-email"></i></p>
+                      <p class="nombre">${cda.email}</p>
+                    </div>
+                    <p class="nombre"></p>
+                    <ul class="list-inline text-center">
+                      <li class="list-inline-item"><a href="https://www.facebook.com/${cda.face}/" target="_blank">
+                        <i class="ti-facebook text-cyan"></i></a>
+                      </li> 
+                      <li class="list-inline-item"><a href="https://www.instagram.com/${cda.insta}/" target="_blank">
+                        <i class="ti-instagram text-cyan"></i></a>
+                      </li>
+                      <li class="list-inline-item"><a href="https://www.linkedin.com/${cda.linked}/" target="_blank">
+                        <i class="ti-linkedin text-cyan"></i></a>
+                      </li>               
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="contenido">
-          <p class="nombre ">${cda.name}</p>
-          <p class="cargo">${cda.position}</p>
-        </div>
-      </div>
+			</div>
       `;
 		})
 		.join("")}
@@ -323,15 +406,52 @@ async function getData() {
     ${filterSta
 		.map(function(sta) {
 			return `
-      <div class="persona d-block">
-        <div class="inner">
-          <img class="inner-image" src="./images/organigrama/${sta.pic}.webp" alt="${sta.name}">
+      <div class="d-flex flex-wrap comerciales">
+        <div class="personas d-block">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p class="inner">
+                      <img class="inner-image" src="./images/organigrama/${sta.pic}.webp" alt="${sta.name}">
+                    </p>
+                    <div class="contenido">
+                      <p class="nombre">${sta.name}</p>
+                      <p class="cargo">${sta.position}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="mb-2">
+                      <p class="titulo text-center">${sta.position}</p>
+                    </div>
+                    <div>
+                      <p class="text-center"><i class="ti-email"></i></p>
+                      <p class="nombre">${sta.email}</p>
+                    </div>
+                    <p class="nombre"></p>
+                    <ul class="list-inline text-center">
+                      <li class="list-inline-item"><a href="https://www.facebook.com/${sta.face}/" target="_blank">
+                        <i class="ti-facebook text-cyan"></i></a>
+                      </li> 
+                      <li class="list-inline-item"><a href="https://www.instagram.com/${sta.insta}/" target="_blank">
+                        <i class="ti-instagram text-cyan"></i></a>
+                      </li>
+                      <li class="list-inline-item"><a href="https://www.linkedin.com/${sta.linked}/" target="_blank">
+                        <i class="ti-linkedin text-cyan"></i></a>
+                      </li>               
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="contenido">
-          <p class="nombre ">${sta.name}</p>
-          <p class="cargo">${sta.position}</p>
-        </div>
-      </div>
+			</div>
       `;
 		})
 		.join("")}
@@ -342,15 +462,52 @@ async function getData() {
     ${filterLit
 		.map(function(lit) {
 			return `
-      <div class="persona d-block">
-        <div class="inner">
-          <img class="inner-image" src="./images/organigrama/${lit.pic}.webp" alt="${lit.name}">
+      <div class="d-flex flex-wrap comerciales">
+        <div class="personas d-block">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p class="inner">
+                      <img class="inner-image" src="./images/organigrama/${lit.pic}.webp" alt="${lit.name}">
+                    </p>
+                    <div class="contenido">
+                      <p class="nombre">${lit.name}</p>
+                      <p class="cargo">${lit.position}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="mb-2">
+                      <p class="titulo text-center">${lit.position}</p>
+                    </div>
+                    <div>
+                      <p class="text-center"><i class="ti-email"></i></p>
+                      <p class="nombre">${lit.email}</p>
+                    </div>
+                    <p class="nombre"></p>
+                    <ul class="list-inline text-center">
+                      <li class="list-inline-item"><a href="https://www.facebook.com/${lit.face}/" target="_blank">
+                        <i class="ti-facebook text-cyan"></i></a>
+                      </li> 
+                      <li class="list-inline-item"><a href="https://www.instagram.com/${lit.insta}/" target="_blank">
+                        <i class="ti-instagram text-cyan"></i></a>
+                      </li>
+                      <li class="list-inline-item"><a href="https://www.linkedin.com/${lit.linked}/" target="_blank">
+                        <i class="ti-linkedin text-cyan"></i></a>
+                      </li>               
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="contenido">
-          <p class="nombre ">${lit.name}</p>
-          <p class="cargo">${lit.position}</p>
-        </div>
-      </div>
+			</div>
       `;
 		})
 		.join("")}
@@ -361,15 +518,52 @@ async function getData() {
     ${filterNor
 		.map(function(nor) {
 			return `
-      <div class="persona d-block">
-        <div class="inner">
-          <img class="inner-image" src="./images/organigrama/${nor.pic}.webp" alt="${nor.name}">
+      <div class="d-flex flex-wrap comerciales">
+        <div class="personas d-block">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p class="inner">
+                      <img class="inner-image" src="./images/organigrama/${nor.pic}.webp" alt="${nor.name}">
+                    </p>
+                    <div class="contenido">
+                      <p class="nombre">${nor.name}</p>
+                      <p class="cargo">${nor.position}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="mb-2">
+                      <p class="titulo text-center">${nor.position}</p>
+                    </div>
+                    <div>
+                      <p class="text-center"><i class="ti-email"></i></p>
+                      <p class="nombre">${nor.email}</p>
+                    </div>
+                    <p class="nombre"></p>
+                    <ul class="list-inline text-center">
+                      <li class="list-inline-item"><a href="https://www.facebook.com/${nor.face}/" target="_blank">
+                        <i class="ti-facebook text-cyan"></i></a>
+                      </li> 
+                      <li class="list-inline-item"><a href="https://www.instagram.com/${nor.insta}/" target="_blank">
+                        <i class="ti-instagram text-cyan"></i></a>
+                      </li>
+                      <li class="list-inline-item"><a href="https://www.linkedin.com/${nor.linked}/" target="_blank">
+                        <i class="ti-linkedin text-cyan"></i></a>
+                      </li>               
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="contenido">
-          <p class="nombre ">${nor.name}</p>
-          <p class="cargo">${nor.position}</p>
-        </div>
-      </div>
+			</div>
       `;
 		})
 		.join("")}
@@ -380,15 +574,52 @@ async function getData() {
     ${filterCuyo
 		.map(function(cuyo) {
 			return `
-      <div class="persona d-block">
-        <div class="inner">
-          <img class="inner-image" src="./images/organigrama/${cuyo.pic}.webp" alt="${cuyo.name}">
+      <div class="d-flex flex-wrap comerciales">
+        <div class="personas d-block">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p class="inner">
+                      <img class="inner-image" src="./images/organigrama/${cuyo.pic}.webp" alt="${cuyo.name}">
+                    </p>
+                    <div class="contenido">
+                      <p class="nombre">${cuyo.name}</p>
+                      <p class="cargo">${cuyo.position}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="mb-2">
+                      <p class="titulo text-center">${cuyo.position}</p>
+                    </div>
+                    <div>
+                      <p class="text-center"><i class="ti-email"></i></p>
+                      <p class="nombre">${cuyo.email}</p>
+                    </div>
+                    <p class="nombre"></p>
+                    <ul class="list-inline text-center">
+                      <li class="list-inline-item"><a href="https://www.facebook.com/${cuyo.face}/" target="_blank">
+                        <i class="ti-facebook text-cyan"></i></a>
+                      </li> 
+                      <li class="list-inline-item"><a href="https://www.instagram.com/${cuyo.insta}/" target="_blank">
+                        <i class="ti-instagram text-cyan"></i></a>
+                      </li>
+                      <li class="list-inline-item"><a href="https://www.linkedin.com/${cuyo.linked}/" target="_blank">
+                        <i class="ti-linkedin text-cyan"></i></a>
+                      </li>               
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="contenido">
-          <p class="nombre ">${cuyo.name}</p>
-          <p class="cargo">${cuyo.position}</p>
-        </div>
-      </div>
+			</div>
       `;
 		})
 		.join("")}

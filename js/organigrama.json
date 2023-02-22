@@ -172,35 +172,48 @@
 		"position": "Head of Commercial and Business - Cuyo & Santa Fe",
 		"department": "comerciales-head",
 		"pic": "fernandoSc",
-		"email":"fernando.scrigna@avril-assistance.com"
+		"email":"fernando.scrigna@avril-assistance.com",
+		"insta":"fer.avrilassistance",
+		"face":"",
+		"linked":""
 	},
 	{
 		"name": "Sol Fernández",
 		"position": "Head of Commercial and Business - Buenos Aires",
 		"department": "comerciales-head",
 		"pic": "solF",
-		"email":"sol.fernandez@avril-assistance.com"
+		"email":"sol.fernandez@avril-assistance.com",
+		"insta":"fer.avrilassistance",
+		"face":"fernando.avril.583",
+		"linked":"in/fernando-scrigna-38b76953"
 	},
 	{
 		"name": "Paola Aguirre",
 		"position": "Head of Commercial and Business - Litoral",
 		"department": "comerciales-head",
 		"pic": "paolaA",
-		"email":"paola.aguirre@avril-assistance.com"
+		"email":"paola.aguirre@avril-assistance.com",
+		"insta":"paolaaguirre.avrilassistance",
+		"face":"profile.php?id=100050477060545"
 	},
 	{
 		"name": "Belen Vera",
 		"position": "Account Executive - Litoral",
 		"department": "lit",
 		"pic": "belenV",
-		"email":"belen.vera@avril-assistance.com"
+		"email":"belen.vera@avril-assistance.com",
+		"insta":"belenvera.avril.assistance",
+		"face":"profile.php?id=100089927010072"
 	},
 	{
 		"name": "Elisa Mazzucco",
 		"position": "Head of Commercial and Business - Noroeste",
 		"department": "comerciales-head",
 		"pic": "elisaM",
-		"email":"elisa.mazzuco@avril-assistance.com"
+		"email":"elisa.mazzuco@avril-assistance.com",
+		"insta":"elisa.mazzucco.avrilassistance",
+		"face":"elisa.mazzucco.7777",
+		"linked":"in/maria-elisa-mazzucco-ortiz-83116625/"
 	},
 	{
 		"name": "Denisse Arjona",
@@ -208,7 +221,9 @@
 		"department": "caba",
 		"pic": "denisseA",
 		"email":"denisse.arjona@avril-assistance.com",
-		"facebook": "denisse.arjona"
+		"insta":"avrilassistance_denisse",
+		"face":"profile.php?id=100042937280948",
+		"linked":"in/denisse-arjona-191bb7230"
 	},
 	{
 		"name": "Karina Haines",
@@ -216,7 +231,9 @@
 		"department": "caba",
 		"pic": "karinaH",
 		"email":"karina.haines@avril-assistance.com",
-		"facebook": "denisse.arjona"
+		"insta":"karina.haines",
+		"face":"profile.php?id=100090324880715&mibextid=ZbWKwL",
+		"linked":"in/karina-garc%C3%ADa-haines-baa3435a"
 	},
 	{
 		"name": "Natanael Fernandez",
@@ -224,56 +241,79 @@
 		"department": "caba",
 		"pic": "natanaelF",
 		"email":"natanael.fernandez@avril-assistance.com",
-		"facebook": "denisse.arjona"
+		"insta":"natanael.avrilassistance",
+		"face":"profile.php?id=100085877255400&mibextid=LQQJ4d",
+		"linked":"in/natanaelfernandezok"
 	},
 	{
 		"name": "Alejandra Vilaseca",
 		"position": "Account Executive - Buenos Aires",
 		"department": "mdp",
 		"pic": "alejandraV",
-		"email":"alejandra.vilaseca@avril-assistance.com"
+		"email":"alejandra.vilaseca@avril-assistance.com",
+		"insta":"alejandra.avrilassistance",
+		"face":"alejandra.v.guido",
+		"linked":"in/alejandra-daiana-vilaseca-guido-738542250"
 	},
 	{
 		"name": "Delfina Comisso",
 		"position": "Account Executive - Mendoza",
 		"department": "cuyo",
 		"pic": "delfinaC",
-		"email":"delfina.comisso@avril-assistance.com"
+		"email":"delfina.comisso@avril-assistance.com",
+		"insta":"avrilassistance.delfina",
+		"face":"delfinaavrilassistance",
+		"linked":"in/delfina-comisso-905957261"
 	},
 	{
 		"name": "Facundo Sallito",
 		"position": "Account Executive - Cuyo",
 		"department": "cuyo",
 		"pic": "facundoS",
-		"email":"facundo.sallito@avril-assistance.com"
+		"email":"facundo.sallito@avril-assistance.com",
+		"insta":"facundo.avrilassistance",
+		"face":"",
+		"linked":"in/facundo-sallitto-b1b989261"
 	},
 	{
 		"name": "José Merino",
 		"position": "Account Executive - Rosario",
 		"department": "sta",
 		"pic": "joseM",
-		"email":"jose.merino@avril-assistance.com"
+		"email":"jose.merino@avril-assistance.com",
+		"insta":"josemerino.avrilassistance",
+		"face":"profile.php?id=100050584095865",
+		"linked":""
 	},
 	{
 		"name": "Daniel Cuello",
 		"position": "Head - Córdoba",
 		"department": "comerciales",
 		"pic": "danielC",
-		"email":"daniel.cuello@avril-assistance.com"
+		"email":"daniel.cuello@avril-assistance.com",
+		"insta":"danicuello_cordoba",
+		"face":"SUGUSCBA",
+		"linked":"in/daniel-alejandro-cuello-b1a6b3146"
 	},
 	{
 		"name": "Yanina Ahumada",
 		"position": "Account Executive - Córdoba",
 		"department": "cda",
 		"pic": "yaninaA",
-		"email":"yanina.ahumada@avril-assistance.com"
+		"email":"yanina.ahumada@avril-assistance.com",
+		"insta":"yanina.avrilassistance1",
+		"face":"yanina.ahumada.1420",
+		"linked":"in/yanina-ahumada-b746a1248"
 	},
 	{
 		"name": "Christian Rodriguez",
 		"position": "Account Executive - Córdoba",
 		"department": "cda",
 		"pic": "christianT",
-		"email":"christian.rodriguez@avril-assistance.com"
+		"email":"christian.rodriguez@avril-assistance.com",
+		"insta":"christian.rodriguez_avril",
+		"face":"profile.php?id=100081388220741",
+		"linked":""
 	},
 	{
 		"name": "Leonela Gravagna",
@@ -281,7 +321,9 @@
 		"department": "caba",
 		"pic": "leonelaG",
 		"email":"leonela.gravagna@avril-assistance.com",
-		"facebook": "denisse.arjona"
+		"insta":"leonela.avrilassistance",
+		"face":"people/Leonela-AvrilAssistance/100087898189933",
+		"linked":"in/leonelagravagna"
 	},
 	{
 		"name": "Melina Lerana",

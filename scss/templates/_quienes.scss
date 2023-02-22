@@ -85,16 +85,6 @@
 		@include titles;
 	}
 }
-.market{
-	h4,p,a{
-	color:$market;
-	}
-}
-.comerciales{
-	h4,p,a{
-	color:$comercio;
-	}
-}
 
 .titulorrhh {
 	position: relative;
@@ -224,126 +214,7 @@
 		@include titles;
 	}
 }
-
-.head {
-	//width: 17%;
-	margin: 5px auto;
-	img {
-		align-self: center;
-		width: auto;
-		//height: auto;
-	}
-	.inner {
-		position: relative;
-		width: 100%;
-	}
-	.contenido {
-		width: 100%;
-		text-align: center; 
-		.nombre {
-			color: black;
-			font-size: 15px;
-			font-weight: 500;
-		}
-		.cargo {
-			font-size: .8em;
-		}
-		p {
-			margin-bottom: .4em;
-			line-height: 1em;
-			margin-top: 10px;
-		}
-	}
-}
-.evenly{
-	display: flex;
-	justify-content: space-evenly;
-}
-.persona, .personas {
-	width: 12.5%;
-	// margin: 0 auto;
-	img {
-		align-self: center;
-		width: 100%;
-		height: auto;
-		&:hover{
-			-webkit-animation: flip-vertical-right 0.5s cubic-bezier(0.600, 0.040, 0.980, 0.335) ;
-	    animation: flip-vertical-right 0.5s cubic-bezier(0.600, 0.040, 0.980, 0.335) ;
-			//-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	    //animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-		}
-	}
-	.inner {
-		position: relative;
-	}
-
-	.contenido {
-		text-align: center;	
-		.nombre {
-			color: black;
-			font-size: .8em;
-			font-weight: 500;
-		}
-		.cargo {
-			font-size: .8em;
-		}
-		p {
-			margin-top: 0px;
-			margin-bottom: .4em;
-			line-height: 1em;
-		}
-	}
-}
-.personas{
-	width: 75%;
-}
-
-.quienes-intro {
-	background: linear-gradient(90deg, rgb(83, 146, 209) 50%, rgb(44, 42, 93) 100%);
-	height: 20vh;
-	width: 100%;
-	position: absolute;
-	top: 50%;
-	left: 0;
-	transform: translate(0, -50%);
-}
-
-@include mobile-xs {
-	.persona {
-		width: 50% !important;
-	}
-	#trabajo {
-		text-align: left;
-	}
-	textarea {
-		width: 90% !important;
-	}
-	.w-30 {
-		width: 90% !important;
-	}
-	.w-60 {
-		width: 90% !important;
-	}
-}
-
-@include mobile {
-	.persona {
-		width: 50% !important;
-	}
-	#trabajo {
-		text-align: left;
-	}
-	textarea {
-		width: 90% !important;
-	}
-	.w-30 {
-		width: 90% !important;
-	}
-	.w-60 {
-		width: 90% !important;
-	}
-}
-
+// Card Effects
 .card {
 	border: none;
 	background: #ffffff;
@@ -456,11 +327,7 @@
 		font-weight: 300;
 		text-align: center;
 	}
-	i {
-		color: white;
-		padding: 7px;
-		border-radius: 50%;
-	}
+	
 	p {
 		margin-top: 20px;
 		margin-bottom: .4em;
@@ -486,6 +353,22 @@
 		color: #f8b133;
 		i {
 			background: #f8b133;
+		}
+	}
+	.admin{
+		p{
+			color: #246351;
+		}
+		i {
+			background: #246351;
+		}
+	}
+	.comercial{
+		p{
+			color: #5900b1;
+		}
+		i {
+			background: #5900b1;
 		}
 	}
 }
@@ -523,8 +406,112 @@
 	color: #007b5e !important;
 } */
 
+
+.head {
+	width: 20%;
+	margin: 5px auto;
+	img {
+		align-self: center;
+		width: auto;
+		//height: auto;
+	}
+	.inner {
+		position: relative;
+		width: 100%;
+	}
+	.contenido {
+		width: 100%;
+		text-align: center; 
+		.nombre {
+			color: black;
+			font-size: 15px;
+			font-weight: 500;
+		}
+		.cargo {
+			font-size: .8em;
+		}
+		p {
+			margin-bottom: .4em;
+			line-height: 1em;
+			margin-top: 10px;
+		}
+	}
+}
+.evenly{
+	display: flex;
+	justify-content: space-evenly;
+}
+.persona, .personas {
+	width: 12.5%;
+	// margin: 0 auto;
+	img {
+		align-self: center;
+		width: 100%;
+		height: auto;
+		&:hover{
+			-webkit-animation: flip-vertical-right 0.5s cubic-bezier(0.600, 0.040, 0.980, 0.335) ;
+	    animation: flip-vertical-right 0.5s cubic-bezier(0.600, 0.040, 0.980, 0.335) ;
+			//-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	    //animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+		}
+	}
+	.inner {
+		position: relative;
+	}
+
+	.contenido {
+		text-align: center;	
+		.nombre {
+			color: black;
+			font-size: .8em;
+			font-weight: 500;
+		}
+		.cargo {
+			font-size: .8em;
+		}
+		p {
+			margin-top: 0px;
+			margin-bottom: .4em;
+			line-height: 1em;
+		}
+	}
+}
+.personas{
+	width: 75%;
+	.backside{
+		.card-body{
+			margin-top: 0;
+		}
+	}
+}
+
+.market{
+	h4,p,a{
+	color:$market;
+	}
+}
+.comerciales{
+	h4,p,a, i{
+	color:$comercio;
+	}
+}
+i {
+	color: white;
+	padding: 7px;
+	border-radius: 50%;
+}
+.quienes-intro {
+	background: linear-gradient(90deg, rgb(83, 146, 209) 50%, rgb(44, 42, 93) 100%);
+	height: 20vh;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translate(0, -50%);
+}
+
 /* animation shadow-drop-center */
- @-webkit-keyframes shadow-drop-center {
+@-webkit-keyframes shadow-drop-center {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
@@ -565,4 +552,42 @@
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
   }
+}
+
+
+
+@include mobile-xs {
+	.persona {
+		width: 50% !important;
+	}
+	#trabajo {
+		text-align: left;
+	}
+	textarea {
+		width: 90% !important;
+	}
+	.w-30 {
+		width: 90% !important;
+	}
+	.w-60 {
+		width: 90% !important;
+	}
+}
+
+@include mobile {
+	.persona {
+		width: 50% !important;
+	}
+	#trabajo {
+		text-align: left;
+	}
+	textarea {
+		width: 90% !important;
+	}
+	.w-30 {
+		width: 90% !important;
+	}
+	.w-60 {
+		width: 90% !important;
+	}
 }
