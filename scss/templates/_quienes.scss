@@ -487,14 +487,28 @@
 }
 
 .market{
-	h4,p,a{
+	h4,p,a {
 	color:$market;
 	}
+	i{background:$market;}
 }
 .comerciales{
-	h4,p,a, i{
+	h4,p,a {
 	color:$comercio;
 	}
+	i{background:$comercio;}
+}
+.asistencia{
+	h4,p,a {
+	color:#29235c;
+	}
+	i{background:#29235c;}
+}
+.soporte{
+	h4,p,a {
+	color:#e0a600;
+	}
+	i{background:#e0a600;}
 }
 i {
 	color: white;

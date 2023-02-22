@@ -540,3 +540,111 @@ document.getElementById("head-nor").innerHTML = `
   </div>
 </div>
 `;
+// Ariel Pierini
+document.getElementById("asistencias-head").innerHTML = `
+<div class="head d-block">
+  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+    <div class="mainflip">
+      <div class="frontside">
+        <div class="card">
+          <div class="card-body">
+            <p class="inner">
+              <img src="./images/organigrama/arielP.webp" alt="Ariel Pierini" class="inner-image">
+            </p>
+            <div class="contenido">
+              <p class="nombre">Ariel Pierini</p>
+              <p class="cargo">Director of Assistance</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="backside">
+        <div class="wave">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="20%" style="stop-color:rgba(0,158,226,1);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgba(41,35,92,1);stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"  fill="url(#grad5)"></path>
+      </svg>
+        </div>
+        <div class="card">
+          <div class="card-body asistencia">
+            <div class="mb-2">
+              <p class="titulo text-center">Director of Assistance</p>
+            </div>
+            <div>
+              <p class="text-center"><i class="ti-email"></i></p>
+              <p class="nombre">ariel.pierini@avril-assistance.com</p>
+            </div>
+            <ul class="list-inline text-center">
+              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+                <i class="ti-facebook"></i></a>
+              </li>
+              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+                <i class="ti-instagram text-cyan"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+// Gustavo Tallaferro
+document.getElementById("head-soporte").innerHTML = `
+<div class="head d-block">
+  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+    <div class="mainflip">
+      <div class="frontside">
+        <div class="card">
+          <div class="card-body">
+            <p class="inner">
+              <img src="./images/organigrama/gustavoT.webp" alt="Gustavo Tallaferro" class="inner-image">
+            </p>
+            <div class="contenido">
+              <p class="nombre">Gustavo Tallaferro</p>
+              <p class="cargo">Director of Assistance</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="backside">
+        <div class="wave">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="grad6" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="20%" style="stop-color:rgba(253,228,62,1);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgba(224,166,0,1);stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"  fill="url(#grad6)"></path>
+      </svg>
+        </div>
+        <div class="card">
+          <div class="card-body soporte">
+            <div class="mb-2">
+              <p class="titulo text-center">Head of IT - Web Development</p>
+            </div>
+            <div>
+              <p class="text-center"><i class="ti-email"></i></p>
+              <p class="nombre">gustavo.tallaferro@avril-assistance.com</p>
+            </div>
+            <ul class="list-inline text-center">
+              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+                <i class="ti-facebook"></i></a>
+              </li>
+              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+                <i class="ti-instagram text-cyan"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
