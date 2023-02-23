@@ -12,16 +12,15 @@
 	justify-content: space-around;
 	margin: 1rem 0;
 	.maps{
-		background: #012063;
-		padding: 5px;
+		background: $primary-color;
+		padding: 10px 15px;
 		border: none;
-		border-radius: 5px;
+		border-radius: 7px;
 	}
 	.pins{
 		text-transform: capitalize;
-		font-weight: 400;
+		font-weight: 500;
 		color: white;
-		padding: 5px 10px;
 	}
 }
 // Organigrama
@@ -308,6 +307,7 @@
 	}
 	.card{
 		background: rgba(143, 143, 143, 0.125);
+		padding: 0 1rem;
 	}
 	.titulo{
 		text-transform: uppercase;
@@ -336,7 +336,7 @@
 	.card-body{
 		display: flex;
 		flex: 1 1 auto;
-		padding: 1.25rem;
+		//padding: 0;
 		flex-direction: column;
 		justify-content: space-between;
 		margin-top: 4rem;
@@ -418,6 +418,7 @@
 	.inner {
 		position: relative;
 		width: 100%;
+		text-align: center;
 	}
 	.contenido {
 		width: 100%;
@@ -514,6 +515,9 @@ i {
 	color: white;
 	padding: 7px;
 	border-radius: 50%;
+}
+.card-body{
+	padding: 1.25rem 0;
 }
 .quienes-intro {
 	background: linear-gradient(90deg, rgb(83, 146, 209) 50%, rgb(44, 42, 93) 100%);

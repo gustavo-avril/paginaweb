@@ -150,12 +150,6 @@
 		"pic": "camilaS"
 	},
 	{
-		"name": "Aylén Petry",
-		"position": "Operations & Administration",
-		"department": "emisiones",
-		"pic": "aylenP"
-	},
-	{
 		"name": "Camila Altamirano",
 		"position": "Operations & Administration",
 		"department": "emisiones",
@@ -174,8 +168,8 @@
 		"pic": "fernandoSc",
 		"email":"fernando.scrigna@avril-assistance.com",
 		"insta":"fer.avrilassistance",
-		"face":"",
-		"linked":""
+		"face":"fernando.avril.583",
+		"linked":"in/fernando-scrigna-38b76953"
 	},
 	{
 		"name": "Sol Fernández",
@@ -184,8 +178,8 @@
 		"pic": "solF",
 		"email":"sol.fernandez@avril-assistance.com",
 		"insta":"fer.avrilassistance",
-		"face":"fernando.avril.583",
-		"linked":"in/fernando-scrigna-38b76953"
+		"face":"sol.fernandez.avrilassistance",
+		"linked":""
 	},
 	{
 		"name": "Paola Aguirre",
