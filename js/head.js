@@ -99,13 +99,13 @@ document.getElementById("marketing-head").innerHTML= `
               <p class="nombre text-center">marketing@avril-assistance.com</p>
             </div>
             <ul class="list-inline text-center">
-              <li class="list-inline-item"><a href="${face}" target="_blank">
+              <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100089781212213" target="_blank">
                 <i class="ti-facebook"></i></a>
               </li> 
-              <li class="list-inline-item"><a href="${insta}" target="_blank">
+              <li class="list-inline-item"><a href="https://www.instagram.com/nicole.avrilassistance/" target="_blank">
                 <i class="ti-instagram"></i></a>
               </li>
-              <li class="list-inline-item"><a href="${linked}" target="_blank">
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/nicole-natasha-d-agosto-45b732247/" target="_blank">
                 <i class="ti-linkedin"></i></a>
               </li>               
             </ul>
@@ -446,7 +446,7 @@ document.getElementById("head-cba").innerHTML = `
                 <i class="ti-instagram"></i></a>
               </li>
               <li class="list-inline-item"><a href="https://www.linkedin.com/in/daniel-alejandro-cuello-b1a6b3146/" target="_blank">
-                <i class="ti-instagram"></i></a>
+                <i class="ti-linkedin"></i></a>
               </li>
             </ul>
           </div>
@@ -557,7 +557,7 @@ document.getElementById("head-nor").innerHTML = `
                 <i class="ti-instagram"></i></a>
               </li>
               <li class="list-inline-item"><a href="https://www.linkedin.com/in/maria-elisa-mazzucco-ortiz-83116625/" target="_blank">
-                <i class="ti-instagram"></i></a>
+                <i class="ti-linkedin"></i></a>
               </li>
             </ul>
           </div>
