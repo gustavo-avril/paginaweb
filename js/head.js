@@ -1,4 +1,7 @@
 // Template for heads
+var face = "https://www.facebook.com/avrilassistance/";
+var insta = "https://www.instagram.com/avril.assistance/";
+var linked = "https://ar.linkedin.com/company/avrilassistance";
 // RRHH
 document.getElementById("rrhh-head").innerHTML = `
 <div class="head d-block">
@@ -39,11 +42,14 @@ document.getElementById("rrhh-head").innerHTML = `
               <p class="nombre">rr-hh@avril-assistance.com</p>
             </div>
             <ul class="list-inline text-center">
-              <li class="list-inline-item"><a href="https://www.facebook.com/${caba.facebook}/" target="_blank">
+              <li class="list-inline-item"><a href="${face}" target="_blank">
                 <i class="ti-facebook"></i></a>
               </li>
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
-                <i class="ti-instagram text-cyan"></i></a>
+              <li class="list-inline-item"><a href="${insta}" target="_blank">
+                <i class="ti-instagram"></i></a>
+              </li>
+              <li class="list-inline-item"><a href="${linked}" target="_blank">
+                <i class="ti-linkedin"></i></a>
               </li>
             </ul>
           </div>
@@ -93,11 +99,14 @@ document.getElementById("marketing-head").innerHTML= `
               <p class="nombre text-center">marketing@avril-assistance.com</p>
             </div>
             <ul class="list-inline text-center">
-              <li class="list-inline-item"><a href="https://www.facebook.com/${caba.facebook}/" target="_blank">
+              <li class="list-inline-item"><a href="${face}" target="_blank">
                 <i class="ti-facebook"></i></a>
               </li> 
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
-                <i class="ti-instagram text-cyan"></i></a>
+              <li class="list-inline-item"><a href="${insta}" target="_blank">
+                <i class="ti-instagram"></i></a>
+              </li>
+              <li class="list-inline-item"><a href="${linked}" target="_blank">
+                <i class="ti-linkedin"></i></a>
               </li>               
             </ul>
           </div>
@@ -147,12 +156,15 @@ document.getElementById("admin-head").innerHTML= `
               <p class="nombre text-center">administracion@avril-assistance.com</p>
             </div>
             <ul class="list-inline text-center">
-              <li class="list-inline-item"><a href="https://www.facebook.com/${caba.facebook}/" target="_blank">
+              <li class="list-inline-item"><a href="${face}" target="_blank">
                 <i class="ti-facebook"></i></a>
               </li> 
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
-                <i class="ti-instagram text-cyan"></i></a>
-              </li>               
+              <li class="list-inline-item"><a href="${insta}" target="_blank">
+                <i class="ti-instagram"></i></a>
+              </li>
+              <li class="list-inline-item"><a href="${linked}" target="_blank">
+                <i class="ti-linkedin"></i></a>
+              </li>              
             </ul>
           </div>
         </div>
@@ -162,7 +174,7 @@ document.getElementById("admin-head").innerHTML= `
 </div>
 `;
 // Comerciales
-// Daniel C
+// Carlos Duarte
 document.getElementById("comercial-argentina").innerHTML= `
 <div class="head d-block">
   <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
@@ -202,11 +214,14 @@ document.getElementById("comercial-argentina").innerHTML= `
               <p class="nombre text-center">carlos.duarte@avril-assistance.com</p>
             </div>
             <ul class="list-inline text-center">
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+              <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=1428005957" target="_blank">
                 <i class="ti-facebook"></i></a>
               </li> 
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
-                <i class="ti-instagram text-cyan"></i></a>
+              <li class="list-inline-item"><a href="https://www.instagram.com/carlosduarte.avrilassistance/" target="_blank">
+                <i class="ti-instagram"></i></a>
+              </li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/carlos-duarte-b8869a265/" target="_blank">
+                <i class="ti-linkedin"></i></a>
               </li>               
             </ul>
           </div>
@@ -256,12 +271,15 @@ document.getElementById("head-caba").innerHTML= `
               <p class="nombre">yesica.diaz@avril-assistance.com</p>
             </div>
             <ul class="list-inline text-center">
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+              <li class="list-inline-item"><a href="${face}" target="_blank">
                 <i class="ti-facebook"></i></a>
               </li> 
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
-                <i class="ti-instagram text-cyan"></i></a>
-              </li>               
+              <li class="list-inline-item"><a href="${insta}" target="_blank">
+                <i class="ti-instagram"></i></a>
+              </li>
+              <li class="list-inline-item"><a href="${linked}" target="_blank">
+                <i class="ti-linkedin"></i></a>
+              </li>              
             </ul>
           </div>
         </div>
@@ -310,11 +328,11 @@ document.getElementById("head-mdp").innerHTML = `
               <p class="nombre">sol.fernandez@avril-assistance.com</p>
             </div>
             <ul class="list-inline text-center">
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+              <li class="list-inline-item"><a href="https://www.facebook.com/sol.fernandez.avrilassistance" target="_blank">
                 <i class="ti-facebook"></i></a>
               </li>
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
-                <i class="ti-instagram text-cyan"></i></a>
+              <li class="list-inline-item"><a href="https://www.instagram.com/avrilassistancemdp/" target="_blank">
+                <i class="ti-instagram"></i></a>
               </li>
             </ul>
           </div>
@@ -364,11 +382,14 @@ document.getElementById("head-sta").innerHTML = `
               <p class="nombre">fernando.scrigna@avril-assistance.com</p>
             </div>
             <ul class="list-inline text-center">
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+              <li class="list-inline-item"><a href="https://www.facebook.com/fernando.avril.583" target="_blank">
                 <i class="ti-facebook"></i></a>
               </li>
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
-                <i class="ti-instagram text-cyan"></i></a>
+              <li class="list-inline-item"><a href="https://www.instagram.com/fer.avrilassistance/" target="_blank">
+                <i class="ti-instagram"></i></a>
+              </li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/fernando-scrigna-38b76953/" target="_blank">
+                <i class="ti-linkedin"></i></a>
               </li>
             </ul>
           </div>
@@ -418,11 +439,14 @@ document.getElementById("head-cba").innerHTML = `
               <p class="nombre">daniel.cuello@avril-assistance.com</p>
             </div>
             <ul class="list-inline text-center">
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+              <li class="list-inline-item"><a href="https://www.facebook.com/SUGUSCBA" target="_blank">
                 <i class="ti-facebook"></i></a>
               </li>
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
-                <i class="ti-instagram text-cyan"></i></a>
+              <li class="list-inline-item"><a href="https://www.instagram.com/danicuello_cordoba/" target="_blank">
+                <i class="ti-instagram"></i></a>
+              </li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/daniel-alejandro-cuello-b1a6b3146/" target="_blank">
+                <i class="ti-instagram"></i></a>
               </li>
             </ul>
           </div>
@@ -472,11 +496,11 @@ document.getElementById("head-lit").innerHTML = `
               <p class="nombre">paola.aguirre@avril-assistance.com</p>
             </div>
             <ul class="list-inline text-center">
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+              <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100050477060545" target="_blank">
                 <i class="ti-facebook"></i></a>
               </li>
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
-                <i class="ti-instagram text-cyan"></i></a>
+              <li class="list-inline-item"><a href="https://www.instagram.com/paolaaguirre.avrilassistance/" target="_blank">
+                <i class="ti-instagram"></i></a>
               </li>
             </ul>
           </div>
@@ -526,11 +550,14 @@ document.getElementById("head-nor").innerHTML = `
               <p class="nombre">elisa.mazzuco@avril-assistance.com</p>
             </div>
             <ul class="list-inline text-center">
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+              <li class="list-inline-item"><a href="https://www.facebook.com/elisa.mazzucco.7777" target="_blank">
                 <i class="ti-facebook"></i></a>
               </li>
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
-                <i class="ti-instagram text-cyan"></i></a>
+              <li class="list-inline-item"><a href="https://www.instagram.com/elisa.mazzucco.avrilassistance/" target="_blank">
+                <i class="ti-instagram"></i></a>
+              </li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/maria-elisa-mazzucco-ortiz-83116625/" target="_blank">
+                <i class="ti-instagram"></i></a>
               </li>
             </ul>
           </div>
@@ -580,11 +607,14 @@ document.getElementById("asistencias-head").innerHTML = `
               <p class="nombre">ariel.pierini@avril-assistance.com</p>
             </div>
             <ul class="list-inline text-center">
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+              <li class="list-inline-item"><a href="${face}" target="_blank">
                 <i class="ti-facebook"></i></a>
               </li>
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
-                <i class="ti-instagram text-cyan"></i></a>
+              <li class="list-inline-item"><a href="${insta}" target="_blank">
+                <i class="ti-instagram"></i></a>
+              </li>
+              <li class="list-inline-item"><a href="${linked}" target="_blank">
+                <i class="ti-linkedin"></i></a>
               </li>
             </ul>
           </div>
@@ -607,7 +637,7 @@ document.getElementById("head-soporte").innerHTML = `
             </p>
             <div class="contenido">
               <p class="nombre">Gustavo Tallaferro</p>
-              <p class="cargo">Director of Assistance</p>
+              <p class="cargo">Head of IT & Web Development</p>
             </div>
           </div>
         </div>
@@ -634,11 +664,14 @@ document.getElementById("head-soporte").innerHTML = `
               <p class="nombre">gustavo.tallaferro@avril-assistance.com</p>
             </div>
             <ul class="list-inline text-center">
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
+              <li class="list-inline-item"><a href="${face}" target="_blank">
                 <i class="ti-facebook"></i></a>
               </li>
-              <li class="list-inline-item"><a href="https://www.facebook.com/avrilassistance/" target="_blank">
-                <i class="ti-instagram text-cyan"></i></a>
+              <li class="list-inline-item"><a href="${insta}" target="_blank">
+                <i class="ti-instagram"></i></a>
+              </li>
+              <li class="list-inline-item"><a href="${linked}" target="_blank">
+                <i class="ti-linkedin"></i></a>
               </li>
             </ul>
           </div>
