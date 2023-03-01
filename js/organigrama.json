@@ -14,19 +14,19 @@
 	},
 	{
 		"name": "Camila Altamirano",
-		"position": "Operations & Administration",
+		"position": "Operations",
 		"department": "planificacion",
 		"pic": "camilaAlt"
 	},
 	{
 		"name": "Lucila Díaz",
-		"position": "Operations & Administration",
+		"position": "Operations",
 		"department": "planificacion",
 		"pic": "lucilaD"
 	},
 	{
 		"name": "Yanina Coronel",
-		"position": "Operations & Administration",
+		"position": "Operations",
 		"department": "planificacion",
 		"pic": "yaninaC"
 	},
@@ -132,7 +132,7 @@
 	},
 	{
 		"name": "Melisa Villalón",
-		"position": "Director of Operations & Administration",
+		"position": "Director of Operations",
 		"department": "administracion-head",
 		"pic": "melisaV"
 	},
