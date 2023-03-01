@@ -338,16 +338,13 @@
 	.titulo{
 		text-transform: uppercase;
 		font-weight: 500;
-		//color: #f8b133;
 	}
 	.titulo-big{
 		padding: 20px;
-		//background: #f8b133;
 		color: white;
 		font-size: 1.2rem;
 	}
 	.nombre {
-		//color: #f8b133;
 		font-weight: bold;
 		font-size: .8em;
 		font-weight: 300;
@@ -483,12 +480,6 @@
 		align-self: center;
 		width: 100%;
 		height: auto;
-		&:hover{
-			-webkit-animation: flip-vertical-right 0.5s cubic-bezier(0.600, 0.040, 0.980, 0.335) ;
-	    animation: flip-vertical-right 0.5s cubic-bezier(0.600, 0.040, 0.980, 0.335) ;
-			//-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	    //animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-		}
 	}
 	.inner {
 		position: relative;
