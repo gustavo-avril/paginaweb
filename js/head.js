@@ -129,7 +129,7 @@ document.getElementById("admin-head").innerHTML= `
             </p>
             <div class="contenido">
               <p class="nombre">Delfina Villalba</p>
-              <p class="cargo">Head of Administration & Operations</p>
+              <p class="cargo">Head of Administration</p>
             </div>
           </div>
         </div>
@@ -149,7 +149,7 @@ document.getElementById("admin-head").innerHTML= `
         <div class="card">
           <div class="card-body admin">
             <div class="mb-2">
-              <p class="titulo text-center">Head of Administration & Operations</p>
+              <p class="titulo text-center">Head of Administration</p>
             </div>
             <div>
               <p class="text-center"><i class="ti-email"></i></p>
@@ -268,7 +268,7 @@ document.getElementById("plani-head").innerHTML= `
             </div>
             <div>
               <p class="text-center"><i class="ti-email"></i></p>
-              <p class="nombre">yesica.diaz@avril-assistance.com</p>
+              <p class="nombre">planificacion@avril-assistance.com</p>
             </div>
             <ul class="list-inline text-center">
               <li class="list-inline-item"><a href="${face}" target="_blank">
