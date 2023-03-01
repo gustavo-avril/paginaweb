@@ -8,9 +8,27 @@
 	{
 		"name": "Yesica Díaz",
 		"position": "Planificación & Producto",
-		"department": "comerciales",
+		"department": "planificacion-head",
 		"pic": "yesicaD",
 		"email":"yesica.diaz@avril-assistance.com"
+	},
+	{
+		"name": "Camila Altamirano",
+		"position": "Operations & Administration",
+		"department": "planificacion",
+		"pic": "camilaAlt"
+	},
+	{
+		"name": "Lucila Díaz",
+		"position": "Operations & Administration",
+		"department": "planificacion",
+		"pic": "lucilaD"
+	},
+	{
+		"name": "Yanina Coronel",
+		"position": "Operations & Administration",
+		"department": "planificacion",
+		"pic": "yaninaC"
 	},
 	{
 		"name": "Nicole D'agosto",
@@ -123,7 +141,7 @@
 		"position": "Head of Administration & Operations",
 		"department": "administracion-head",
 		"pic": "delfinaV",
-		"email":"administracion@avril-assistance.com"
+		"email":"administracion@avril-assistance.com" 
 	},
 	{
 		"name": "Julieta Scarrone",
@@ -148,18 +166,6 @@
 		"position": "Administration",
 		"department": "administracion",
 		"pic": "camilaS"
-	},
-	{
-		"name": "Camila Altamirano",
-		"position": "Operations & Administration",
-		"department": "emisiones",
-		"pic": "camilaAlt"
-	},
-	{
-		"name": "Lucila Díaz",
-		"position": "Operations & Administration",
-		"department": "emisiones",
-		"pic": "lucilaD"
 	},
 	{
 		"name": "Fernando Scrigna",

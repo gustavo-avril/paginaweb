@@ -232,7 +232,7 @@ document.getElementById("comercial-argentina").innerHTML= `
 </div>
 `;
 // Yesica D
-document.getElementById("head-caba").innerHTML= `
+document.getElementById("plani-head").innerHTML= `
 <div class="head d-block">
   <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
     <div class="mainflip">
@@ -244,7 +244,7 @@ document.getElementById("head-caba").innerHTML= `
             </p>
             <div class="contenido">
               <p class="nombre">Yesica Diaz</p>
-              <p class="cargo">Head of Commercial & Bussines - CABA & AMBA</p>
+              <p class="cargo">Head of Planning, Product & Pricing</p>
             </div>
           </div>
         </div>
@@ -253,18 +253,18 @@ document.getElementById("head-caba").innerHTML= `
         <div class="wave">
           <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
             <defs>
-              <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="20%" style="stop-color:rgba(89,0,177,1);stop-opacity:1" />
-                <stop offset="100%" style="stop-color:rgba(148,27,128,1);stop-opacity:1" />
+              <linearGradient id="grad8" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="20%" style="stop-color:rgba(211,110,53,1);stop-opacity:1" />
+                <stop offset="100%" style="stop-color:rgba(168,43,188,1);stop-opacity:1" />
               </linearGradient>
             </defs>
-            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"  fill="url(#grad4)"></path>
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"  fill="url(#grad8)"></path>
           </svg>
         </div>
         <div class="card">
-          <div class="card-body comercial">
+          <div class="card-body planificacion">
             <div class="mb-2">
-              <p class="titulo text-center">Head of Commercial & Bussines - CABA & AMBA</p>
+              <p class="titulo text-center">Head of Planning, Product & Pricing</p>
             </div>
             <div>
               <p class="text-center"><i class="ti-email"></i></p>

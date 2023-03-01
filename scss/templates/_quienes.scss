@@ -213,6 +213,32 @@
 		@include titles;
 	}
 }
+.tituloplani {
+	position: relative;
+	&::before{
+		@include reflejo;
+	}
+	&::after{
+		content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -15px;
+    width: 0;
+    height: 0;
+    border-top: solid 15px $plani;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+	}
+	&:hover{
+		-webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	  animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	}
+	.planificacion {
+		background: $planificacion;
+		@include titles;
+	}
+}
 // Card Effects
 .card {
 	border: none;
@@ -369,6 +395,14 @@
 		}
 		i {
 			background: #5900b1;
+		}
+	}
+	.planificacion{
+		p{
+			color: rgba(211,110,53,1) ;
+		}
+		i {
+			background: rgba(211,110,53,1);
 		}
 	}
 }

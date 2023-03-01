@@ -232,6 +232,25 @@ async function getData() {
 		})
 		.join("")}
   `;
+  //planificacion
+	const filterPlani = data.filter((data) => data.department == "planificacion");
+	document.getElementById("plani").innerHTML = `
+    ${filterPlani
+		.map(function(plani) {
+			return `
+      <div class="persona d-block">
+        <div class="inner">
+          <img class="inner-image" src="./images/organigrama/${plani.pic}.webp" alt="${plani.name}">
+        </div>
+        <div class="contenido">
+          <p class="nombre ">${plani.name}</p>
+          <p class="cargo">${plani.position}</p>
+        </div>
+      </div>
+    `;
+		})
+		.join("")}
+  `;
 	//Comerciales CABA
 	const filterCaba = data.filter((data) => data.department == "caba");
 	document.getElementById("caba").innerHTML = `
