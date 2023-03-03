@@ -513,9 +513,15 @@
 }
 
 .persona{
-	&:hover{
-		-webkit-animation: fade-in-fwd 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-		animation: fade-in-fwd 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	.inner-image{
+		&:hover{
+			filter:drop-shadow(-8px 2px 20px rgb(135, 135, 135));
+			//-webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+			//animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+			// -webkit-animation: fade-in-fwd 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+			// animation: fade-in-fwd 0.9s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+		}
 	}
 }
 
