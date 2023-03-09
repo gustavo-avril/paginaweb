@@ -72,7 +72,7 @@ document.getElementById("marketing-head").innerHTML= `
             </p>
             <div class="contenido">
               <p class="nombre">Nicole D'Agosto</p>
-              <p class="cargo">Head of Marketing</p>
+              <p class="cargo">Head of Marketing & Communications</p>
             </div>
           </div>
         </div>
@@ -92,7 +92,7 @@ document.getElementById("marketing-head").innerHTML= `
         <div class="card">
           <div class="card-body market">
             <div class="mb-2">
-              <p class="titulo text-center">Head of Marketing</p>
+              <p class="titulo text-center">Head of Marketing & Communications</p>
             </div>
             <div>
               <p class="text-center"><i class="ti-email"></i></p>
