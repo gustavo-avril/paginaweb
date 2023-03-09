@@ -307,6 +307,65 @@ async function getData() {
 		})
 		.join("")}
   `;
+//Comerciales CABA2
+const filterCaba2 = data.filter((data) => data.department == "caba2");
+document.getElementById("caba2").innerHTML = `
+  ${filterCaba2
+  .map(function(caba2) {
+    return `
+    <div class="d-flex flex-wrap comerciales">
+      <div class="personas d-block">
+        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+          <div class="mainflip">
+            <div class="frontside">
+              <div class="card">
+                <div class="card-body text-center">
+                  <p class="inner">
+                    <img class="inner-image" src="./images/organigrama/${caba2.pic}.webp" alt="${caba2.name}">
+                  </p>
+                  <div class="contenido">
+                    <p class="nombre">${caba2.name}</p>
+                    <p class="cargo">${caba2.position}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="backside">
+              <div class="card">
+                <div class="card-body">
+                  <div class="mb-2">
+                    <p class="titulo text-center">${caba2.position}</p>
+                  </div>
+                  <div>
+                    <p class="text-center"><i class="ti-email"></i></p>
+                    <p class="nombre">${caba2.email}</p>
+                  </div>
+                  <p class="nombre"></p>
+                  <ul class="list-inline text-center">
+                    <li class="list-inline-item"><a href="https://www.facebook.com/${caba2.face}/" target="_blank">
+                      <i class="ti-facebook text-cyan"></i></a>
+                    </li> 
+                    <li class="list-inline-item"><a href="https://www.instagram.com/${caba2.insta}/" target="_blank">
+                      <i class="ti-instagram text-cyan"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/${caba2.linked}/" target="_blank">
+                      <i class="ti-linkedin text-cyan"></i></a>
+                    </li>               
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    `;
+  })
+  .join("")}
+`;
+
+
+
   //Comerciales MDP
 	const filterMdp = data.filter((data) => data.department == "mdp");
 	document.getElementById("mdp").innerHTML = `
