@@ -128,19 +128,6 @@ document.getElementById("footer").innerHTML = `
 			</div>
 		</div>
 	</div>
-	<div id="abc">
-		<div class="popupContact">
-			<form action="contactForm.php" method="POST" id="form" name="form">
-				<i class="fa fa-times-circle" id="close" onclick="div_hide()"></i>
-				<input type="text" id="name" name="nombre" placeholder="Nombre y Apellido">
-				<input type="text" id="telefono" name="telefono" placeholder="Telefono">
-				<input type="text" id="email" name="email" placeholder="E-mail">
-				<textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
-				<button id="submit" type="submit">Enviar</button>
-			</form>
-		</div>
-	</div>
-	<button id="popup" onclick="div_show()"><i class="fa fa-envelope email-icon"></i></button>
 </div>
 `;
 
@@ -208,7 +195,7 @@ AOS.init({
 	once: true
 });
 
-// Funcionalidad para enconder el boton de emisiones.
+// Funcionalidad para esconder el boton de emisiones.
 $(window).scroll(function() {
 	var $this = $(this),
 		st = $this.scrollTop(),
@@ -348,7 +335,6 @@ $(window).scroll(function() {
 	}
 
 	// Counter
-
 	$(".counter-stat").counterUp({
 		delay: 10,
 		time: 1000
@@ -379,16 +365,4 @@ function check_empty() {
 		document.getElementById('form').submit();
 		alert("Formulario enviado exitosamente");
 	}
-}
-//Function To Display Popup
-function div_show() {
-	let abc = document.getElementById('abc').style.display = "block";
-	if(abc = true){
-		document.getElementById('popup').style.display = "none";
-	}
-}
-//Function to Hide Popup
-function div_hide(){
-	document.getElementById('abc').style.display = "none";
-	document.getElementById('popup').style.display = "block";
 }
