@@ -363,9 +363,6 @@ document.getElementById("caba2").innerHTML = `
   })
   .join("")}
 `;
-
-
-
   //Comerciales MDP
 	const filterMdp = data.filter((data) => data.department == "mdp");
 	document.getElementById("mdp").innerHTML = `
