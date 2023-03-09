@@ -188,15 +188,6 @@
 		"linked":""
 	},
 	{
-		"name": "Paola Aguirre",
-		"position": "Head of Commercial and Business - Litoral",
-		"department": "comerciales-head",
-		"pic": "paolaA",
-		"email":"paola.aguirre@avril-assistance.com",
-		"insta":"paolaaguirre.avrilassistance",
-		"face":"profile.php?id=100050477060545"
-	},
-	{
 		"name": "Belen Vera",
 		"position": "Account Executive - Litoral",
 		"department": "lit",
@@ -254,6 +245,26 @@
 		"insta":"avrilassistance_denisse",
 		"face":"profile.php?id=100042937280948",
 		"linked":"in/denisse-arjona-191bb7230"
+	},
+	{
+		"name": "Ricardo Gonzalez",
+		"position": "Account Executive - CABA",
+		"department": "caba",
+		"pic": "ricardoG",
+		"email":"ricardo.gonzalez@avril-assistance.com",
+		"insta":"leonela.avrilassistance",
+		"face":"people/Leonela-AvrilAssistance/100087898189933",
+		"linked":"in/leonelagravagna"
+	},
+	{
+		"name": "Leonela Gravagna",
+		"position": "Account Executive - La Plata",
+		"department": "caba",
+		"pic": "leonelaG",
+		"email":"leonela.gravagna@avril-assistance.com",
+		"insta":"leonela.avrilassistance",
+		"face":"people/Leonela-AvrilAssistance/100087898189933",
+		"linked":"in/leonelagravagna"
 	},
 	{
 		"name": "Alejandra Vilaseca",
@@ -326,14 +337,24 @@
 		"linked":""
 	},
 	{
-		"name": "Leonela Gravagna",
-		"position": "Account Executive - La Plata",
-		"department": "caba",
-		"pic": "leonelaG",
-		"email":"leonela.gravagna@avril-assistance.com",
-		"insta":"leonela.avrilassistance",
-		"face":"people/Leonela-AvrilAssistance/100087898189933",
-		"linked":"in/leonelagravagna"
+		"name": "Martina Arroyo",
+		"position": "Account Executive - Córdoba",
+		"department": "cda",
+		"pic": "martinaA",
+		"email":"martina.arroyo@avril-assistance.com",
+		"insta":"avrilassistance.martina/",
+		"face":"people/Martina-Arroyo-Avril/pfbid02Dduu1WkmdDDw8boi8S4hAFxGWrryiJYrvPBnPuzb1t85rLKp8pKXM4Mn2jTLQhajl/?mibextid=ZbWKwL",
+		"linked":""
+	},
+	{
+		"name": "Micaela Cipriani",
+		"position": "Account Executive - Córdoba",
+		"department": "cda",
+		"pic": "micaelaC",
+		"email":"micaela.cirpriani@avril-assistance.com",
+		"insta":"micaela.cipriani/",
+		"face":"profile.php?id=100081388220741",
+		"linked":""
 	},
 	{
 		"name": "Melina Lerana",
