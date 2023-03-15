@@ -111,10 +111,10 @@
 		"pic": "paulaC"
 	},
 	{
-		"name": "Florencia Kershan",
+		"name": "Raquel Sandoval",
 		"position": "Assistance Coordination",
 		"department": "asistencias2",
-		"pic": "florenciaK"
+		"pic": "raquelS"
 	},
 	{
 		"name": "Florencia Tobal",
@@ -193,6 +193,15 @@
 		"department": "lit",
 		"pic": "belenV",
 		"email":"belen.vera@avril-assistance.com",
+		"insta":"belenvera.avril.assistance",
+		"face":"profile.php?id=100089927010072"
+	},
+	{
+		"name": "Mariel Gonzalez",
+		"position": "Account Executive - Litoral",
+		"department": "lit",
+		"pic": "marielG",
+		"email":"mariel.gonzalez@avril-assistance.com",
 		"insta":"belenvera.avril.assistance",
 		"face":"profile.php?id=100089927010072"
 	},
@@ -354,7 +363,7 @@
 		"email":"micaela.cirpriani@avril-assistance.com",
 		"insta":"micaela.cipriani/",
 		"face":"profile.php?id=100081388220741",
-		"linked":""
+		"linked":"in/micaela-cipriani-8b426b269/"
 	},
 	{
 		"name": "Melina Lerana",
