@@ -257,8 +257,7 @@ async function getData() {
     ${filterCaba
 		.map(function(caba) {
 			return `
-      <div class="d-flex flex-wrap comerciales">
-        <div class="personas d-block">
+        <div class="personas d-block comerciales">
           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
             <div class="mainflip">
               <div class="frontside">
@@ -302,7 +301,6 @@ async function getData() {
             </div>
           </div>
         </div>
-			</div>
       `;
 		})
 		.join("")}
@@ -313,8 +311,7 @@ document.getElementById("caba2").innerHTML = `
   ${filterCaba2
   .map(function(caba2) {
     return `
-    <div class="d-flex flex-wrap comerciales">
-      <div class="personas d-block">
+      <div class="personas d-block comerciales">
         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
           <div class="mainflip">
             <div class="frontside">
@@ -358,7 +355,6 @@ document.getElementById("caba2").innerHTML = `
           </div>
         </div>
       </div>
-    </div>
     `;
   })
   .join("")}
@@ -369,8 +365,7 @@ document.getElementById("caba2").innerHTML = `
     ${filterMdp
 		.map(function(mdp) {
 			return `
-      <div class="d-flex flex-wrap comerciales">
-        <div class="personas d-block">
+        <div class="personas d-block comerciales">
           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
             <div class="mainflip">
               <div class="frontside">
@@ -414,7 +409,6 @@ document.getElementById("caba2").innerHTML = `
             </div>
           </div>
         </div>
-			</div>
       `;
 		})
 		.join("")}
@@ -425,8 +419,7 @@ document.getElementById("caba2").innerHTML = `
     ${filterCda
 		.map(function(cda) {
 			return `
-      <div class="d-flex flex-wrap comerciales">
-        <div class="personas d-block">
+        <div class="personas d-block comerciales">
           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
             <div class="mainflip">
               <div class="frontside">
@@ -470,7 +463,6 @@ document.getElementById("caba2").innerHTML = `
             </div>
           </div>
         </div>
-			</div>
       `;
 		})
 		.join("")}
@@ -481,8 +473,7 @@ document.getElementById("caba2").innerHTML = `
     ${filterSta
 		.map(function(sta) {
 			return `
-      <div class="d-flex flex-wrap comerciales">
-        <div class="personas d-block">
+        <div class="personas d-block comerciales">
           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
             <div class="mainflip">
               <div class="frontside">
@@ -526,7 +517,6 @@ document.getElementById("caba2").innerHTML = `
             </div>
           </div>
         </div>
-			</div>
       `;
 		})
 		.join("")}
@@ -537,8 +527,7 @@ document.getElementById("caba2").innerHTML = `
     ${filterLit
 		.map(function(lit) {
 			return `
-      <div class="d-flex flex-wrap comerciales">
-        <div class="personas d-block">
+        <div class="personas d-block comerciales">
           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
             <div class="mainflip">
               <div class="frontside">
@@ -582,7 +571,6 @@ document.getElementById("caba2").innerHTML = `
             </div>
           </div>
         </div>
-			</div>
       `;
 		})
 		.join("")}
@@ -593,8 +581,7 @@ document.getElementById("caba2").innerHTML = `
     ${filterNor
 		.map(function(nor) {
 			return `
-      <div class="d-flex flex-wrap comerciales">
-        <div class="personas d-block">
+        <div class="personas d-block comerciales">
           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
             <div class="mainflip">
               <div class="frontside">
@@ -638,7 +625,6 @@ document.getElementById("caba2").innerHTML = `
             </div>
           </div>
         </div>
-			</div>
       `;
 		})
 		.join("")}
@@ -649,8 +635,7 @@ document.getElementById("caba2").innerHTML = `
     ${filterCuyo
 		.map(function(cuyo) {
 			return `
-      <div class="d-flex flex-wrap comerciales">
-        <div class="personas d-block">
+        <div class="personas d-block comerciales">
           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
             <div class="mainflip">
               <div class="frontside">
@@ -694,7 +679,6 @@ document.getElementById("caba2").innerHTML = `
             </div>
           </div>
         </div>
-			</div>
       `;
 		})
 		.join("")}
