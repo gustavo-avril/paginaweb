@@ -658,6 +658,14 @@ i {
 			width:80%;
 		}
 	}
+	.backside{
+		.card{
+			padding: 0 0.5rem;
+		}
+		.card-body{
+			padding: 0.5rem 0;
+		}
+	}
 	#trabajo {
 		text-align: left;
 	}
@@ -689,6 +697,14 @@ i {
 	.persona, .personas{
 		img{
 			width:80%;
+		}
+	}
+	.backside{
+		.card{
+			padding: 0 0.5rem;
+		}
+		.card-body{
+			padding: 0.5rem 0;
 		}
 	}
 	#trabajo {
