@@ -653,6 +653,11 @@ i {
 	.personas {
 		width: 30%;
 	}
+	.persona, .personas{
+		img{
+			width:80%;
+		}
+	}
 	#trabajo {
 		text-align: left;
 	}
@@ -680,6 +685,11 @@ i {
 	}
 	.personas {
 		width: 30%;
+	}
+	.persona, .personas{
+		img{
+			width:80%;
+		}
 	}
 	#trabajo {
 		text-align: left;
