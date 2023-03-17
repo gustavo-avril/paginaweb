@@ -649,6 +649,7 @@ i {
 	}
 	.list-inline-item{
 		margin-right: auto !important;
+		font-size: .75rem;
 	}
 	.personas {
 		width: 30%;
@@ -664,6 +665,11 @@ i {
 		}
 		.card-body{
 			padding: 0.5rem 0;
+		}
+		.wave{
+			svg{
+				height: 80px;
+			}
 		}
 	}
 	#trabajo {
@@ -690,6 +696,7 @@ i {
 	}
 	.list-inline-item{
 		margin-right: auto !important;
+		font-size: .75rem;
 	}
 	.personas {
 		width: 30%;
@@ -705,6 +712,11 @@ i {
 		}
 		.card-body{
 			padding: 0.5rem 0;
+		}
+		.wave{
+			svg{
+				height: 80px;
+			}
 		}
 	}
 	#trabajo {
