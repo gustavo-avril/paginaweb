@@ -273,7 +273,7 @@ async function getData() {
                   </div>
                 </div>
               </div>
-              <div class="backside">
+              <div class="sm-d-none backside">
                 <div class="card">
                   <div class="card-body">
                     <div class="mb-2">
