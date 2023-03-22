@@ -606,6 +606,23 @@ i {
 	.locations{
 		justify-content: space-evenly;
 	}
+	.image-flip:hover .backside,
+	.image-flip.hover .backside {
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+		-ms-transform: none;
+		transform: none;
+		border-radius: none;
+		height: 100%;
+	}
+	.image-flip:hover .frontside,
+	.image-flip.hover .frontside {
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+		transform: none;
+	}
 }
 
 @include mobile {
@@ -659,5 +676,22 @@ i {
 	}
 	.locations{
 		justify-content: space-evenly;
+	}
+	.image-flip:hover .backside,
+	.image-flip.hover .backside {
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+		-ms-transform: none;
+		transform: none;
+		border-radius: none;
+		height: 100%;
+	}
+	.image-flip:hover .frontside,
+	.image-flip.hover .frontside {
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+		transform: none;
 	}
 }
