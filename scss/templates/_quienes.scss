@@ -627,6 +627,7 @@ i {
 	.mapas{
 		display: grid !important;
 		grid-template-columns: repeat(3, 1fr);
+		font-size: 0.8rem;
 		.mdp{
 			grid-column-start: 2;
 			width: 112%;
@@ -695,6 +696,7 @@ i {
 	.mapas{
 		display: grid !important;
 		grid-template-columns: repeat(3, 1fr);
+		font-size: 0.8rem;
 		.mdp{
 			grid-column-start: 2;
 			width: 112%;
