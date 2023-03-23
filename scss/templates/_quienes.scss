@@ -629,6 +629,9 @@ i {
 		grid-template-columns: repeat(3, 1fr);
 		.mdp{
 			grid-column-start: 2;
+			width: 112%;
+    	left: -15px;
+    	position: relative;
 		}
 	}
 }
@@ -694,6 +697,9 @@ i {
 		grid-template-columns: repeat(3, 1fr);
 		.mdp{
 			grid-column-start: 2;
+			width: 112%;
+    	left: -15px;
+    	position: relative;
 		}
 	}
 }
