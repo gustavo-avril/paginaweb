@@ -9,7 +9,7 @@
 .locations{
 	display: flex;
 	justify-content: space-around;
-	flex-wrap: wrap;
+	//flex-wrap: wrap;
 	margin: 1rem 0;
 	.maps{
 		background: $primary-color;
@@ -22,6 +22,10 @@
 		text-transform: capitalize;
 		font-weight: 500;
 		color: white;
+	}
+	.mapas{
+		display: flex;
+		justify-content: space-around;
 	}
 }
 // Organigrama
@@ -462,10 +466,6 @@
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
-	//display: grid;
-	//grid-template-columns: repeat(auto-fill, 200px);
-	//align-items: center;
-	//justify-content: center;
 }
 .evenly2{
 	display: grid;
@@ -623,6 +623,10 @@ i {
 	.locations{
 		justify-content: space-evenly;
 	}
+	.mapas{
+		display: grid !important;
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
 
 @include mobile {
@@ -680,5 +684,9 @@ i {
 	}
 	.locations{
 		justify-content: space-evenly;
+	}
+	.mapas{
+		display: grid !important;
+		grid-template-columns: repeat(3, 1fr);
 	}
 }
