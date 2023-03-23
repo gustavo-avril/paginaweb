@@ -462,6 +462,16 @@
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
+	//display: grid;
+	//grid-template-columns: repeat(auto-fill, 200px);
+	//align-items: center;
+	//justify-content: center;
+}
+.evenly2{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	justify-content: center;
 }
 .persona, .personas {
 	width: 15%;
@@ -500,6 +510,9 @@
 			margin-top: 0;
 		}
 	}
+}
+.caba{
+	width: 50%;
 }
 
 .persona{
@@ -559,7 +572,7 @@ i {
 		width: auto;
 	}
 	.persona {
-		width: 33.33% !important;
+		width: 45% !important;
 		padding: 0px 5px;
 	}
 	.list-inline-item{
@@ -567,13 +580,17 @@ i {
 		font-size: .75rem;
 	}
 	.personas {
-		width: 33.33%;
+		width: 45%;
 	}
 	.persona, .personas{
 		img{
 			width:80%;
 		}
 	}
+	.evenly2{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.caba{width:85%;}
 	.backside{
 		.card{
 			padding: 0 0.5rem;
@@ -613,7 +630,7 @@ i {
 		width: auto;
 	}
 	.persona {
-		width: 33.33% !important;
+		width: 45% !important;
 		padding: 0px 5px;
 	}
 	.list-inline-item{
@@ -621,13 +638,17 @@ i {
 		font-size: .75rem;
 	}
 	.personas {
-		width: 33.33%;
+		width: 45%;
 	}
 	.persona, .personas{
 		img{
 			width:80%;
 		}
 	}
+	.evenly2{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.caba{width:85%;}
 	.backside{
 		.card{
 			padding: 0 0.5rem;

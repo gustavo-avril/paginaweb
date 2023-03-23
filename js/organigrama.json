@@ -227,19 +227,9 @@
 		"linked":"in/karina-garc%C3%ADa-haines-baa3435a"
 	},
 	{
-		"name": "Natanael Fernandez",
-		"position": "Account Executive - CABA",
-		"department": "caba",
-		"pic": "natanaelF",
-		"email":"natanael.fernandez@avril-assistance.com",
-		"insta":"natanael.avrilassistance",
-		"face":"profile.php?id=100085877255400&mibextid=LQQJ4d",
-		"linked":"in/natanaelfernandezok"
-	},
-	{
 		"name": "Camila Gonzalez",
 		"position": "Account Executive - CABA & AMBA",
-		"department": "caba2",
+		"department": "caba",
 		"pic": "camilaG",
 		"email":"denisse.arjona@avril-assistance.com",
 		"insta":"avrilassistance_denisse",
@@ -249,7 +239,7 @@
 	{
 		"name": "Ricardo Gonzalez",
 		"position": "Account Executive - CABA",
-		"department": "caba2",
+		"department": "caba",
 		"pic": "ricardoG",
 		"email":"ricardo.gonzalez@avril-assistance.com",
 		"insta":"leonela.avrilassistance",
@@ -259,7 +249,7 @@
 	{
 		"name": "Leonela Gravagna",
 		"position": "Account Executive - La Plata",
-		"department": "caba2",
+		"department": "caba",
 		"pic": "leonelaG",
 		"email":"leonela.gravagna@avril-assistance.com",
 		"insta":"leonela.avrilassistance",
