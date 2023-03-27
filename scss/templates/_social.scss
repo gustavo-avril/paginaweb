@@ -120,9 +120,7 @@
 	.rrss-left{
 		width: 100%;
 		.rrss{
-			display: grid;
-    	grid-template-columns: repeat(2, 1fr);
-    	gap: 10px;
+			display: flex;
 			margin: 0 auto;
 			.btn-rrss a{
 				font-size: 13px;
@@ -139,9 +137,7 @@
 	.rrss-left{
 		width: 100%;
 		.rrss{
-			display: grid;
-    	grid-template-columns: repeat(2, 1fr);
-    	gap: 10px;
+			display: flex;
 			margin: 0 auto;
 			.btn-rrss a{
 				font-size: 13px;
