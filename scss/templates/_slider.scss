@@ -45,11 +45,19 @@
 		font-size: 27px;
 		line-height: 38px;
 	}
+	.owl-carousel .owl-stage-outer{
+		padding: 0px !important;
+    height: auto !important;
+	}
 }
 @include mobile-xs {
 	.slider h1 {
 		font-size: 27px;
 		line-height: 38px;
+	}
+	.owl-carousel .owl-stage-outer{
+		padding: 0px !important;
+    height: auto !important;
 	}
 }
 @include tablet {
