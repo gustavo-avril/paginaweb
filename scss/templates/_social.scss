@@ -115,3 +115,39 @@
 		}
 	}
 }
+
+@include mobile-xs {
+	.rrss-left{
+		width: 100%;
+		.rrss{
+			display: grid;
+    	grid-template-columns: repeat(2, 1fr);
+    	gap: 10px;
+			.btn-rrss a{
+				font-size: 13px;
+			}
+		}
+	}
+	.rrss-right{
+		width: 100%;
+		img{width: 95%;}
+	}
+}
+
+@include mobile {
+	.rrss-left{
+		width: 100%;
+		.rrss{
+			display: grid;
+    	grid-template-columns: repeat(2, 1fr);
+    	gap: 10px;
+			.btn-rrss a{
+				font-size: 13px;
+			}
+		}
+	}
+	.rrss-right{
+		width: 100%;
+		img{width: 95%;}
+	}
+}
