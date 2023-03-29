@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+	<title>Avril Assistance</title>
+	<meta name="author" content="Avril Assistance">
+	<meta name="keywords" content="Asistencia al viajero Avril Assistance, Asistencia al viajero, Viajá más protegido, Avril Assistance, asistencia al viajero europa, Línea protect, asistencia al viajero covid, Asistencia, Seguro, Asistencia médica, Seguro de viaje, Imprevistos en viaje, Asistencia ante covid-19, Viajes">
+	<meta name="description" content="Avril Assistance te brinda sus servicios de asistencia al viajero de manera ininterrumpida. Su Central de Asistencias te estará respaldando ante cualquier imprevisto en viaje y dándote la contención necesaria las 24 horas del día, los 365 días del año. Su Línea Protect ofrece asistencia médica ante COVID-19. Viajá más protegido." />
+
+	<!-- bootstrap.min css -->
+	<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+	<!-- Icon Font Css -->
+	<link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+	<!-- <link rel="stylesheet" href="plugins/fontawesome/css/all.css"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="css/style.min.css">
+
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v7.0" nonce="DsCewLM2"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-CN1V5CP77R"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-CN1V5CP77R');
+	</script>
+	<!-- Hotjar Tracking Code for www.avril-assistance.com -->
+	<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:2241784,hjsv:6};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-203131054-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-203131054-1');
+	</script>
+	<style>
+		.emisionesModal{
+			background: linear-gradient(90deg, rgb(16, 174, 190) 0%, rgb(16, 174, 190) 25%, rgb(81, 116, 184) 75%);
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	</style>
+</head>
+
+
+<body>
+	<header class="navigation" id="header"></header>
+	<div class="main-wrapper">
+		<div class="emisionesModal">
+			<div id="formEmi" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<form method="POST" action="emisiones.php">
+						<div class="modal-header text-center">
+							<h4 class="modal-title w-100 font-weight-bold">Envíanos los siguientes datos</h4>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body mx-3">
+							<div class="mb-1">
+								<input type="text" placeholder="Razón Social" name="agencia" class="form-control validate">
+							</div>
+							<div class="mb-1">
+								<input type="text" placeholder="Nombres y Apellidos del Titular" name="representante" class="form-control validate">
+							</div>
+							<div class="mb-1">
+								<input type="text" placeholder="Teléfono" name="telefono" class="form-control validate">
+							</div>
+							<div class="mb-1">
+								<select name="provincia" id="provincias">
+									<option value="select">Provincia</option>
+								</select>
+							</div>
+							<div class="mb-1">
+								<input type="text" placeholder="Localidad" name="localidad" class="form-control validate">
+							</div>
+							<div class="mb-1">
+								<input type="text" placeholder="CUIT" name="cuit" class="form-control validate">
+							</div>
+							<div class="mb-1">
+								<input type="text" placeholder="Dirección" name="direccion" class="form-control validate">
+							</div>
+							<div class="mb-1">
+								<input type="email" placeholder="E-mail" name="email" class="form-control validate">
+							</div>
+						</div>
+						<div class="modal-footer d-flex justify-content-center">
+							<button class="btn btn-primary" name="enviar" type="submit">Enviar</button>
+						</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+  <!-- Main jQuery -->
+	<script src="plugins/jquery/jquery.js"></script>
+	<!-- Bootstrap 4.3.1 -->
+	<script src="plugins/bootstrap/js/popper.js"></script>
+	<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+	<!--  Magnific Popup-->
+	<script src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+	<script src="https://assets.juicer.io/embed.js" type="text/javascript"></script>
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/testimonios.js"></script>
+	<script src="js/provincias.js"></script>
+</body>
+</html>
+
