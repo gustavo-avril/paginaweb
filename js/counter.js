@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Mar 28, 2023 18:00:00").getTime();
+var countDownDate = new Date("Mar 29, 2023 18:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -25,9 +25,9 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("days").innerHTML = "EXPIRED";
-    document.getElementById("hours").innerHTML = "EXPIRED";
-    document.getElementById("minutes").innerHTML = "EXPIRED";
-    document.getElementById("seconds").innerHTML = "EXPIRED";
+    document.getElementById("days").innerHTML = "VAMONOS";
+    document.getElementById("hours").innerHTML = "PAL";
+    document.getElementById("minutes").innerHTML = "COÑO E";
+    document.getElementById("seconds").innerHTML = "SU MADRE";
   }
 }, 1000);
