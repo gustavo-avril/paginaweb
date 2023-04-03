@@ -78,6 +78,9 @@
 	position: relative;
 	height: auto;
 	display: block;
+	.carousel-inner{
+		height: 60vh;
+	}
 	h1 {
 		font-size: 56px;
 		line-height: 70px;
