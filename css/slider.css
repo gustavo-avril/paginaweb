@@ -14,23 +14,23 @@
 	background-size: cover;
 }
 .testimonios{
-  width: 95%;
+  width: 58.5%;
   margin: 0 auto;
 }
 .card{
     border-radius: 10px; 
-		border: 1px solid #fff;
-		height: 100%;
+	border: 1px solid #fff;
+	height: 100%;
     padding: 10px;
-		box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+	box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
 }
 .testimonial{
     font-size: 14px;
     line-height: 1.4rem;
     font-weight: 400;
     padding: 0 10px;
-		height: 5vh; /*45%; */
-		margin: 1rem 0;
+	height: 5vh; /*45%; */
+	margin: 1rem 0;
 }
 .active-star{
     color: #FBC02D;
@@ -54,8 +54,8 @@
     margin-bottom: 15px
 }
 .owl-carousel .owl-stage-outer{
-    padding: 40px 10px;
-    height: 380px
+    padding: 20px 10px;
+    height: auto;
 }
 .owl-carousel .owl-item img{
     width: 45px !important;

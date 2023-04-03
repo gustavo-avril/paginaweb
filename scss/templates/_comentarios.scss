@@ -1,7 +1,14 @@
+.prueba{
+	width: 58% !important;
+}
 .comentarios {
 	background: url("../images/bg/fondo.png") no-repeat 50% 50%;
 	background-size: cover;
-
+	
+	.owl-carousel .owl-stage-outer{
+		padding: 20px 10px;
+    height: auto;
+	}
 	.row{
 		justify-content: space-evenly;
 	}
@@ -61,11 +68,31 @@
 	.comentarios {
 		background: none;
 	}
+	.owl-carousel .owl-stage-outer{
+		padding: 0px !important;
+    height: auto !important;
+	}
+	.owl-item{
+		.testimonial{
+			height: auto;
+		}
+	}
 	.main-reint {
 		background-image: none;
 
 		.barra {
 			display: none;
+		}
+	}
+}
+@include mobile-xs {
+	.owl-carousel .owl-stage-outer{
+		padding: 0px !important;
+    height: auto !important;
+	}
+	.owl-item{
+		.testimonial{
+			height: auto;
 		}
 	}
 }
