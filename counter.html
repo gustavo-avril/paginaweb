@@ -15,7 +15,6 @@
 <!-- Main Stylesheet -->
 <link rel="stylesheet" href="css/style.min.css">
 <link rel="stylesheet" href="css/flipdown.css">
-<link rel="stylesheet" href="css/counter.css">
 <script src="js/flipdown.js"></script>
 
 </head>
@@ -31,7 +30,7 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', ()=>{
-    let timer_ = 1680728400 //unix timestamp
+    let timer_ = 1680728400 //unix timestamp https://www.unixtimestamp.com/
     let flipdown = new FlipDown(timer_)
     .start()
     .ifEnded(()=>{
