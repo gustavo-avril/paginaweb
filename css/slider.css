@@ -14,7 +14,7 @@
 	background-size: cover;
 }
 .testimonios{
-  width: 58.5%;
+  width: 59%;
   margin: 0 auto;
 }
 .card{
@@ -54,7 +54,7 @@
     margin-bottom: 15px
 }
 .owl-carousel .owl-stage-outer{
-    padding: 20px 10px;
+    padding: 10px;
     height: auto;
 }
 .owl-carousel .owl-item img{
