@@ -31,10 +31,10 @@
 <script>
   document.addEventListener('DOMContentLoaded', ()=>{
     let timer_ = 1680728400 //unix timestamp https://www.unixtimestamp.com/
-    let flipdown = new FlipDown(timer_)
+    let flipdown = new FlipDown(timer_, {headings:["Días","Horas","Minutos","Segundos"]})
     .start()
     .ifEnded(()=>{
-      document.querySelector(".flipdown").innerHTML = `<h2>Timer done</h2>`;
+      document.querySelector(".flipdown").innerHTML = `<h2>Tiempo Finalizado</h2>`;
     })
   })
 </script>

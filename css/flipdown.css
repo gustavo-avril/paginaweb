@@ -12,7 +12,10 @@ body{
   min-height: 100vh;
   background: #2f363e;
 }
-
+.timer h1{
+  color:#fff;
+  text-align: center;
+}
 
 
 /* THEMES */
