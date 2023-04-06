@@ -8,16 +8,13 @@ body{
   color: #fff;
 }
 .header{
-  background-image: url("../images/redes/monos.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 35vh;
 }
 .middle-logo{
-  width: 30%;
+  width: 35%;
   margin: 0 auto;
   position: absolute;
-  transform: translate(120%, -55%);
+  transform: translate(93%, -55%);;
   z-index: 12;
   img{
     border-radius: 50%;
@@ -26,18 +23,23 @@ body{
   }
 }
 .main-body{
-  background-image: url("../images/redes/main.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  // background-image: url("../images/redes/main.png");
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // position: relative;
   top: -23px;
   height: 75vh;
   z-index: 10;
+  .absolute{
+    position: absolute;
+    transform: translateY(-6%);
+  }
   .name{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    position: relative;
     padding: 70px 10px 20px 10px;
     text-align: center;
   }
@@ -45,6 +47,7 @@ body{
 .rrss{
   background: #fff;
   width: 90%;
+  position: relative;
   border-radius: 15px;
   padding: 1em;
   margin: 0 auto;
@@ -70,6 +73,7 @@ body{
     background:#0A2390;
     padding: 7px;
     border-radius: 50%;
+    margin-right: 5px;
   }
   a{
     color:#000000;
