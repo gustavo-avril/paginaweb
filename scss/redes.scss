@@ -27,9 +27,8 @@ body{
   // background-repeat: no-repeat;
   // background-size: cover;
   // position: relative;
-  top: -23px;
-  height: 75vh;
-  z-index: 10;
+  height: auto;
+  //z-index: 10;
   .absolute{
     position: absolute;
     transform: translateY(-6%);
