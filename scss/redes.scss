@@ -80,7 +80,7 @@ body{
   }
 }
 
-@media screen and (376px <= width <= 600px) {
+@media screen and (376px <= width <= 760px) {
   .middle-logo{
     transform: translate(115%, -55%);
     width: 30%;
@@ -100,6 +100,31 @@ body{
     }
     .name{
       padding: 70px 10px 10px 10px;
+    }
+  }
+}
+
+@media screen and (760px <= width <= 1024px) {
+  .header{
+    height: auto;
+  }
+  .middle-logo{
+    transform: translate(93%, -45%);
+    width: 35%;
+    z-index: 12;
+    img{
+      border-radius: 50%;
+      background: #fff;
+      padding: 8px;
+    }
+  }
+  .main-body{
+    .absolute{
+      transform: translateY(-4%);
+      height: auto;
+    }
+    .name{
+      padding: 170px 10px 10px 10px;
     }
   }
 }
