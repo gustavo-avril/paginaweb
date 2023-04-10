@@ -23,12 +23,7 @@ body{
   }
 }
 .main-body{
-  // background-image: url("../images/redes/main.png");
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // position: relative;
   height: auto;
-  //z-index: 10;
   .absolute{
     position: absolute;
     transform: translateY(-16%);
@@ -127,4 +122,8 @@ body{
       padding: 170px 10px 10px 10px;
     }
   }
+}
+
+@media screen and (1025px <= width <= 1440px) {
+
 }
