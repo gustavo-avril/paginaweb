@@ -75,7 +75,7 @@ body{
   }
 }
 
-@media screen and (375px <= width <= 760px) {
+@media screen and (375px <= width <= 768px) {
   .middle-logo{
     transform: translate(115%, -55%);
     width: 30%;
@@ -99,7 +99,7 @@ body{
   }
 }
 
-@media screen and (760px <= width <= 1024px) {
+@media screen and (769px <= width <= 1024px) {
   .header{
     height: auto;
   }
