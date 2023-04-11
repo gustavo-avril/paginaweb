@@ -18,7 +18,32 @@ body{
 	background:url("../images/counter.png");
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+}
+.titles{
+  width: 100%;
+  position: absolute;
+  top: 10px;
+  left:10px;
+  display: flex;
+  justify-content: space-around;
+}
+.event{
+  font-size: 1em;
+  font-weight: 800;
+  color: #fff;
+  text-align: left;
+  text-transform: uppercase;
+}
+button{
+  padding: 10px 20px;
+  text-align: center;
+  background:linear-gradient(90deg, #00A5E6 0%, #00D2FF 100%);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 #time{
 	display: flex;
@@ -46,7 +71,7 @@ body{
 	height: 100%;
 	fill: transparent;
 	stroke-linecap: round;
-	stroke-width: 6;
+	stroke-width: 3;
 	stroke: #1b1b64;
 	transform: translate(5px, 5px);
 }
