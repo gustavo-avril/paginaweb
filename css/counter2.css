@@ -21,15 +21,13 @@ body{
   background-size: cover;
 }
 section{
-  height: 25vh;
+  height: 50%;
 }
 .titles{
-  width: 100%;
-  position: absolute;
-  top: 10px;
-  left:10px;
+  position: relative;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
 .event{
   font-size: 1em;
