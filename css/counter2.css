@@ -22,7 +22,7 @@ body{
 }
 #time{
 	display: flex;
-	gap: 5px;
+	gap: 30px;
 }
 #time .circle{
 	position: relative;
