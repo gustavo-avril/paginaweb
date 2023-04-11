@@ -40,6 +40,11 @@ section{
   font-size: 1em;
   font-weight: 600;
 }
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 button{
   padding: 10px 20px;
   text-align: center;
