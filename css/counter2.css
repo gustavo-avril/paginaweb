@@ -30,11 +30,15 @@ section{
   margin-bottom: 50px;
 }
 .event{
-  font-size: 1em;
+  font-size: 2em;
   font-weight: 800;
   color: #fff;
   text-align: left;
   text-transform: uppercase;
+}
+.ciudad{
+  font-size: 1em;
+  font-weight: 600;
 }
 button{
   padding: 10px 20px;
