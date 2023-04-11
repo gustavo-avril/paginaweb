@@ -1,14 +1,14 @@
 /*variables*/
 :root{
---bg:radial-gradient(49.99% 49.99% at 50% 50%, #00FFFF 0%, #00B8B8 20%, #003F3F 60%, #003838 75%, #1b1b64 100%);
---stroke: rgba(160,0,255,0.75);
+--bg:radial-gradient(49.99% 49.99% at 50% 50%, #00FFFF 0%, #00B8B8 20%, #003F3F 60%, #003838 100%);
+--stroke: #4fa8fb;
 --inner-bg: radial-gradient(49.99% 49.99% at 50% 50%, #00FFFF 0%, #00B8B8 21.6%, #003F3F 59.63%, #003838 64.13%, #121242 100%);
 }
 *{
 	margin:0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 body{
 	display: flex;
@@ -60,7 +60,7 @@ body{
 	text-align: center;
 	font-weight: 500;
 	color: #fff;
-	font-size:1.5em;
+	font-size:1.4em;
 }
 #time .inner-bg{
   position: absolute;
@@ -96,7 +96,7 @@ body{
 	height: 15px;
 	background: var(--bg);
 	border-radius: 50%;
-	box-shadow: 0 0 20px #1b1b64, 0 0 60px #1b1b64;
+	box-shadow: 0 0 20px var(--stroke), 0 0 60px var(--stroke);
 }
 .newYear{
 	font-size: 8em;
