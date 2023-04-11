@@ -1,6 +1,6 @@
 /*variables*/
 :root{
---bg:radial-gradient(49.99% 49.99% at 50% 50%, #00FFFF 0%, #00B8B8 20%, #003F3F 60%, #003838 100%);
+--bg:radial-gradient(49.99% 49.99% at 50% 50%, #00FFFF 0%, #00B8B8 20%, #003F3F 70%, #003838 100%);
 --stroke: #4fa8fb;
 --inner-bg: radial-gradient(49.99% 49.99% at 50% 50%, #00FFFF 0%, #00B8B8 21.6%, #003F3F 59.63%, #003838 64.13%, #121242 100%);
 }

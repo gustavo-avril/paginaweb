@@ -23,7 +23,7 @@
   <section>
     <div class="titles">
       <div class="event">
-        <p>nombre del evento</p>
+        <p>business travel day</p>
         <p class="ciudad">Mar del Plata</p>
       </div>
       <div class="info">
@@ -90,7 +90,7 @@
     let min_dot = document.querySelector('.min_dot');
     let sec_dot = document.querySelector('.sec_dot');
   
-    let endDate = '04/15/2023 18:00:00';
+    let endDate = '04/12/2023 18:30:00';
     //formato mm/dd/aaaa
   
     let x = setInterval(function(){
@@ -109,15 +109,15 @@
       hours.innerHTML = h + "<br><span>Horas</span>";
       minutes.innerHTML = m + "<br><span>Minutos</span>";
       seconds.innerHTML = s + "<br><span>Segundos</span>";
-  
+
       //animar los circulos
-      dd.style.strokeDashoffset = 440 - (440 * d) / 20;
+      dd.style.strokeDashoffset = 440 - (440 * d) / 2; // 365 dias en un año
       hh.style.strokeDashoffset = 440 - (440 * h) / 24;
       mm.style.strokeDashoffset = 440 - (440 * m) / 60;
       ss.style.strokeDashoffset = 440 - (440 * s) / 60;
   
       //animar los puntos de los circulos
-      day_dot.style.transform = `rotateZ(${d * 14.4}deg)`; // 360deg / 365days = 0.986
+      day_dot.style.transform = `rotateZ(${d * 180}deg)`; // 360deg / 365days = 0.986
       hr_dot.style.transform = `rotateZ(${h * 15}deg)`; // 360deg / 24hrs
       min_dot.style.transform = `rotateZ(${m * 6}deg)`; // 360deg / 60mins
       sec_dot.style.transform = `rotateZ(${s * 6}deg)`; // 360deg / 60sec
