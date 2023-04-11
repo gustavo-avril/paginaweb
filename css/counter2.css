@@ -20,6 +20,9 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+section{
+  height: 25vh;
+}
 .titles{
   width: 100%;
   position: absolute;

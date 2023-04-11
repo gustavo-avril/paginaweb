@@ -20,60 +20,60 @@
 
 </head>
 <body>
-  <div class="titles">
-    <div class="event">
-      <p>nombre del evento</p>
-      <p>Mar del Plata</p>
+  <section>
+    <div class="titles">
+      <div class="event">
+        <p>nombre del evento</p>
+        <p>Mar del Plata</p>
+      </div>
+      <div class="info">
+        <button>Mas Informacion</button>
+      </div>
     </div>
-    <div class="info">
-      <button>Mas Informacion</button>
-    </div>
-  </div>
 
-
-  <div id="time">	
-    <div class="circle">
-      <div class="inner-bg"></div>
-      <div class="dots day_dot"></div>
-      <svg>
-        <circle cx="70" cy="70" r="70"></circle>
-        <circle cx="70" cy="70" r="70" id="dd"></circle>
-      </svg>
-      <div id="days">00</div>
+    <div id="time">	
+      <div class="circle">
+        <div class="inner-bg"></div>
+        <div class="dots day_dot"></div>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70" id="dd"></circle>
+        </svg>
+        <div id="days">00</div>
+      </div>
+    
+      <div class="circle">
+        <div class="inner-bg"></div>
+        <div class="dots hr_dot"></div>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70" id="hh"></circle>
+        </svg>
+        <div id="hours">00</div>
+      </div>
+    
+      <div class="circle">
+        <div class="inner-bg"></div>
+        <div class="dots min_dot"></div>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70" id="mm"></circle>
+        </svg>
+        <div id="minutes">00</div>
+      </div>
+    
+      <div class="circle">
+        <div class="inner-bg"></div>
+        <div class="dots sec_dot"></div>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70" id="ss"></circle>
+        </svg>
+        <div id="seconds">00</div>
+      </div>
     </div>
-  
-    <div class="circle">
-      <div class="inner-bg"></div>
-      <div class="dots hr_dot"></div>
-      <svg>
-        <circle cx="70" cy="70" r="70"></circle>
-        <circle cx="70" cy="70" r="70" id="hh"></circle>
-      </svg>
-      <div id="hours">00</div>
-    </div>
-  
-    <div class="circle">
-      <div class="inner-bg"></div>
-      <div class="dots min_dot"></div>
-      <svg>
-        <circle cx="70" cy="70" r="70"></circle>
-        <circle cx="70" cy="70" r="70" id="mm"></circle>
-      </svg>
-      <div id="minutes">00</div>
-    </div>
-  
-    <div class="circle">
-      <div class="inner-bg"></div>
-      <div class="dots sec_dot"></div>
-      <svg>
-        <circle cx="70" cy="70" r="70"></circle>
-        <circle cx="70" cy="70" r="70" id="ss"></circle>
-      </svg>
-      <div id="seconds">00</div>
-    </div>
-  </div>
-  <h2 class="newYear">Texto para aviso</h2>
-
+    <h2 class="newYear">Texto para aviso</h2>
+  </section>
   <script>
     let days = document.getElementById('days');
     let hours = document.getElementById('hours');
