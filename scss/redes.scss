@@ -10,15 +10,19 @@ body {
 }
 
 .header {
-  height: 35vh;
+  height: 100vh;
+  background: url("../images/redes/main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .middle-logo {
   width: 35%;
   margin: 0 auto;
   position: absolute;
-  transform: translate(93%, -74%); //-110%
-  z-index: 12;
+  top: 24%;
+  left: 32%;
 
   img {
     border-radius: 50%;
@@ -29,12 +33,14 @@ body {
 
 .main-body {
   height: auto;
+  position: absolute;
+  top: 35%;
 
-  .absolute {
-    position: absolute;
-    transform: translateY(-13%); //-16%
-    height: 100%;
-  }
+  // .absolute {
+  //   position: absolute;
+  //   transform: translateY(-13%); //-16%
+  //   height: 100%;
+  // }
 
   .name {
     display: flex;
@@ -90,59 +96,11 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .middle-logo {
-    transform: translate(115%, -55%);
-    width: 30%;
-    z-index: 12;
-
-    img {
-      border-radius: 50%;
-      background: #fff;
-      padding: 8px;
-    }
+@media screen and (min-width: 425px) {
+  .middle-logo{
+    top: 28%;
   }
-
-  .main-body {
-    height: auto;
-
-    .absolute {
-      position: absolute;
-      transform: translateY(-5%);
-      height: auto;
-    }
-
-    .name {
-      padding: 70px 10px 10px 10px;
-    }
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .header {
-    height: auto;
-  }
-
-  .middle-logo {
-    transform: translate(93%, -45%);
-    width: 35%;
-    z-index: 12;
-
-    img {
-      border-radius: 50%;
-      background: #fff;
-      padding: 8px;
-    }
-  }
-
-  .main-body {
-    .absolute {
-      transform: translateY(-4%);
-      height: auto;
-    }
-
-    .name {
-      padding: 170px 10px 10px 10px;
-    }
+  .main-body{
+    top: 42%;
   }
 }
