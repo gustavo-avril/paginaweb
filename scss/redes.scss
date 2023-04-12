@@ -87,6 +87,14 @@ body {
     color: #000000;
   }
 }
+@media screen and (min-width: 375px) {
+  .middle-logo{
+    top: 31%;
+  }
+  .main-body{
+    top: 45%;
+  }
+}
 
 @media screen and (min-width: 414px) {
   .middle-logo{
