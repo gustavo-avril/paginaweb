@@ -49,6 +49,9 @@
 	background-size: cover;
 	@extend .overly-3;
 }
+.bg-9 {
+	background: url("../images/bg/faq.webp") no-repeat;
+}
 
 .student {
 	background: url("../images/student.webp") no-repeat 0% 50%;
