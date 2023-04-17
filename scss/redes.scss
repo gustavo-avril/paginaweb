@@ -9,20 +9,25 @@ body {
   color: #fff;
 }
 
+
 .header {
-  height: 120vh;
+  height: 100vh;
+  padding: 0px 0px 20px 0px;
   background: url("../images/redes/main.png");
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
 }
+.monkeys img{
+  margin: 0 auto;
+  width: 40%;
+  display: flex;
+}
 
 .middle-logo {
-  width: 35%;
+  width: 30%;
   margin: 0 auto;
-  position: absolute;
-  top: 22%;
-  left: 32%;
+  position: relative;
 
   img {
     border-radius: 50%;
@@ -32,9 +37,7 @@ body {
 }
 
 .main-body {
-  height: auto;
-  position: absolute;
-  top: 38%;
+  position: relative;
 
   .name {
     display: flex;
@@ -87,46 +90,20 @@ body {
     color: #000000;
   }
 }
-@media screen and (min-width: 375px), screen and (max-height: 667px) {
-  .header{
-    min-height: 100vh;
-  }
-  .middle-logo{
-    top: 30%;
-  }
-  .main-body{
-    top: 51%;
-  }
-}
-@media screen and (min-width: 375px){
-  .header{
-    min-height: 120vh;
-  }
-  .middle-logo{
-    top: 30%;
-  }
-  .main-body{
-    top: 51%;
-  }
-}
+// @media screen and (min-width: 375px), screen and (max-height: 667px) {
+//   .header{
+//     min-height: 100vh;
+//   }
+// }
+// @media screen and (min-width: 375px){
+//   .header{
+//     min-height: 120vh;
+//   }
+// }
 
-@media screen and (min-width: 414px) {
-  .header{
-    min-height: 112vh;
-  }
-  .middle-logo{
-    top: 30%;
-  }
-  .main-body{
-    top: 51%;
-  }
-}
+// @media screen and (min-width: 414px) {
+//   .header{
+//     min-height: 112vh;
+//   }
+// }
 
-@media screen and (min-width: 425px) {
-  .middle-logo{
-    top: 28%;
-  }
-  .main-body{
-    top: 42%;
-  }
-}
