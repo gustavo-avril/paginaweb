@@ -17,11 +17,14 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
-}
-.monkeys img{
-  margin: 0 auto;
-  width: 40%;
-  display: flex;
+
+  .monkeys {
+    img {
+      margin: 0 auto;
+      width: 40%;
+      display: flex;
+    }
+  }
 }
 
 .middle-logo {
@@ -90,20 +93,3 @@ body {
     color: #000000;
   }
 }
-// @media screen and (min-width: 375px), screen and (max-height: 667px) {
-//   .header{
-//     min-height: 100vh;
-//   }
-// }
-// @media screen and (min-width: 375px){
-//   .header{
-//     min-height: 120vh;
-//   }
-// }
-
-// @media screen and (min-width: 414px) {
-//   .header{
-//     min-height: 112vh;
-//   }
-// }
-
