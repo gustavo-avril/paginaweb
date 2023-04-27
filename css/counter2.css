@@ -151,3 +151,26 @@ button{
 	font-size: 0.5em;
 	font-weight: 300;
 }
+@media(max-width: 480px){
+	.bg-10{
+		padding: 50px 0;
+	}
+	.contador{
+		display: block;
+		width: 100%;
+	}
+	#time{
+		display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	}
+	.titles{
+		display: flex;
+    margin: 15px auto;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+	}
+}

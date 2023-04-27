@@ -97,3 +97,13 @@
 		font-size: 15px;
 	}
 }
+.slider-3 {
+	position: relative;
+	height: auto;
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	.carousel-inner{
+		height: auto; /* 60vh */
+	}
+}

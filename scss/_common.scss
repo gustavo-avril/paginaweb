@@ -340,3 +340,11 @@ a:focus {
 .bg-primary {
 	background: $primary-color !important;
 }
+@include mobile {
+	.page-title{
+		padding-top: 120px;
+	}
+	details{
+		text-align: left;
+	}
+}
