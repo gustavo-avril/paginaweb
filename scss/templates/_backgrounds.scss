@@ -49,6 +49,7 @@
 	background-size: cover;
 	@extend .overly-3;
 }
+
 .bg-9 {
 	background: url("../images/bg/faq.webp") no-repeat;
 	background-position: 50% 50%;
@@ -59,13 +60,16 @@
 	background-size: cover;
 	padding: 0 !important;
 }
-.student-bg{
+
+.student-bg {
 	background: url("../images/student-bg.webp") no-repeat;
-  background-size: cover;
-  padding: 0 !important;
+	background-size: cover;
+	padding: 0 !important;
 }
+
 .social {
-	background: #fff;/*url("../images/bg/redes.webp") no-repeat 0% 50%;*/
+	background: #fff;
+	/*url("../images/bg/redes.webp") no-repeat 0% 50%;*/
 	background-size: cover;
 	padding: 0 !important;
 }
@@ -74,7 +78,8 @@
 	.student {
 		background: none;
 	}
-	.social{
+
+	.social {
 		background: none;
 		background-color: #009FE3;
 	}
