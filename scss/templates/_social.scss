@@ -115,7 +115,54 @@
 		}
 	}
 }
-
+.protect{
+  width: 90%;
+	margin: 0 auto;
+}
+.card{
+		// display: flex;
+	border-radius: 25px !important;
+	border: none !important;
+	background: #f2f2f2;
+	max-width: 75%;
+	margin: 0 auto;
+}
+.card-img-top{
+	width: 60px;
+	position: absolute;
+	top: -10px;
+	left: 50%;
+	transform: translate(-50%, -10px);
+}
+.card-body{
+	padding: 2rem 0;
+	i{
+		color: $purple !important;
+	}
+}
+.card-title{
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 14px;
+	color: white;
+	background: $asistencia;
+	border-radius: 25px;
+	text-align: center;
+}
+.card-text{
+	color: rgb(43, 46, 58) !important;
+	padding: 0 20px;
+}
+.card-footer{
+	background: $asistencia;
+	height: 20px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border: none;
+	border-radius: 0px 0px 10px 10px !important;
+}
 @include mobile-xs {
 	.rrss-left{
 		width: 100%;
