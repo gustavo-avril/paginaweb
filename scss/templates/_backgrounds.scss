@@ -68,8 +68,9 @@
 }
 
 .social {
-	background: #fff;
-	/*url("../images/bg/redes.webp") no-repeat 0% 50%;*/
+	// background: #fff;
+	background-image: url("../images/protect.webp");
+	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 0 !important;
 }

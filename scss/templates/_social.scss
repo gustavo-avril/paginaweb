@@ -92,22 +92,22 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-evenly;
-	h2{font-size: 2.625em;color: $grey-color;}
-	h3{font-size: 1.875em;color: $grey-color;}
+	h2{font-size: 2.625em;color: white;}
+	h3{font-size: 1.875em;color: white;}
 	.rrss{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-evenly;
 		i{
-			color: #fff;
+			color: $primary-color;
 		}
 		.btn-rrss{
-			background: $primary-color;
+			background:#fff;
 			padding: 10px;
 			border-radius: 8px;
 			margin: 10px 0;
 			a{
-				color: #fff;
+				color: $primary-color;
 				font-weight: 500;
 				font-size: 16px;
 				text-transform: none;
