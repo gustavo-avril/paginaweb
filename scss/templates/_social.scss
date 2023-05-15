@@ -92,7 +92,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-evenly;
-	h2{font-size: 2.625em;color: white;}
+	h2{font-size: 2.625em;color: white;text-transform: uppercase;}
 	h3{font-size: 1.875em;color: white;}
 	.rrss{
 		display: flex;
@@ -183,6 +183,11 @@
 		width: 100%;
 		img{width: 95%;}
 	}
+	.protect{
+		.tarjetas{
+			padding-top: 50px;
+		}
+	}
 }
 
 @include mobile {
@@ -200,5 +205,10 @@
 	.rrss-right{
 		width: 100%;
 		img{width: 95%;}
+	}
+	.protect{
+		.tarjetas{
+			padding-top: 50px;
+		}
 	}
 }
