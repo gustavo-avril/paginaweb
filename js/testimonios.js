@@ -18,7 +18,7 @@ document.getElementById("comentarios").innerHTML = `
 						<div class="testimonial">
 							Buena atención y solución sencilla del problema.
 						</div>
-						<div class="d-flex justify-content-center">
+						<div class="d-flex justify-content-center mt-4">
 							<img src="./images/espana.png" alt="España">
 							<img src="./images/portugal.png" alt="Portugal">
 						</div>
@@ -42,7 +42,7 @@ document.getElementById("comentarios").innerHTML = `
 						<div class="testimonial">
 							Asesoramiento adecuado frente a un evento y rapidez en la respuesta.
 						</div>
-						<div class="d-flex justify-content-center">
+						<div class="d-flex justify-content-center mt-4">
 							<img src="./images/argentina.png" alt="Argentina">
 						</div>
 						<div class="mt-2 text-center">
@@ -66,7 +66,7 @@ document.getElementById("comentarios").innerHTML = `
 						<div class="testimonial">
 							Excelente atención, fue muy satisfactorio. Excelente decisión de haberlos contratado, todo perfecto.
 						</div>
-						<div class="d-flex justify-content-center">
+						<div class="d-flex justify-content-center mt-4">
 							<img src="./images/argentina.png" alt="Argentina">
 						</div>
 						<div class="mt-2 text-center">
@@ -89,7 +89,7 @@ document.getElementById("comentarios").innerHTML = `
 						<div class="testimonial">
 							Todo estuvo bien, nada para mejorar. Si muy agradecida por la asistencia y acompañamiento durante el viaje.
 						</div>
-						<div class="d-flex justify-content-center">
+						<div class="d-flex justify-content-center mt-4">
 							<img src="./images/argentina.png" alt="Argentina">
 						</div>
 						<div class="mt-2 text-center">
@@ -113,7 +113,7 @@ document.getElementById("comentarios").innerHTML = `
 						<div class="testimonial">
 							Me encanto el servicio. Actuaron de forma instantánea a los inconveientes que tuve.
 						</div>
-						<div class="d-flex justify-content-center">
+						<div class="d-flex justify-content-center mt-4">
 							<img src="./images/espana.png" alt="España">
 						</div>
 						<div class="mt-2 text-center">
@@ -137,7 +137,7 @@ document.getElementById("comentarios").innerHTML = `
 						<div class="testimonial">
 							Estoy conforme me resolvieron el problema en la emergencia muy agradecida.
 						</div>
-						<div class="d-flex justify-content-center">
+						<div class="d-flex justify-content-center mt-4">
 							<img src="./images/argentina.png" alt="Argentina">
 						</div>
 						<div class="mt-2 text-center">
@@ -161,7 +161,7 @@ document.getElementById("comentarios").innerHTML = `
 						<div class="testimonial">
 							Soy paciente Epoc, ante el primer síntoma que ví recibí excelente atención medica. ¡Muchas gracias!
 						</div>
-						<div class="d-flex justify-content-center">
+						<div class="d-flex justify-content-center mt-4">
 							<img src="./images/argentina.png" alt="Argentina">
 						</div>
 						<div class="mt-2 text-center">
@@ -185,7 +185,7 @@ document.getElementById("comentarios").innerHTML = `
 						<div class="testimonial">
 							Impecable atención, no tengo nada para mejorar.
 						</div>
-						<div class="d-flex justify-content-center">
+						<div class="d-flex justify-content-center mt-4">
 							<img src="./images/argentina.png" alt="Argentina">
 						</div>
 						<div class="mt-2 text-center">
