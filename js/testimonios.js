@@ -10,7 +10,7 @@ document.getElementById("comentarios").innerHTML = `
 				<div class="owl-item">
 					<div class="card d-flex flex-column">
 						<div class="d-flex flex-row profile justify-content-center">
-							<img src="./images/hombre.png" alt="" />
+							<img src="./images/hombre.webp" alt="" />
 							<div class="d-flex flex-column pl-2">
 								<div class="name">Oswaldo Predazoli</div>
 							</div>
@@ -19,8 +19,8 @@ document.getElementById("comentarios").innerHTML = `
 							Buena atención y solución sencilla del problema.
 						</div>
 						<div class="d-flex justify-content-center mt-4">
-							<img src="./images/espana.png" alt="España">
-							<img src="./images/portugal.png" alt="Portugal">
+							<img src="./images/espana.webp" alt="España">
+							<img src="./images/portugal.webp" alt="Portugal">
 						</div>
 						<div class="mt-2 text-center">
 							<span class="text-warning fa fa-star"></span>
@@ -34,7 +34,7 @@ document.getElementById("comentarios").innerHTML = `
 				<div class="owl-item">
 					<div class="card d-flex flex-column">
 						<div class="d-flex flex-row profile justify-content-center">
-							<img src="./images/mujer.png" alt="" />
+							<img src="./images/mujer.webp" alt="" />
 							<div class="d-flex flex-column pl-2">
 								<div class="name">Silvia Agostinis</div>
 							</div>
@@ -43,7 +43,7 @@ document.getElementById("comentarios").innerHTML = `
 							Asesoramiento adecuado frente a un evento y rapidez en la respuesta.
 						</div>
 						<div class="d-flex justify-content-center mt-4">
-							<img src="./images/argentina.png" alt="Argentina">
+							<img src="./images/argentina.webp" alt="Argentina">
 						</div>
 						<div class="mt-2 text-center">
 							<span class="text-warning fa fa-star"></span>
@@ -58,7 +58,7 @@ document.getElementById("comentarios").innerHTML = `
 				<div class="owl-item">
 					<div class="card d-flex flex-column">
 						<div class="d-flex flex-row profile justify-content-center">
-							<img src="./images/hombre.png" alt="" class="rounded-circle" />
+							<img src="./images/hombre.webp" alt="" class="rounded-circle" />
 							<div class="d-flex flex-column pl-2">
 								<div class="name">Victor Lopez</div>
 							</div>
@@ -67,7 +67,7 @@ document.getElementById("comentarios").innerHTML = `
 							Excelente atención, fue muy satisfactorio. Excelente decisión de haberlos contratado, todo perfecto.
 						</div>
 						<div class="d-flex justify-content-center mt-4">
-							<img src="./images/argentina.png" alt="Argentina">
+							<img src="./images/argentina.webp" alt="Argentina">
 						</div>
 						<div class="mt-2 text-center">
 							<span class="text-warning fa fa-star"></span>
@@ -81,7 +81,7 @@ document.getElementById("comentarios").innerHTML = `
 				<div class="owl-item">
 					<div class="card d-flex flex-column">
 						<div class="d-flex flex-row profile justify-content-center">
-							<img src="./images/mujer.png" alt="" class="rounded-circle" />
+							<img src="./images/mujer.webp" alt="" class="rounded-circle" />
 							<div class="d-flex flex-column pl-2">
 								<div class="name">Noemi Jones</div>
 							</div>
@@ -90,7 +90,7 @@ document.getElementById("comentarios").innerHTML = `
 							Todo estuvo bien, nada para mejorar. Si muy agradecida por la asistencia y acompañamiento durante el viaje.
 						</div>
 						<div class="d-flex justify-content-center mt-4">
-							<img src="./images/argentina.png" alt="Argentina">
+							<img src="./images/argentina.webp" alt="Argentina">
 						</div>
 						<div class="mt-2 text-center">
 							<span class="text-warning fa fa-star"></span>
@@ -105,7 +105,7 @@ document.getElementById("comentarios").innerHTML = `
 				<div class="owl-item">
 					<div class="card d-flex flex-column">
 						<div class="d-flex flex-row profile justify-content-center">
-							<img src="./images/mujer.png" alt="" class="rounded-circle" />
+							<img src="./images/mujer.webp" alt="" class="rounded-circle" />
 							<div class="d-flex flex-column pl-2">
 								<div class="name">Belen Standke</div>
 							</div>
@@ -114,7 +114,7 @@ document.getElementById("comentarios").innerHTML = `
 							Me encanto el servicio. Actuaron de forma instantánea a los inconveientes que tuve.
 						</div>
 						<div class="d-flex justify-content-center mt-4">
-							<img src="./images/espana.png" alt="España">
+							<img src="./images/espana.webp" alt="España">
 						</div>
 						<div class="mt-2 text-center">
 							<span class="text-warning fa fa-star"></span>
@@ -129,7 +129,7 @@ document.getElementById("comentarios").innerHTML = `
 				<div class="owl-item">
 					<div class="card d-flex flex-column">
 						<div class="d-flex flex-row profile justify-content-center">
-							<img src="./images/mujer.png" alt="" class="rounded-circle" />
+							<img src="./images/mujer.webp" alt="" class="rounded-circle" />
 							<div class="d-flex flex-column pl-2">
 								<div class="name">Graciela Marcolini</div>
 							</div>
@@ -138,7 +138,7 @@ document.getElementById("comentarios").innerHTML = `
 							Estoy conforme me resolvieron el problema en la emergencia muy agradecida.
 						</div>
 						<div class="d-flex justify-content-center mt-4">
-							<img src="./images/argentina.png" alt="Argentina">
+							<img src="./images/argentina.webp" alt="Argentina">
 						</div>
 						<div class="mt-2 text-center">
 							<span class="text-warning fa fa-star"></span>
@@ -153,7 +153,7 @@ document.getElementById("comentarios").innerHTML = `
 				<div class="owl-item">
 					<div class="card d-flex flex-column">
 						<div class="d-flex flex-row profile justify-content-center">
-							<img src="./images/mujer.png" alt="" class="rounded-circle" />
+							<img src="./images/mujer.webp" alt="" class="rounded-circle" />
 							<div class="d-flex flex-column pl-2">
 								<div class="name">Teresa Monsalve</div>
 							</div>
@@ -162,7 +162,7 @@ document.getElementById("comentarios").innerHTML = `
 							Soy paciente Epoc, ante el primer síntoma que ví recibí excelente atención medica. ¡Muchas gracias!
 						</div>
 						<div class="d-flex justify-content-center mt-4">
-							<img src="./images/argentina.png" alt="Argentina">
+							<img src="./images/argentina.webp" alt="Argentina">
 						</div>
 						<div class="mt-2 text-center">
 							<span class="text-warning fa fa-star"></span>
@@ -177,7 +177,7 @@ document.getElementById("comentarios").innerHTML = `
 				<div class="owl-item">
 					<div class="card d-flex flex-column">
 						<div class="d-flex flex-row profile justify-content-center">
-							<img src="./images/mujer.png" alt="" class="rounded-circle" />
+							<img src="./images/mujer.webp" alt="" class="rounded-circle" />
 							<div class="d-flex flex-column pl-2">
 								<div class="name">Alicia Dellepiane</div>
 							</div>
@@ -186,7 +186,7 @@ document.getElementById("comentarios").innerHTML = `
 							Impecable atención, no tengo nada para mejorar.
 						</div>
 						<div class="d-flex justify-content-center mt-4">
-							<img src="./images/argentina.png" alt="Argentina">
+							<img src="./images/argentina.webp" alt="Argentina">
 						</div>
 						<div class="mt-2 text-center">
 							<span class="text-warning fa fa-star"></span>

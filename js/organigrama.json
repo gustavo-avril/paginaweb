@@ -25,12 +25,6 @@
 		"pic": "lucilaD"
 	},
 	{
-		"name": "Yanina Coronel",
-		"position": "Operations",
-		"department": "planificacion",
-		"pic": "yaninaC"
-	},
-	{
 		"name": "Nicole D'agosto",
 		"position": "Head of Marketing & Communications",
 		"department": "marketing-head",
@@ -111,10 +105,10 @@
 		"pic": "paulaC"
 	},
 	{
-		"name": "Raquel Sandoval",
+		"name": "Federico Maciel",
 		"position": "Assistance Coordination",
 		"department": "asistencias2",
-		"pic": "raquelS"
+		"pic": "federicoM"
 	},
 	{
 		"name": "Florencia Tobal",
@@ -237,26 +231,6 @@
 		"linked":"in/denisse-arjona-191bb7230"
 	},
 	{
-		"name": "Ricardo Gonzalez",
-		"position": "Account Executive - CABA",
-		"department": "caba",
-		"pic": "ricardoG",
-		"email":"ricardo.gonzalez@avril-assistance.com",
-		"insta":"leonela.avrilassistance",
-		"face":"people/Leonela-AvrilAssistance/100087898189933",
-		"linked":"in/leonelagravagna"
-	},
-	{
-		"name": "Leonela Gravagna",
-		"position": "Account Executive - La Plata",
-		"department": "caba",
-		"pic": "leonelaG",
-		"email":"leonela.gravagna@avril-assistance.com",
-		"insta":"leonela.avrilassistance",
-		"face":"people/Leonela-AvrilAssistance/100087898189933",
-		"linked":"in/leonelagravagna"
-	},
-	{
 		"name": "Alejandra Vilaseca",
 		"position": "Account Executive - Buenos Aires",
 		"department": "mdp",
@@ -265,6 +239,16 @@
 		"insta":"alejandra.avrilassistance",
 		"face":"alejandra.v.guido",
 		"linked":"in/alejandra-daiana-vilaseca-guido-738542250"
+	},
+	{
+		"name": "Leonela Gravagna",
+		"position": "Account Executive - La Plata",
+		"department": "mdp",
+		"pic": "leonelaG",
+		"email":"leonela.gravagna@avril-assistance.com",
+		"insta":"leonela.avrilassistance",
+		"face":"people/Leonela-AvrilAssistance/100087898189933",
+		"linked":"in/leonelagravagna"
 	},
 	{
 		"name": "Delfina Comisso",
@@ -287,26 +271,6 @@
 		"linked":"in/facundo-sallitto-b1b989261"
 	},
 	{
-		"name": "José Merino",
-		"position": "Account Executive - Rosario",
-		"department": "sta",
-		"pic": "joseM",
-		"email":"jose.merino@avril-assistance.com",
-		"insta":"josemerino.avrilassistance",
-		"face":"profile.php?id=100050584095865",
-		"linked":""
-	},
-	{
-		"name": "Daniel Cuello",
-		"position": "Head - Córdoba",
-		"department": "comerciales",
-		"pic": "danielC",
-		"email":"daniel.cuello@avril-assistance.com",
-		"insta":"danicuello_cordoba",
-		"face":"SUGUSCBA",
-		"linked":"in/daniel-alejandro-cuello-b1a6b3146"
-	},
-	{
 		"name": "Yanina Ahumada",
 		"position": "Account Executive - Córdoba",
 		"department": "cda",
@@ -315,16 +279,6 @@
 		"insta":"yanina.avrilassistance1",
 		"face":"yanina.ahumada.1420",
 		"linked":"in/yanina-ahumada-b746a1248"
-	},
-	{
-		"name": "Christian Rodriguez",
-		"position": "Account Executive - Córdoba",
-		"department": "cda",
-		"pic": "christianR",
-		"email":"christian.rodriguez@avril-assistance.com",
-		"insta":"christian.rodriguez_avril",
-		"face":"profile.php?id=100081388220741",
-		"linked":""
 	},
 	{
 		"name": "Martina Arroyo",

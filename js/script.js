@@ -17,7 +17,7 @@ document.getElementById("header").innerHTML = `
 	<nav class="navbar main-nav py-3" id="navbar">
 		<div class="container justify-content-between">
 		  <a class="navbar-brand" href="index.html">
-		  	<img src="./images/logo.png" alt="logo" width="auto" height="70px"></span>
+		  	<img src="./images/logo.webp" alt="logo" width="auto" height="70px"></span>
 			</a>
 			
 			<!-- Emisiones Box -->
@@ -115,7 +115,7 @@ document.getElementById("footer").innerHTML = `
 		<div class="col-lg-2 col-md-6 col-sm-6">
 			<div class="widget">
 				<h4 class="mb-2 name2">data fiscal</h4>
-				<img src="./images/afip.png" width="140px" height="auto" alt="">
+				<img src="./images/afip.webp" width="140px" height="auto" alt="">
 			</div>
 		</div>
 	</div>	
