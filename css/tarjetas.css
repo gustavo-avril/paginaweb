@@ -1,0 +1,77 @@
+.head{
+  width: 25%;
+  margin: 0 auto;
+}
+.persona{
+  width: 20%;
+  margin: 0 auto;
+}
+.card{
+  background: linear-gradient(135deg, rgba(0,158,226,1) 15%, rgba(41,35,92,1) 60%);
+  padding: 10px 1rem;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.245);
+  color: #fff;
+  padding: 1rem;
+}
+.border-wrapper{
+  border: 1px solid #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+.card-body{
+  padding: 10px;
+}
+img{
+  align-self: center;
+  width: 50%;
+  margin-top:5px;
+}
+i{
+  font-size: 1.75em;
+  vertical-align: middle;
+  color: #fff;
+}
+.nombre{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.contenido{
+  text-align: center;
+}
+/*
+.redes{
+  width: 100%;
+  justify-content: space-around;
+  height: 50px;
+}
+.redes .face{
+  flex: 1;
+}
+.redes .insta{
+  flex: 1;
+}
+.redes .linkedin{
+  flex: 1;
+}
+.redes i {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .planificacion{
+  color: rgba(211,110,53,1) ;
+  i {
+    color: rgba(211,110,53,1);
+  }
+} */
+.evenly{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+  padding-top: 10px;
+}
