@@ -1,0 +1,355 @@
+﻿[	
+	{
+		"name": "Yesica Díaz",
+		"position": "Gerente de Planificación y Operaciones",
+		"department": "planificacion-head",
+		"pic": "yesicaD",
+		"email":"yesica.diaz@avril-assistance.com"
+	},
+	{
+		"name": "Lucila Díaz",
+		"position": "Operations",
+		"department": "operaciones",
+		"pic": "lucilaD"
+	},
+	{
+		"name": "Mariquena Rey",
+		"position": "Operations",
+		"department": "operaciones",
+		"pic": "mariquenaR"
+	},
+	{
+		"name": "Nicole D'agosto",
+		"position": "Gerente de Marketing",
+		"department": "marketing-head",
+		"pic": "nicoleD",
+		"email":"nicole.dagosto@avril-assistance.com"
+	},
+	{
+		"name": "Lautaro Marchetti",
+		"position": "Diseño Gráfico",
+		"department": "design",
+		"pic": "lautaroM"
+	},
+	{
+		"name": "Ivan Curt",
+		"position": "Diseño Gráfico Jr.",
+		"department": "design",
+		"pic": "ivanC"
+	},
+	{
+		"name": "Florencia Gorosito",
+		"position": "Redes Sociales",
+		"department": "design",
+		"pic": "florGorosito"
+	},
+	{
+		"name": "Gustavo Tallaferro",
+		"position": "Head of IT - Programming and Web Development",
+		"department": "soporte-head",
+		"pic": "gustavoT"
+	},
+	{
+		"name": "Ariel Pierini",
+		"position": "Head of Assistance",
+		"department": "asistencias-head",
+		"pic": "arielP",
+		"email":"operaciones@avril-assistance.com"
+	},
+	{
+		"name": "Gabriel Mendoza",
+		"position": "Assistance Coordination",
+		"department": "asistencias",
+		"pic": "gabrielM"
+	},
+	{
+		"name": "Jump Teran",
+		"position": "Assistance Coordination",
+		"department": "asistencias",
+		"pic": "jumpT"
+	},
+	{
+		"name": "Jair Castillo",
+		"position": "Assistance Coordination",
+		"department": "asistencias",
+		"pic": "jairC"
+	},
+	{
+		"name": "Karina Saija",
+		"position": "Assistance Coordination",
+		"department": "asistencias",
+		"pic": "karinaS"
+	},
+	{
+		"name": "Tommy Teran",
+		"position": "Assistance Coordination",
+		"department": "asistencias2",
+		"pic": "tommyT"
+	},
+	{
+		"name": "Maria Cordovez",
+		"position": "Assistance Coordination",
+		"department": "asistencias2",
+		"pic": "mariaC"
+	},
+	{
+		"name": "Federico Maciel",
+		"position": "Assistance Coordination",
+		"department": "asistencias2",
+		"pic": "federicoM"
+	},
+	{
+		"name": "David Marquina",
+		"position": "Assistance Coordination",
+		"department": "asistencias2",
+		"pic": "davidM"
+	},
+	{
+		"name": "Florencia Tobal",
+		"position": "Providers",
+		"department": "prestadores",
+		"pic": "florenciaT",
+		"email":"prestadores@avril-assistance.com"
+	},
+	{
+		"name": "Maria Martellini",
+		"position": "Refunds",
+		"department": "reintegros",
+		"pic": "mariaM",
+		"email":"reintegros@avril-assistance.com"
+	},
+	{
+		"name": "Melisa Villalón",
+		"position": "Director of Operations",
+		"department": "administracion-head",
+		"pic": "melisaV"
+	},
+	{
+		"name": "Delfina Villalba",
+		"position": "Gerente de Administración",
+		"department": "administracion-head",
+		"pic": "delfinaV",
+		"email":"administracion@avril-assistance.com" 
+	},
+	{
+		"name": "Julieta Scarrone",
+		"position": "Administration",
+		"department": "administracion",
+		"pic": "julietaS"
+	},
+	{
+		"name": "Sebastián Matas",
+		"position": "Administration",
+		"department": "administracion",
+		"pic": "sebastianM"
+	},
+	{
+		"name": "Agustina Pecora",
+		"position": "Administration",
+		"department": "administracion",
+		"pic": "agustinaP"
+	},
+	{
+		"name": "Camila Scrigna",
+		"position": "Administration",
+		"department": "administracion",
+		"pic": "camilaS"
+	},
+	{
+		"name": "Fernando Scrigna",
+		"position": "Gerente Comercial Santa Fe",
+		"department": "comerciales-head",
+		"pic": "fernandoSc",
+		"email":"fernando.scrigna@avril-assistance.com",
+		"insta":"fer.avrilassistance",
+		"face":"fernando.avril.583",
+		"linked":"in/fernando-scrigna-38b76953"
+	},
+	{
+		"name": "Sol Fernández",
+		"position": "Gerente Comercial - Prov. Buenos Aires",
+		"department": "comerciales-head",
+		"pic": "solF",
+		"email":"sol.fernandez@avril-assistance.com",
+		"insta":"fer.avrilassistance",
+		"face":"sol.fernandez.avrilassistance",
+		"linked":""
+	},
+	{
+		"name": "Juliana Pratolongo",
+		"position": "Account Executive - Rosario",
+		"department": "sta",
+		"pic": "julianaP",
+		"email":"juliana.pratolongo@avril-assistance.com",
+		"insta":"julianapratolongo?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
+		"face":"profile.php?id=61550147303805&mibextid=ZbWKwL",
+		"linked":"in/juliana-pratolongo-a28952287"
+	},
+	{
+		"name": "Miguel Benitez",
+		"position": "Account Executive - Litoral",
+		"department": "lit",
+		"pic": "miguelB",
+		"email":"miguel.benitez@avril-assistance.com",
+		"insta":"miguelbenitez.avril.assistance",
+		"face":"profile.php?id=100095112483530"
+	},
+	{
+		"name": "Elisa Mazzucco",
+		"position": "Head of Commercial and Business - Noroeste",
+		"department": "comerciales-head",
+		"pic": "elisaM",
+		"email":"elisa.mazzuco@avril-assistance.com",
+		"insta":"elisa.mazzucco.avrilassistance",
+		"face":"elisa.mazzucco.7777",
+		"linked":"in/maria-elisa-mazzucco-ortiz-83116625/"
+	},
+	{
+		"name": "Karina Haines",
+		"position": "Account Executive - CABA & AMBA",
+		"department": "caba",
+		"pic": "karinaH",
+		"email":"karina.haines@avril-assistance.com",
+		"insta":"karina.haines",
+		"face":"profile.php?id=100090324880715&mibextid=ZbWKwL",
+		"linked":"in/karina-garc%C3%ADa-haines-baa3435a"
+	},
+	{
+		"name": "Horacio Vazquez",
+		"position": "Account Executive - CABA & AMBA",
+		"department": "caba",
+		"pic": "horacioV",
+		"email":"horacio.vazquez@avril-assistance.com",
+		"insta":"horacio_vazquez_avril?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
+		"face":"profile.php?id=61550221763947&mibextid=ZbWKwL",
+		"linked":"in/horacio-vazquez-8aab76287"
+	},
+	{
+		"name": "Kiara Vega",
+		"position": "Telemarketer",
+		"department": "caba2",
+		"pic": "kiaraV",
+		"email":"kiara.vega@avril-assistance.com",
+		"insta":"avrilassistance.kiara?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
+		"face":"profile.php?id=61550481261116&mibextid=ZbWKwL",
+		"linked":"in/kiara-vega-344713287"
+	},
+	{
+		"name": "Giselle Garro",
+		"position": "Telemarketer",
+		"department": "caba2",
+		"pic": "giselleG",
+		"email":"giselle.garro@avril-assistance.com",
+		"insta":"avrilassistance.giselle",
+		"face":"profile.php?id=61550522635056",
+		"linked":"in/giselle-garro-53a669288"
+	},
+	{
+		"name": "Alejandra Vilaseca",
+		"position": "Account Executive - Buenos Aires",
+		"department": "mdp",
+		"pic": "alejandraV",
+		"email":"alejandra.vilaseca@avril-assistance.com",
+		"insta":"alejandra.avrilassistance",
+		"face":"alejandra.v.guido",
+		"linked":"in/alejandra-daiana-vilaseca-guido-738542250"
+	},
+	{
+		"name": "Facundo Sallito",
+		"position": "Account Executive - Cuyo",
+		"department": "cuyo",
+		"pic": "facundoS",
+		"email":"facundo.sallito@avril-assistance.com",
+		"insta":"facundo.avrilassistance",
+		"face":"profile.php?id=100084988283103",
+		"linked":"in/facundo-sallitto-b1b989261"
+	},
+	{
+		"name": "Noelia Guayama",
+		"position": "Account Executive - Mendoza",
+		"department": "cuyo",
+		"pic": "noeliaG",
+		"email":"noelia.guayama@avril-assistance.com",
+		"insta":"noe.avrilassistance",
+		"face":"",
+		"linked":"in/noelia-guayama-9b9bb6281"
+	},
+	{
+		"name": "Martina Arroyo",
+		"position": "Account Executive - Córdoba",
+		"department": "cda",
+		"pic": "martinaA",
+		"email":"martina.arroyo@avril-assistance.com",
+		"insta":"martina.avril_assistance",
+		"face":"people/Martina-Arroyo-Avril/pfbid02Dduu1WkmdDDw8boi8S4hAFxGWrryiJYrvPBnPuzb1t85rLKp8pKXM4Mn2jTLQhajl/?mibextid=ZbWKwL",
+		"linked":""
+	},
+	{
+		"name": "Micaela Cipriani",
+		"position": "Account Executive - Córdoba",
+		"department": "cda",
+		"pic": "micaelaC",
+		"email":"micaela.cirpriani@avril-assistance.com",
+		"insta":"micaela.cipriani",
+		"face":"profile.php?id=100090389877235",
+		"linked":"in/micaela-cipriani-8b426b269/"
+	},
+	{
+		"name": "Daniel Ibañez",
+		"position": "Account Executive - Córdoba",
+		"department": "cda",
+		"pic": "danielI",
+		"email":"daniel.ibanez@avril-assistance.com",
+		"insta":"avril_danielibanez",
+		"face":"profile.php?id=61553571000439",
+		"linked":"/in/daniel-iba%C3%B1ez-avril"
+	},
+	{
+		"name": "Daiana Larrivey",
+		"position": "Account Executive - Entre Ríos",
+		"department": "cda2",
+		"pic": "daianaL",
+		"email":"daiana.larrivey@avril-assistance.com",
+		"insta":"#",
+		"face":"#",
+		"linked":"#"
+	},
+	{
+		"name": "Diego Bogado",
+		"position": "Account Executive - Catamarca & La Rioja",
+		"department": "cda2",
+		"pic": "diegoB",
+		"email":"diego.bogado@avril-assistance.com",
+		"insta":"#",
+		"face":"#",
+		"linked":"#"
+	},
+	{
+		"name": "Gabriela Camejo",
+		"position": "RRHH",
+		"department": "rrhh",
+		"pic": "gabrielaC",
+		"email":"gabriela.camejo@avril-assistance.com"
+	},
+	{
+		"name": "Nair López",
+		"position": "Head of Promotion",
+		"department": "rrhh",
+		"pic": "nairL",
+		"email":"nair.lopez@avril-assistance.com"
+	},
+	{
+		"name": "Carlos Aguilera",
+		"position": "Logistics",
+		"department": "rrhh2",
+		"pic": "carlosA",
+		"email":"carlos.aguilera@avril-assistance.com"
+	},
+	{
+		"name": "Gisela Gavilán",
+		"position": "Mastership Administrator",
+		"department": "rrhh2",
+		"pic": "giselaG",
+		"email":"gisela.gavilan@avril-assistance.com"
+	}
+]
